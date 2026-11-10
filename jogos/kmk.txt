@@ -1,0 +1,2487 @@
+=== pt-br famosos
+Pack: Famosos do Brasil
+Name: Pelé
+---
+Name: Anitta
+---
+Name: Xuxa
+---
+Name: Ayrton Senna
+---
+Name: Gisele Bündchen
+---
+Name: Neymar
+---
+Name: Machado de Assis
+---
+Name: Silvio Santos
+---
+Name: Ivete Sangalo
+---
+Name: Faustão
+---
+Name: Tom Jobim
+---
+Name: Fernanda Montenegro
+---
+Name: Ronaldo Fenômeno
+---
+Name: Marta
+---
+Name: Gilberto Gil
+
+=== pt-br personagens
+Pack: Personagens
+Name: Mônica
+---
+Name: Cebolinha
+---
+Name: Chaves
+---
+Name: Homer Simpson
+---
+Name: Shrek
+---
+Name: Bob Esponja
+---
+Name: Mario
+---
+Name: Sonic
+---
+Name: Pikachu
+---
+Name: Harry Potter
+---
+Name: Homem-Aranha
+---
+Name: Batman
+---
+Name: Elsa
+---
+Name: Goku
+---
+Name: Naruto
+
+=== en animals
+Pack: Animal Kingdom
+Name: Lion
+---
+Name: Panda
+---
+Name: Dolphin
+---
+Name: Penguin
+---
+Name: Sloth
+---
+Name: Koala
+---
+Name: Tiger
+---
+Name: Wolf
+---
+Name: Fox
+---
+Name: Owl
+---
+Name: Cat
+---
+Name: Dog
+---
+Name: Horse
+---
+Name: Rabbit
+---
+Name: Hedgehog
+---
+Name: Otter
+---
+Name: Elephant
+---
+Name: Giraffe
+---
+Name: Kangaroo
+---
+Name: Squirrel
+---
+Name: Raccoon
+---
+Name: Meerkat
+---
+Name: Flamingo
+---
+Name: Peacock
+---
+Name: Turtle
+---
+Name: Octopus
+---
+Name: Shark
+---
+Name: Whale
+---
+Name: Bee
+---
+Name: Butterfly
+---
+Name: Chameleon
+---
+Name: Alpaca
+---
+Name: Bear
+---
+Name: Polar bear
+---
+Name: Elk
+---
+Name: Deer
+---
+Name: Boar
+---
+Name: Badger
+---
+Name: Beaver
+---
+Name: Mole
+---
+Name: Bat
+---
+Name: Mouse
+---
+Name: Hamster
+---
+Name: Guinea pig
+---
+Name: Ferret
+---
+Name: Weasel
+---
+Name: Skunk
+---
+Name: Porcupine
+---
+Name: Anteater
+---
+Name: Armadillo
+---
+Name: Capybara
+---
+Name: Llama
+---
+Name: Camel
+---
+Name: Donkey
+---
+Name: Goat
+---
+Name: Sheep
+---
+Name: Cow
+---
+Name: Pig
+---
+Name: Chicken
+---
+Name: Duck
+---
+Name: Goose
+---
+Name: Swan
+---
+Name: Eagle
+---
+Name: Falcon
+---
+Name: Raven
+---
+Name: Crow
+---
+Name: Parrot
+---
+Name: Toucan
+---
+Name: Woodpecker
+---
+Name: Hummingbird
+---
+Name: Stork
+---
+Name: Heron
+---
+Name: Pelican
+---
+Name: Seagull
+---
+Name: Ostrich
+---
+Name: Crane
+---
+Name: Kingfisher
+---
+Name: Frog
+---
+Name: Toad
+---
+Name: Newt
+---
+Name: Snake
+---
+Name: Cobra
+---
+Name: Crocodile
+---
+Name: Lizard
+---
+Name: Gecko
+---
+Name: Iguana
+---
+Name: Squid
+---
+Name: Jellyfish
+---
+Name: Starfish
+---
+Name: Crab
+---
+Name: Lobster
+---
+Name: Seahorse
+---
+Name: Eel
+---
+Name: Orca
+---
+Name: Seal
+---
+Name: Walrus
+---
+Name: Zebra
+---
+Name: Rhino
+---
+Name: Hippo
+---
+Name: Cheetah
+
+=== en creatures
+Pack: Fabled Creatures
+Name: Unicorn
+---
+Name: Dragon
+---
+Name: Mermaid
+---
+Name: Phoenix
+---
+Name: Griffin
+---
+Name: Yeti
+---
+Name: Werewolf
+---
+Name: Vampire
+---
+Name: Fairy
+---
+Name: Elf
+---
+Name: Dwarf
+---
+Name: Troll
+---
+Name: Goblin
+---
+Name: Giant
+---
+Name: Wizard
+---
+Name: Witch
+---
+Name: Genie
+---
+Name: Centaur
+---
+Name: Pegasus
+---
+Name: Minotaur
+---
+Name: Kraken
+---
+Name: Sphinx
+---
+Name: Gnome
+---
+Name: Ghost
+---
+Name: Zombie
+---
+Name: Robot
+---
+Name: Alien
+---
+Name: Cyclops
+---
+Name: Nessie
+---
+Name: Sea serpent
+---
+Name: Ice queen
+---
+Name: Snow troll
+---
+Name: Basilisk
+---
+Name: Chimera
+---
+Name: Hydra
+---
+Name: Cerberus
+---
+Name: Medusa
+---
+Name: Siren
+---
+Name: Harpy
+---
+Name: Banshee
+---
+Name: Leprechaun
+---
+Name: Imp
+---
+Name: Ogre
+---
+Name: Orc
+---
+Name: Hobbit
+---
+Name: Dryad
+---
+Name: Nymph
+---
+Name: Satyr
+---
+Name: Faun
+---
+Name: Cupid
+---
+Name: Valkyrie
+---
+Name: Golem
+---
+Name: Gargoyle
+---
+Name: Skeleton
+---
+Name: Mummy
+---
+Name: Ghoul
+---
+Name: Shapeshifter
+---
+Name: Doppelganger
+---
+Name: Poltergeist
+---
+Name: Will-o-wisp
+---
+Name: Kelpie
+---
+Name: Selkie
+---
+Name: Merman
+---
+Name: Thunderbird
+---
+Name: Wyvern
+---
+Name: Salamander
+---
+Name: Firebird
+---
+Name: Kitsune
+---
+Name: Tanuki
+---
+Name: Oni
+---
+Name: Kappa
+---
+Name: Tengu
+---
+Name: Chupacabra
+---
+Name: Bigfoot
+---
+Name: Mothman
+---
+Name: Jackalope
+---
+Name: Kirin
+---
+Name: Manticore
+---
+Name: Bunyip
+---
+Name: Titan
+---
+Name: Leviathan
+---
+Name: Behemoth
+---
+Name: Wendigo
+---
+Name: Baba Yaga
+---
+Name: Rumpelstiltskin
+---
+Name: Krampus
+---
+Name: Tooth fairy
+---
+Name: Sandman
+---
+Name: Boogeyman
+---
+Name: Nixie
+---
+Name: Frost giant
+---
+Name: Stone troll
+---
+Name: Swamp witch
+---
+Name: Cloud giant
+---
+Name: Moon rabbit
+---
+Name: Star child
+---
+Name: Shadow cat
+---
+Name: Dream weaver
+---
+Name: Ink imp
+---
+Name: Bell spirit
+
+=== en famous
+Pack: Famous People
+Name: Taylor Swift
+---
+Name: Elon Musk
+---
+Name: Beyonce
+---
+Name: Keanu Reeves
+---
+Name: Lady Gaga
+---
+Name: Dwayne Johnson
+---
+Name: Rihanna
+---
+Name: Leonardo DiCaprio
+---
+Name: Ariana Grande
+---
+Name: Cristiano Ronaldo
+---
+Name: Zendaya
+---
+Name: Snoop Dogg
+---
+Name: Adele
+---
+Name: Ryan Reynolds
+---
+Name: Billie Eilish
+---
+Name: David Beckham
+---
+Name: Emma Watson
+---
+Name: Bill Gates
+---
+Name: Serena Williams
+---
+Name: Timothee Chalamet
+---
+Name: Oprah Winfrey
+---
+Name: Gordon Ramsay
+---
+Name: Dua Lipa
+---
+Name: Lionel Messi
+---
+Name: Emma Stone
+---
+Name: Harry Styles
+---
+Name: Selena Gomez
+---
+Name: Chris Hemsworth
+---
+Name: Millie Bobby Brown
+---
+Name: Shakira
+---
+Name: Roger Federer
+---
+Name: Michelle Obama
+---
+Name: Ed Sheeran
+---
+Name: Kim Kardashian
+---
+Name: Drake
+---
+Name: Scarlett Johansson
+---
+Name: Tom Cruise
+---
+Name: Jennifer Lopez
+---
+Name: Brad Pitt
+---
+Name: Angelina Jolie
+---
+Name: Will Smith
+---
+Name: Kylie Jenner
+---
+Name: Justin Bieber
+---
+Name: Bruno Mars
+---
+Name: Katy Perry
+---
+Name: Miley Cyrus
+---
+Name: Nicki Minaj
+---
+Name: Post Malone
+---
+Name: The Weeknd
+---
+Name: Doja Cat
+---
+Name: Olivia Rodrigo
+---
+Name: Sabrina Carpenter
+---
+Name: Bad Bunny
+---
+Name: Rosalia
+---
+Name: Lewis Hamilton
+---
+Name: Max Verstappen
+---
+Name: Novak Djokovic
+---
+Name: Rafael Nadal
+---
+Name: Kylian Mbappe
+---
+Name: Neymar
+---
+Name: Erling Haaland
+---
+Name: Robert Lewandowski
+---
+Name: Manuel Neuer
+---
+Name: Toni Kroos
+---
+Name: Thomas Muller
+---
+Name: LeBron James
+---
+Name: Stephen Curry
+---
+Name: Simone Biles
+---
+Name: Usain Bolt
+---
+Name: Michael Phelps
+---
+Name: Tiger Woods
+---
+Name: Ryan Gosling
+---
+Name: Margot Robbie
+---
+Name: Florence Pugh
+---
+Name: Anya Taylor-Joy
+---
+Name: Pedro Pascal
+---
+Name: Jenna Ortega
+---
+Name: Sydney Sweeney
+---
+Name: Tom Holland
+---
+Name: Chris Evans
+---
+Name: Jason Momoa
+---
+Name: Gal Gadot
+---
+Name: Hugh Jackman
+---
+Name: Idris Elba
+---
+Name: Denzel Washington
+---
+Name: Meryl Streep
+---
+Name: Julia Roberts
+---
+Name: Sandra Bullock
+---
+Name: Nicole Kidman
+---
+Name: Charlize Theron
+---
+Name: Natalie Portman
+---
+Name: Anne Hathaway
+---
+Name: Jennifer Lawrence
+---
+Name: Chris Pratt
+---
+Name: Mark Ruffalo
+---
+Name: Benedict Cumberbatch
+---
+Name: Cate Blanchett
+---
+Name: Viola Davis
+---
+Name: Michael B Jordan
+---
+Name: Pharrell Williams
+
+=== en fiction
+Pack: Fiction
+Name: Darth Vader
+---
+Name: Sherlock Holmes
+---
+Name: Batman
+---
+Name: Hermione Granger
+---
+Name: James Bond
+---
+Name: Gandalf
+---
+Name: Wonder Woman
+---
+Name: Homer Simpson
+---
+Name: Lara Croft
+---
+Name: Shrek
+---
+Name: Katniss Everdeen
+---
+Name: Yoda
+---
+Name: Elsa
+---
+Name: Walter White
+---
+Name: Princess Leia
+---
+Name: Spider-Man
+---
+Name: Captain Jack Sparrow
+---
+Name: Daenerys Targaryen
+---
+Name: Mario
+---
+Name: The Joker
+---
+Name: Wednesday Addams
+---
+Name: Geralt of Rivia
+---
+Name: SpongeBob
+---
+Name: Ellen Ripley
+---
+Name: Harry Potter
+---
+Name: Frodo
+---
+Name: Moana
+---
+Name: Tony Stark
+---
+Name: Black Widow
+---
+Name: Aragorn
+---
+Name: Legolas
+---
+Name: Mulan
+---
+Name: Superman
+---
+Name: Luke Skywalker
+---
+Name: Han Solo
+---
+Name: Chewbacca
+---
+Name: Obi-Wan Kenobi
+---
+Name: Rey
+---
+Name: Kylo Ren
+---
+Name: Boba Fett
+---
+Name: Gollum
+---
+Name: Bilbo Baggins
+---
+Name: Galadriel
+---
+Name: Arwen
+---
+Name: Sauron
+---
+Name: Saruman
+---
+Name: Ron Weasley
+---
+Name: Severus Snape
+---
+Name: Dumbledore
+---
+Name: Voldemort
+---
+Name: Luna Lovegood
+---
+Name: Draco Malfoy
+---
+Name: Hagrid
+---
+Name: Bart Simpson
+---
+Name: Lisa Simpson
+---
+Name: Marge Simpson
+---
+Name: Peter Griffin
+---
+Name: Eric Cartman
+---
+Name: Rick Sanchez
+---
+Name: Morty Smith
+---
+Name: Bugs Bunny
+---
+Name: Mickey Mouse
+---
+Name: Donald Duck
+---
+Name: Scrooge McDuck
+---
+Name: Goofy
+---
+Name: Pikachu
+---
+Name: Ash Ketchum
+---
+Name: Sonic
+---
+Name: Link
+---
+Name: Zelda
+---
+Name: Princess Peach
+---
+Name: Luigi
+---
+Name: Bowser
+---
+Name: Kratos
+---
+Name: Master Chief
+---
+Name: Solid Snake
+---
+Name: Ezio Auditore
+---
+Name: Aloy
+---
+Name: Arthur Morgan
+---
+Name: Cloud Strife
+---
+Name: Sephiroth
+---
+Name: Samus Aran
+---
+Name: Donkey Kong
+---
+Name: Kirby
+---
+Name: Pac-Man
+---
+Name: Indiana Jones
+---
+Name: Rocky Balboa
+---
+Name: John Wick
+---
+Name: Ethan Hunt
+---
+Name: Neo
+---
+Name: Trinity
+---
+Name: Morpheus
+---
+Name: The Terminator
+---
+Name: Sarah Connor
+---
+Name: John McClane
+---
+Name: Forrest Gump
+---
+Name: Jack Dawson
+---
+Name: Cinderella
+---
+Name: Snow White
+---
+Name: Red Riding Hood
+
+=== en historical
+Pack: Historical
+Name: Cleopatra
+---
+Name: Julius Caesar
+---
+Name: Napoleon
+---
+Name: Albert Einstein
+---
+Name: Leonardo da Vinci
+---
+Name: Joan of Arc
+---
+Name: Genghis Khan
+---
+Name: Marie Curie
+---
+Name: Abraham Lincoln
+---
+Name: Queen Victoria
+---
+Name: Nikola Tesla
+---
+Name: Amelia Earhart
+---
+Name: Alexander the Great
+---
+Name: Frida Kahlo
+---
+Name: William Shakespeare
+---
+Name: Catherine the Great
+---
+Name: Mozart
+---
+Name: Aristotle
+---
+Name: Vincent van Gogh
+---
+Name: Ada Lovelace
+---
+Name: Blackbeard
+---
+Name: King Tut
+---
+Name: Beethoven
+---
+Name: Isaac Newton
+---
+Name: Galileo Galilei
+---
+Name: Anne Frank
+---
+Name: Mahatma Gandhi
+---
+Name: Rosa Parks
+---
+Name: Charles Darwin
+---
+Name: Florence Nightingale
+---
+Name: Christopher Columbus
+---
+Name: Elizabeth I
+---
+Name: Socrates
+---
+Name: Plato
+---
+Name: Archimedes
+---
+Name: Hippocrates
+---
+Name: Pythagoras
+---
+Name: Confucius
+---
+Name: Buddha
+---
+Name: Nefertiti
+---
+Name: Ramses II
+---
+Name: Hannibal
+---
+Name: Spartacus
+---
+Name: Nero
+---
+Name: Augustus
+---
+Name: Marcus Aurelius
+---
+Name: Attila
+---
+Name: Charlemagne
+---
+Name: Richard Lionheart
+---
+Name: Saladin
+---
+Name: Marco Polo
+---
+Name: Johannes Gutenberg
+---
+Name: Michelangelo
+---
+Name: Raphael
+---
+Name: Copernicus
+---
+Name: Ferdinand Magellan
+---
+Name: Martin Luther
+---
+Name: Henry VIII
+---
+Name: Mary Queen of Scots
+---
+Name: Francis Drake
+---
+Name: Rembrandt
+---
+Name: Johann Sebastian Bach
+---
+Name: Vivaldi
+---
+Name: Voltaire
+---
+Name: Benjamin Franklin
+---
+Name: George Washington
+---
+Name: Thomas Jefferson
+---
+Name: Marie Antoinette
+---
+Name: Goethe
+---
+Name: Schiller
+---
+Name: Jane Austen
+---
+Name: Charles Dickens
+---
+Name: Karl Marx
+---
+Name: Sitting Bull
+---
+Name: Harriet Tubman
+---
+Name: Frederick Douglass
+---
+Name: Louis Pasteur
+---
+Name: Gregor Mendel
+---
+Name: Sigmund Freud
+---
+Name: Carl Jung
+---
+Name: Thomas Edison
+---
+Name: Alexander Graham Bell
+---
+Name: Henry Ford
+---
+Name: Harry Houdini
+---
+Name: Charlie Chaplin
+---
+Name: Winston Churchill
+---
+Name: Alan Turing
+---
+Name: Rosalind Franklin
+---
+Name: Jane Goodall
+---
+Name: Neil Armstrong
+---
+Name: Yuri Gagarin
+---
+Name: Martin Luther King
+---
+Name: Nelson Mandela
+---
+Name: Mother Teresa
+---
+Name: Marilyn Monroe
+---
+Name: Audrey Hepburn
+---
+Name: Bruce Lee
+---
+Name: Muhammad Ali
+---
+Name: Pablo Picasso
+---
+Name: Claude Monet
+
+=== en mix
+Pack: Mix of All
+Name: Cleopatra
+---
+Name: Darth Vader
+---
+Name: Taylor Swift
+---
+Name: Sherlock Holmes
+---
+Name: Albert Einstein
+---
+Name: Beyonce
+---
+Name: Batman
+---
+Name: Napoleon
+---
+Name: Keanu Reeves
+---
+Name: Gandalf
+---
+Name: Marie Curie
+---
+Name: The Joker
+---
+Name: Dwayne Johnson
+---
+Name: Joan of Arc
+---
+Name: Yoda
+---
+Name: Rihanna
+---
+Name: Leonardo da Vinci
+---
+Name: Lara Croft
+---
+Name: Cristiano Ronaldo
+---
+Name: Wonder Woman
+---
+Name: Frida Kahlo
+---
+Name: Shrek
+---
+Name: Bill Gates
+---
+Name: Hermione Granger
+---
+Name: Harry Potter
+---
+Name: Anne Frank
+---
+Name: Zendaya
+---
+Name: Mulan
+---
+Name: Nikola Tesla
+---
+Name: Elsa
+---
+Name: Serena Williams
+---
+Name: Aragorn
+---
+Name: Superman
+---
+Name: Ed Sheeran
+---
+Name: Socrates
+---
+Name: Unicorn
+---
+Name: Lady Gaga
+---
+Name: Gollum
+---
+Name: Mozart
+---
+Name: Medusa
+---
+Name: Lionel Messi
+---
+Name: Luke Skywalker
+---
+Name: Rosa Parks
+---
+Name: Dragon
+---
+Name: Adele
+---
+Name: Voldemort
+---
+Name: Winston Churchill
+---
+Name: Mermaid
+---
+Name: Emma Watson
+---
+Name: Pikachu
+---
+Name: Alan Turing
+---
+Name: Witch
+---
+Name: Billie Eilish
+---
+Name: Mickey Mouse
+---
+Name: Nelson Mandela
+---
+Name: Vampire
+---
+Name: Dua Lipa
+---
+Name: Indiana Jones
+---
+Name: Bruce Lee
+---
+Name: Troll
+---
+Name: Margot Robbie
+---
+Name: Neo
+---
+Name: Marilyn Monroe
+---
+Name: Yeti
+---
+Name: Tom Holland
+---
+Name: Walter White
+---
+Name: Charlie Chaplin
+---
+Name: Zombie
+---
+Name: Pedro Pascal
+---
+Name: Sonic
+---
+Name: Amelia Earhart
+---
+Name: Alien
+---
+Name: Simone Biles
+---
+Name: Bilbo Baggins
+---
+Name: Jane Goodall
+---
+Name: Robot
+---
+Name: Lewis Hamilton
+---
+Name: Daenerys Targaryen
+---
+Name: Neil Armstrong
+---
+Name: Sphinx
+---
+Name: Idris Elba
+---
+Name: Snow White
+---
+Name: Audrey Hepburn
+---
+Name: Pegasus
+---
+Name: Meryl Streep
+---
+Name: John Wick
+---
+Name: Muhammad Ali
+---
+Name: Golem
+---
+Name: Jenna Ortega
+---
+Name: Chewbacca
+---
+Name: Karl Marx
+---
+Name: Cerberus
+---
+Name: Usain Bolt
+---
+Name: Kratos
+---
+Name: Sigmund Freud
+---
+Name: Banshee
+---
+Name: Natalie Portman
+---
+Name: Wednesday Addams
+---
+Name: Pablo Picasso
+---
+Name: Valkyrie
+
+=== de animals
+Pack: Tierreich
+Name: Löwe/Löwin
+---
+Name: Panda
+---
+Name: Delfin
+---
+Name: Pinguin
+---
+Name: Faultier
+---
+Name: Koala
+---
+Name: Tiger/Tigerin
+---
+Name: Wolf/Wölfin
+---
+Name: Fuchs/Füchsin
+---
+Name: Eule
+---
+Name: Katze/Kater
+---
+Name: Hund/Hündin
+---
+Name: Pferd
+---
+Name: Hase/Häsin
+---
+Name: Igel
+---
+Name: Otter
+---
+Name: Elefant/Elefantin
+---
+Name: Giraffe
+---
+Name: Känguru
+---
+Name: Eichhörnchen
+---
+Name: Waschbär/Waschbärin
+---
+Name: Erdmännchen
+---
+Name: Flamingo
+---
+Name: Pfau
+---
+Name: Schildkröte
+---
+Name: Krake
+---
+Name: Hai
+---
+Name: Wal
+---
+Name: Biene
+---
+Name: Schmetterling
+---
+Name: Chamäleon
+---
+Name: Alpaka
+---
+Name: Bär/Bärin
+---
+Name: Eisbär/Eisbärin
+---
+Name: Elch
+---
+Name: Hirsch/Hirschkuh
+---
+Name: Wildschwein
+---
+Name: Dachs
+---
+Name: Biber
+---
+Name: Maulwurf
+---
+Name: Fledermaus
+---
+Name: Maus
+---
+Name: Hamster
+---
+Name: Meerschweinchen
+---
+Name: Frettchen
+---
+Name: Wiesel
+---
+Name: Stinktier
+---
+Name: Stachelschwein
+---
+Name: Ameisenbär
+---
+Name: Gürteltier
+---
+Name: Capybara
+---
+Name: Lama
+---
+Name: Kamel
+---
+Name: Esel/Eselin
+---
+Name: Ziege/Ziegenbock
+---
+Name: Schaf
+---
+Name: Kuh/Stier
+---
+Name: Schwein
+---
+Name: Huhn/Hahn
+---
+Name: Ente
+---
+Name: Gans
+---
+Name: Schwan
+---
+Name: Adler
+---
+Name: Falke
+---
+Name: Rabe
+---
+Name: Krähe
+---
+Name: Papagei
+---
+Name: Tukan
+---
+Name: Specht
+---
+Name: Kolibri
+---
+Name: Storch
+---
+Name: Reiher
+---
+Name: Pelikan
+---
+Name: Möwe
+---
+Name: Strauß
+---
+Name: Kranich
+---
+Name: Eisvogel
+---
+Name: Frosch
+---
+Name: Kröte
+---
+Name: Molch
+---
+Name: Schlange
+---
+Name: Kobra
+---
+Name: Krokodil
+---
+Name: Eidechse
+---
+Name: Gecko
+---
+Name: Leguan
+---
+Name: Tintenfisch
+---
+Name: Qualle
+---
+Name: Seestern
+---
+Name: Krabbe
+---
+Name: Hummer
+---
+Name: Seepferdchen
+---
+Name: Aal
+---
+Name: Orca
+---
+Name: Robbe
+---
+Name: Walross
+---
+Name: Zebra
+---
+Name: Nashorn
+---
+Name: Flusspferd
+---
+Name: Gepard
+
+=== de creatures
+Pack: Fabelwesen
+Name: Einhorn
+---
+Name: Drache/Drachin
+---
+Name: Meerjungfrau/-mann
+---
+Name: Phönix
+---
+Name: Greif
+---
+Name: Yeti
+---
+Name: Werwolf/Werwölfin
+---
+Name: Vampir/Vampirin
+---
+Name: Fee
+---
+Name: Elf/Elfe
+---
+Name: Zwerg/Zwergin
+---
+Name: Troll/Trollin
+---
+Name: Kobold/Koboldin
+---
+Name: Riese/Riesin
+---
+Name: Zauberer/Zauberin
+---
+Name: Hexe/Hexer
+---
+Name: Flaschengeist
+---
+Name: Zentaur/Zentaurin
+---
+Name: Pegasus
+---
+Name: Minotaurus
+---
+Name: Kraken
+---
+Name: Sphinx
+---
+Name: Gnom/Gnomin
+---
+Name: Gespenst
+---
+Name: Zombie
+---
+Name: Roboter
+---
+Name: Alien
+---
+Name: Zyklop/Zyklopin
+---
+Name: Nessie
+---
+Name: Seeschlange
+---
+Name: Eiskönig/Eiskönigin
+---
+Name: Schneetroll/-in
+---
+Name: Basilisk
+---
+Name: Chimäre
+---
+Name: Hydra
+---
+Name: Zerberus
+---
+Name: Medusa
+---
+Name: Sirene
+---
+Name: Harpyie
+---
+Name: Banshee
+---
+Name: Leprechaun
+---
+Name: Wichtel/Wichtelin
+---
+Name: Oger/Ogerin
+---
+Name: Ork/Orkin
+---
+Name: Hobbit
+---
+Name: Dryade
+---
+Name: Nymphe
+---
+Name: Satyr
+---
+Name: Faun
+---
+Name: Amor
+---
+Name: Walküre
+---
+Name: Golem
+---
+Name: Gargoyle
+---
+Name: Skelett
+---
+Name: Mumie
+---
+Name: Ghul
+---
+Name: Gestaltwandler/-in
+---
+Name: Doppelgänger/-in
+---
+Name: Poltergeist
+---
+Name: Irrlicht
+---
+Name: Kelpie
+---
+Name: Selkie
+---
+Name: Wassermann/-frau
+---
+Name: Donnervogel
+---
+Name: Wyvern
+---
+Name: Salamander
+---
+Name: Feuervogel
+---
+Name: Kitsune
+---
+Name: Tanuki
+---
+Name: Oni
+---
+Name: Kappa
+---
+Name: Tengu
+---
+Name: Chupacabra
+---
+Name: Bigfoot
+---
+Name: Mottenmann
+---
+Name: Wolpertinger
+---
+Name: Kirin
+---
+Name: Mantikor
+---
+Name: Bunyip
+---
+Name: Titan/Titanin
+---
+Name: Leviathan
+---
+Name: Behemoth
+---
+Name: Wendigo
+---
+Name: Baba Jaga
+---
+Name: Rumpelstilzchen
+---
+Name: Krampus
+---
+Name: Zahnfee
+---
+Name: Sandmann
+---
+Name: Butzemann
+---
+Name: Nixe/Nix
+---
+Name: Frostriese/-riesin
+---
+Name: Steintroll/-in
+---
+Name: Sumpfhexe/-hexer
+---
+Name: Wolkenriese/-riesin
+---
+Name: Mondhase/-häsin
+---
+Name: Sternenkind
+---
+Name: Schattenkatze/-kater
+---
+Name: Traumweber/-in
+---
+Name: Tintenwichtel/-in
+---
+Name: Glockengeist
+
+=== de famous
+Pack: Berühmte Leute
+Name: Taylor Swift
+---
+Name: Elon Musk
+---
+Name: Beyoncé
+---
+Name: Keanu Reeves
+---
+Name: Lady Gaga
+---
+Name: Dwayne Johnson
+---
+Name: Rihanna
+---
+Name: Leonardo DiCaprio
+---
+Name: Ariana Grande
+---
+Name: Cristiano Ronaldo
+---
+Name: Zendaya
+---
+Name: Snoop Dogg
+---
+Name: Adele
+---
+Name: Ryan Reynolds
+---
+Name: Billie Eilish
+---
+Name: David Beckham
+---
+Name: Emma Watson
+---
+Name: Bill Gates
+---
+Name: Serena Williams
+---
+Name: Timothée Chalamet
+---
+Name: Oprah Winfrey
+---
+Name: Gordon Ramsay
+---
+Name: Dua Lipa
+---
+Name: Lionel Messi
+---
+Name: Emma Stone
+---
+Name: Harry Styles
+---
+Name: Selena Gomez
+---
+Name: Chris Hemsworth
+---
+Name: Millie Bobby Brown
+---
+Name: Shakira
+---
+Name: Roger Federer
+---
+Name: Michelle Obama
+---
+Name: Ed Sheeran
+---
+Name: Kim Kardashian
+---
+Name: Drake
+---
+Name: Scarlett Johansson
+---
+Name: Tom Cruise
+---
+Name: Jennifer Lopez
+---
+Name: Brad Pitt
+---
+Name: Angelina Jolie
+---
+Name: Will Smith
+---
+Name: Kylie Jenner
+---
+Name: Justin Bieber
+---
+Name: Bruno Mars
+---
+Name: Katy Perry
+---
+Name: Miley Cyrus
+---
+Name: Nicki Minaj
+---
+Name: Post Malone
+---
+Name: The Weeknd
+---
+Name: Doja Cat
+---
+Name: Olivia Rodrigo
+---
+Name: Sabrina Carpenter
+---
+Name: Bad Bunny
+---
+Name: Rosalía
+---
+Name: Lewis Hamilton
+---
+Name: Max Verstappen
+---
+Name: Novak Djokovic
+---
+Name: Rafael Nadal
+---
+Name: Kylian Mbappé
+---
+Name: Neymar
+---
+Name: Erling Haaland
+---
+Name: Robert Lewandowski
+---
+Name: Manuel Neuer
+---
+Name: Toni Kroos
+---
+Name: Thomas Müller
+---
+Name: LeBron James
+---
+Name: Stephen Curry
+---
+Name: Simone Biles
+---
+Name: Usain Bolt
+---
+Name: Michael Phelps
+---
+Name: Tiger Woods
+---
+Name: Ryan Gosling
+---
+Name: Margot Robbie
+---
+Name: Florence Pugh
+---
+Name: Anya Taylor-Joy
+---
+Name: Pedro Pascal
+---
+Name: Jenna Ortega
+---
+Name: Sydney Sweeney
+---
+Name: Tom Holland
+---
+Name: Chris Evans
+---
+Name: Jason Momoa
+---
+Name: Gal Gadot
+---
+Name: Hugh Jackman
+---
+Name: Idris Elba
+---
+Name: Denzel Washington
+---
+Name: Meryl Streep
+---
+Name: Julia Roberts
+---
+Name: Sandra Bullock
+---
+Name: Nicole Kidman
+---
+Name: Charlize Theron
+---
+Name: Natalie Portman
+---
+Name: Anne Hathaway
+---
+Name: Jennifer Lawrence
+---
+Name: Chris Pratt
+---
+Name: Mark Ruffalo
+---
+Name: Benedict Cumberbatch
+---
+Name: Cate Blanchett
+---
+Name: Viola Davis
+---
+Name: Michael B Jordan
+---
+Name: Pharrell Williams
+
+=== de fiction
+Pack: Fiktive Figuren
+Name: Darth Vader
+---
+Name: Sherlock Holmes
+---
+Name: Batman
+---
+Name: Hermine Granger
+---
+Name: James Bond
+---
+Name: Gandalf
+---
+Name: Wonder Woman
+---
+Name: Homer Simpson
+---
+Name: Lara Croft
+---
+Name: Shrek
+---
+Name: Katniss Everdeen
+---
+Name: Yoda
+---
+Name: Elsa
+---
+Name: Walter White
+---
+Name: Prinzessin Leia
+---
+Name: Spider-Man
+---
+Name: Captain Jack Sparrow
+---
+Name: Daenerys Targaryen
+---
+Name: Mario
+---
+Name: Der Joker
+---
+Name: Wednesday Addams
+---
+Name: Geralt von Riva
+---
+Name: SpongeBob
+---
+Name: Ellen Ripley
+---
+Name: Harry Potter
+---
+Name: Frodo
+---
+Name: Vaiana
+---
+Name: Tony Stark
+---
+Name: Black Widow
+---
+Name: Aragorn
+---
+Name: Legolas
+---
+Name: Mulan
+---
+Name: Superman
+---
+Name: Luke Skywalker
+---
+Name: Han Solo
+---
+Name: Chewbacca
+---
+Name: Obi-Wan Kenobi
+---
+Name: Rey
+---
+Name: Kylo Ren
+---
+Name: Boba Fett
+---
+Name: Gollum
+---
+Name: Bilbo Beutlin
+---
+Name: Galadriel
+---
+Name: Arwen
+---
+Name: Sauron
+---
+Name: Saruman
+---
+Name: Ron Weasley
+---
+Name: Severus Snape
+---
+Name: Dumbledore
+---
+Name: Voldemort
+---
+Name: Luna Lovegood
+---
+Name: Draco Malfoy
+---
+Name: Hagrid
+---
+Name: Bart Simpson
+---
+Name: Lisa Simpson
+---
+Name: Marge Simpson
+---
+Name: Peter Griffin
+---
+Name: Eric Cartman
+---
+Name: Rick Sanchez
+---
+Name: Morty Smith
+---
+Name: Bugs Bunny
+---
+Name: Micky Maus
+---
+Name: Donald Duck
+---
+Name: Dagobert Duck
+---
+Name: Goofy
+---
+Name: Pikachu
+---
+Name: Ash Ketchum
+---
+Name: Sonic
+---
+Name: Link
+---
+Name: Zelda
+---
+Name: Prinzessin Peach
+---
+Name: Luigi
+---
+Name: Bowser
+---
+Name: Kratos
+---
+Name: Master Chief
+---
+Name: Solid Snake
+---
+Name: Ezio Auditore
+---
+Name: Aloy
+---
+Name: Arthur Morgan
+---
+Name: Cloud Strife
+---
+Name: Sephiroth
+---
+Name: Samus Aran
+---
+Name: Donkey Kong
+---
+Name: Kirby
+---
+Name: Pac-Man
+---
+Name: Indiana Jones
+---
+Name: Rocky Balboa
+---
+Name: John Wick
+---
+Name: Ethan Hunt
+---
+Name: Neo
+---
+Name: Trinity
+---
+Name: Morpheus
+---
+Name: Der Terminator
+---
+Name: Sarah Connor
+---
+Name: John McClane
+---
+Name: Forrest Gump
+---
+Name: Jack Dawson
+---
+Name: Aschenputtel
+---
+Name: Schneewittchen
+---
+Name: Rotkäppchen
+
+=== de historical
+Pack: Historisch
+Name: Kleopatra
+---
+Name: Julius Cäsar
+---
+Name: Napoleon
+---
+Name: Albert Einstein
+---
+Name: Leonardo da Vinci
+---
+Name: Jeanne d'Arc
+---
+Name: Dschingis Khan
+---
+Name: Marie Curie
+---
+Name: Abraham Lincoln
+---
+Name: Königin Victoria
+---
+Name: Nikola Tesla
+---
+Name: Amelia Earhart
+---
+Name: Alexander der Große
+---
+Name: Frida Kahlo
+---
+Name: William Shakespeare
+---
+Name: Katharina die Große
+---
+Name: Mozart
+---
+Name: Aristoteles
+---
+Name: Vincent van Gogh
+---
+Name: Ada Lovelace
+---
+Name: Schwarzbart
+---
+Name: Tutanchamun
+---
+Name: Beethoven
+---
+Name: Isaac Newton
+---
+Name: Galileo Galilei
+---
+Name: Anne Frank
+---
+Name: Mahatma Gandhi
+---
+Name: Rosa Parks
+---
+Name: Charles Darwin
+---
+Name: Florence Nightingale
+---
+Name: Christoph Kolumbus
+---
+Name: Elisabeth I.
+---
+Name: Sokrates
+---
+Name: Platon
+---
+Name: Archimedes
+---
+Name: Hippokrates
+---
+Name: Pythagoras
+---
+Name: Konfuzius
+---
+Name: Buddha
+---
+Name: Nefertiti
+---
+Name: Ramses II.
+---
+Name: Hannibal
+---
+Name: Spartakus
+---
+Name: Nero
+---
+Name: Augustus
+---
+Name: Marcus Aurelius
+---
+Name: Attila
+---
+Name: Karl der Große
+---
+Name: Richard Löwenherz
+---
+Name: Saladin
+---
+Name: Marco Polo
+---
+Name: Johannes Gutenberg
+---
+Name: Michelangelo
+---
+Name: Raffael
+---
+Name: Kopernikus
+---
+Name: Ferdinand Magellan
+---
+Name: Martin Luther
+---
+Name: Heinrich VIII.
+---
+Name: Maria Stuart
+---
+Name: Francis Drake
+---
+Name: Rembrandt
+---
+Name: Johann Sebastian Bach
+---
+Name: Vivaldi
+---
+Name: Voltaire
+---
+Name: Benjamin Franklin
+---
+Name: George Washington
+---
+Name: Thomas Jefferson
+---
+Name: Marie Antoinette
+---
+Name: Goethe
+---
+Name: Schiller
+---
+Name: Jane Austen
+---
+Name: Charles Dickens
+---
+Name: Karl Marx
+---
+Name: Sitting Bull
+---
+Name: Harriet Tubman
+---
+Name: Frederick Douglass
+---
+Name: Louis Pasteur
+---
+Name: Gregor Mendel
+---
+Name: Sigmund Freud
+---
+Name: Carl Jung
+---
+Name: Thomas Edison
+---
+Name: Alexander Graham Bell
+---
+Name: Henry Ford
+---
+Name: Harry Houdini
+---
+Name: Charlie Chaplin
+---
+Name: Winston Churchill
+---
+Name: Alan Turing
+---
+Name: Rosalind Franklin
+---
+Name: Jane Goodall
+---
+Name: Neil Armstrong
+---
+Name: Juri Gagarin
+---
+Name: Martin Luther King
+---
+Name: Nelson Mandela
+---
+Name: Mutter Teresa
+---
+Name: Marilyn Monroe
+---
+Name: Audrey Hepburn
+---
+Name: Bruce Lee
+---
+Name: Muhammad Ali
+---
+Name: Pablo Picasso
+---
+Name: Claude Monet
+
+=== de mix
+Pack: Bunt gemischt
+Name: Kleopatra
+---
+Name: Darth Vader
+---
+Name: Taylor Swift
+---
+Name: Sherlock Holmes
+---
+Name: Albert Einstein
+---
+Name: Beyoncé
+---
+Name: Batman
+---
+Name: Napoleon
+---
+Name: Keanu Reeves
+---
+Name: Gandalf
+---
+Name: Marie Curie
+---
+Name: Der Joker
+---
+Name: Dwayne Johnson
+---
+Name: Jeanne d'Arc
+---
+Name: Yoda
+---
+Name: Rihanna
+---
+Name: Leonardo da Vinci
+---
+Name: Lara Croft
+---
+Name: Cristiano Ronaldo
+---
+Name: Wonder Woman
+---
+Name: Frida Kahlo
+---
+Name: Shrek
+---
+Name: Bill Gates
+---
+Name: Hermine Granger
+---
+Name: Harry Potter
+---
+Name: Anne Frank
+---
+Name: Zendaya
+---
+Name: Mulan
+---
+Name: Nikola Tesla
+---
+Name: Elsa
+---
+Name: Serena Williams
+---
+Name: Aragorn
+---
+Name: Superman
+---
+Name: Ed Sheeran
+---
+Name: Sokrates
+---
+Name: Einhorn
+---
+Name: Lady Gaga
+---
+Name: Gollum
+---
+Name: Mozart
+---
+Name: Medusa
+---
+Name: Lionel Messi
+---
+Name: Luke Skywalker
+---
+Name: Rosa Parks
+---
+Name: Drache/Drachin
+---
+Name: Adele
+---
+Name: Voldemort
+---
+Name: Winston Churchill
+---
+Name: Meerjungfrau/-mann
+---
+Name: Emma Watson
+---
+Name: Pikachu
+---
+Name: Alan Turing
+---
+Name: Hexe/Hexer
+---
+Name: Billie Eilish
+---
+Name: Micky Maus
+---
+Name: Nelson Mandela
+---
+Name: Vampir/Vampirin
+---
+Name: Dua Lipa
+---
+Name: Indiana Jones
+---
+Name: Bruce Lee
+---
+Name: Troll/Trollin
+---
+Name: Margot Robbie
+---
+Name: Neo
+---
+Name: Marilyn Monroe
+---
+Name: Yeti
+---
+Name: Tom Holland
+---
+Name: Walter White
+---
+Name: Charlie Chaplin
+---
+Name: Zombie
+---
+Name: Pedro Pascal
+---
+Name: Sonic
+---
+Name: Amelia Earhart
+---
+Name: Alien
+---
+Name: Simone Biles
+---
+Name: Bilbo Beutlin
+---
+Name: Jane Goodall
+---
+Name: Roboter
+---
+Name: Lewis Hamilton
+---
+Name: Daenerys Targaryen
+---
+Name: Neil Armstrong
+---
+Name: Sphinx
+---
+Name: Idris Elba
+---
+Name: Schneewittchen
+---
+Name: Audrey Hepburn
+---
+Name: Pegasus
+---
+Name: Meryl Streep
+---
+Name: John Wick
+---
+Name: Muhammad Ali
+---
+Name: Golem
+---
+Name: Jenna Ortega
+---
+Name: Chewbacca
+---
+Name: Karl Marx
+---
+Name: Zerberus
+---
+Name: Usain Bolt
+---
+Name: Kratos
+---
+Name: Sigmund Freud
+---
+Name: Banshee
+---
+Name: Natalie Portman
+---
+Name: Wednesday Addams
+---
+Name: Pablo Picasso
+---
+Name: Walküre

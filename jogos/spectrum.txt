@@ -1,0 +1,841 @@
+=== pt-br opostos
+Pack: Opostos
+Left: Frio
+Right: Quente
+---
+Left: Barato
+Right: Caro
+---
+Left: Pequeno
+Right: Grande
+---
+Left: Devagar
+Right: Rápido
+---
+Left: Fácil
+Right: Difícil
+---
+Left: Perto
+Right: Longe
+---
+Left: Silencioso
+Right: Barulhento
+---
+Left: Mole
+Right: Duro
+---
+Left: Leve
+Right: Pesado
+---
+Left: Triste
+Right: Feliz
+
+=== pt-br opinioes
+Pack: Opiniões
+Left: Comida ruim
+Right: Comida deliciosa
+---
+Left: Pior dia da semana
+Right: Melhor dia da semana
+---
+Left: Chato
+Right: Divertido
+---
+Left: Inútil
+Right: Essencial
+---
+Left: Nada assustador
+Right: Muito assustador
+---
+Left: Sem graça
+Right: Estiloso
+---
+Left: Preguiçoso
+Right: Esforçado
+---
+Left: Superestimado
+Right: Subestimado
+
+=== en everyday
+Pack: Everyday
+Left: Cold
+Right: Hot
+---
+Left: Cheap
+Right: Expensive
+---
+Left: Small
+Right: Big
+---
+Left: Slow
+Right: Fast
+---
+Left: Quiet
+Right: Loud
+---
+Left: Empty
+Right: Full
+---
+Left: Old
+Right: New
+---
+Left: Weak
+Right: Strong
+---
+Left: Dark
+Right: Bright
+---
+Left: Soft
+Right: Hard
+---
+Left: Dry
+Right: Wet
+---
+Left: Dirty
+Right: Clean
+---
+Left: Near
+Right: Far
+---
+Left: Early
+Right: Late
+---
+Left: Light
+Right: Heavy
+---
+Left: Smooth
+Right: Rough
+---
+Left: Short
+Right: Tall
+---
+Left: Narrow
+Right: Wide
+---
+Left: Shallow
+Right: Deep
+---
+Left: Simple
+Right: Complicated
+---
+Left: Common
+Right: Rare
+---
+Left: Boring
+Right: Exciting
+---
+Left: Calm
+Right: Chaotic
+---
+Left: Gentle
+Right: Fierce
+---
+Left: Messy
+Right: Tidy
+---
+Left: Cloudy
+Right: Sunny
+---
+Left: Sleepy
+Right: Wide awake
+---
+Left: Rude
+Right: Polite
+---
+Left: Blunt
+Right: Sharp
+---
+Left: Crooked
+Right: Straight
+---
+Left: Sticky
+Right: Slippery
+---
+Left: Silly
+Right: Serious
+
+=== en extremes
+Pack: Extremes
+Left: Freezing
+Right: Boiling
+---
+Left: Whisper
+Right: Scream
+---
+Left: Snail
+Right: Rocket
+---
+Left: Featherweight
+Right: Heavyweight
+---
+Left: Molehill
+Right: Mountain
+---
+Left: Trickle
+Right: Flood
+---
+Left: Dim
+Right: Blinding
+---
+Left: Ancient
+Right: Futuristic
+---
+Left: Tiny
+Right: Gigantic
+---
+Left: Silent
+Right: Deafening
+---
+Left: Ice age
+Right: Heatwave
+---
+Left: A breeze
+Right: A hurricane
+---
+Left: Pocket money
+Right: A fortune
+---
+Left: A second
+Right: An eternity
+---
+Left: Baby steps
+Right: Giant leap
+---
+Left: Barely warm
+Right: Scorching
+---
+Left: A drizzle
+Right: A downpour
+---
+Left: Featherlight
+Right: Crushing
+---
+Left: Calm pond
+Right: Raging sea
+---
+Left: A spark
+Right: An inferno
+---
+Left: Barely moving
+Right: Warp speed
+---
+Left: A crumb
+Right: A mountain of it
+---
+Left: A puddle
+Right: An ocean
+---
+Left: A candle
+Right: The sun
+---
+Left: A mouse
+Right: An elephant
+---
+Left: A pebble
+Right: A boulder
+---
+Left: A nap
+Right: Hibernation
+---
+Left: A scratch
+Right: A catastrophe
+---
+Left: Lukewarm
+Right: Volcanic
+---
+Left: A hum
+Right: A thunderclap
+---
+Left: One step
+Right: A marathon
+---
+Left: A joke
+Right: A tragedy
+
+=== en opinions
+Pack: Opinions
+Left: Overrated
+Right: Underrated
+---
+Left: Useless
+Right: Essential
+---
+Left: Forgettable
+Right: Iconic
+---
+Left: Basic
+Right: One of a kind
+---
+Left: Waste of time
+Right: Totally worth it
+---
+Left: Weird
+Right: Normal
+---
+Left: Uncool
+Right: Cool
+---
+Left: Unpopular
+Right: Everyone loves it
+---
+Left: Guilty pleasure
+Right: Actually great
+---
+Left: Villain
+Right: Hero
+---
+Left: Cringe
+Right: Awesome
+---
+Left: Dull topic
+Right: Fascinating topic
+---
+Left: Skip it
+Right: Must see
+---
+Left: Old-fashioned
+Right: Cutting edge
+---
+Left: Annoying
+Right: Charming
+---
+Left: Trash
+Right: Treasure
+---
+Left: A chore
+Right: A joy
+---
+Left: Everyday
+Right: Once in a lifetime
+---
+Left: Meh
+Right: Amazing
+---
+Left: Needs luck
+Right: Needs skill
+---
+Left: Beginner friendly
+Right: Only for experts
+---
+Left: Fades fast
+Right: Timeless
+---
+Left: Overpriced
+Right: A bargain
+---
+Left: Childish
+Right: Grown up
+---
+Left: Pointless rule
+Right: Fair rule
+---
+Left: Too easy
+Right: Way too hard
+---
+Left: Try-hard
+Right: Effortless
+---
+Left: Bad idea
+Right: Genius idea
+---
+Left: Yesterday's news
+Right: The next big thing
+---
+Left: Only for kids
+Right: For everyone
+---
+Left: Sounds fun
+Right: Sounds exhausting
+---
+Left: Would never
+Right: Would immediately
+
+=== en tastes
+Pack: Tastes
+Left: Bland
+Right: Tasty
+---
+Left: Sweet
+Right: Sour
+---
+Left: Mild
+Right: Spicy
+---
+Left: Healthy
+Right: Junk food
+---
+Left: Snack
+Right: Feast
+---
+Left: Bitter
+Right: Sugary
+---
+Left: Plain
+Right: Fancy
+---
+Left: Watery
+Right: Rich
+---
+Left: Raw
+Right: Cooked
+---
+Left: Tiny portion
+Right: Huge portion
+---
+Left: Cold drink
+Right: Hot drink
+---
+Left: Sip
+Right: Gulp
+---
+Left: Crunchy
+Right: Mushy
+---
+Left: Fresh
+Right: Stale
+---
+Left: Everyday meal
+Right: Special treat
+---
+Left: Bite
+Right: Banquet
+---
+Left: Sober breakfast
+Right: Dessert for dinner
+---
+Left: Cheap eats
+Right: Fine dining
+---
+Left: Under-seasoned
+Right: Over-seasoned
+---
+Left: Diet
+Right: Cheat day
+---
+Left: Room temperature
+Right: Molten
+---
+Left: A nibble
+Right: Seconds please
+---
+Left: Salty
+Right: Sweet
+---
+Left: Soggy
+Right: Crispy
+---
+Left: Boring salad
+Right: Loaded pizza
+---
+Left: Small plate
+Right: Family size
+---
+Left: Water
+Right: Energy drink
+---
+Left: Homemade
+Right: Takeaway
+---
+Left: One flavour
+Right: Everything at once
+---
+Left: Breakfast
+Right: Midnight snack
+---
+Left: Green and healthy
+Right: Deep fried
+---
+Left: Just cheese
+Right: Extra everything
+
+=== de everyday
+Pack: Alltag
+Left: Kalt
+Right: Heiß
+---
+Left: Billig
+Right: Teuer
+---
+Left: Klein
+Right: Groß
+---
+Left: Langsam
+Right: Schnell
+---
+Left: Leise
+Right: Laut
+---
+Left: Leer
+Right: Voll
+---
+Left: Alt
+Right: Neu
+---
+Left: Schwach
+Right: Stark
+---
+Left: Dunkel
+Right: Hell
+---
+Left: Weich
+Right: Hart
+---
+Left: Trocken
+Right: Nass
+---
+Left: Schmutzig
+Right: Sauber
+---
+Left: Nah
+Right: Fern
+---
+Left: Früh
+Right: Spät
+---
+Left: Leicht
+Right: Schwer
+---
+Left: Glatt
+Right: Rau
+---
+Left: Kurz
+Right: Lang
+---
+Left: Schmal
+Right: Breit
+---
+Left: Flach
+Right: Tief
+---
+Left: Einfach
+Right: Kompliziert
+---
+Left: Häufig
+Right: Selten
+---
+Left: Langweilig
+Right: Aufregend
+---
+Left: Ruhig
+Right: Chaotisch
+---
+Left: Sanft
+Right: Wild
+---
+Left: Unordentlich
+Right: Aufgeräumt
+---
+Left: Bewölkt
+Right: Sonnig
+---
+Left: Schläfrig
+Right: Hellwach
+---
+Left: Unhöflich
+Right: Höflich
+---
+Left: Stumpf
+Right: Scharf
+---
+Left: Schief
+Right: Gerade
+---
+Left: Klebrig
+Right: Rutschig
+---
+Left: Albern
+Right: Ernst
+
+=== de extremes
+Pack: Extreme
+Left: Eiskalt
+Right: Kochend
+---
+Left: Flüstern
+Right: Schreien
+---
+Left: Schnecke
+Right: Rakete
+---
+Left: Federgewicht
+Right: Schwergewicht
+---
+Left: Maulwurfshügel
+Right: Berg
+---
+Left: Rinnsal
+Right: Flut
+---
+Left: Schummrig
+Right: Blendend
+---
+Left: Uralt
+Right: Futuristisch
+---
+Left: Winzig
+Right: Gigantisch
+---
+Left: Lautlos
+Right: Ohrenbetäubend
+---
+Left: Eiszeit
+Right: Hitzewelle
+---
+Left: Ein Lüftchen
+Right: Ein Orkan
+---
+Left: Taschengeld
+Right: Ein Vermögen
+---
+Left: Eine Sekunde
+Right: Eine Ewigkeit
+---
+Left: Babyschritte
+Right: Riesensprung
+---
+Left: Kaum warm
+Right: Glühend heiß
+---
+Left: Ein Nieseln
+Right: Ein Wolkenbruch
+---
+Left: Federleicht
+Right: Erdrückend
+---
+Left: Stiller Teich
+Right: Tobende See
+---
+Left: Ein Funke
+Right: Ein Inferno
+---
+Left: Kaum in Bewegung
+Right: Warp-Tempo
+---
+Left: Ein Krümel
+Right: Ein Berg davon
+---
+Left: Eine Pfütze
+Right: Ein Ozean
+---
+Left: Eine Kerze
+Right: Die Sonne
+---
+Left: Eine Maus
+Right: Ein Elefant
+---
+Left: Ein Kiesel
+Right: Ein Felsbrocken
+---
+Left: Ein Nickerchen
+Right: Winterschlaf
+---
+Left: Ein Kratzer
+Right: Eine Katastrophe
+---
+Left: Lauwarm
+Right: Vulkanisch
+---
+Left: Ein Summen
+Right: Ein Donnerschlag
+---
+Left: Ein Schritt
+Right: Ein Marathon
+---
+Left: Ein Witz
+Right: Eine Tragödie
+
+=== de opinions
+Pack: Meinungen
+Left: Überbewertet
+Right: Unterbewertet
+---
+Left: Nutzlos
+Right: Unverzichtbar
+---
+Left: Vergisst man gleich
+Right: Kultig
+---
+Left: Nullachtfünfzehn
+Right: Einzigartig
+---
+Left: Zeitverschwendung
+Right: Voll lohnenswert
+---
+Left: Seltsam
+Right: Normal
+---
+Left: Uncool
+Right: Cool
+---
+Left: Unbeliebt
+Right: Alle lieben es
+---
+Left: Heimliches Vergnügen
+Right: Echt gut
+---
+Left: Bösewicht
+Right: Held
+---
+Left: Peinlich
+Right: Großartig
+---
+Left: Langweiliges Thema
+Right: Faszinierendes Thema
+---
+Left: Kann man skippen
+Right: Unbedingt ansehen
+---
+Left: Altmodisch
+Right: Hochmodern
+---
+Left: Nervig
+Right: Charmant
+---
+Left: Müll
+Right: Schatz
+---
+Left: Eine Last
+Right: Eine Freude
+---
+Left: Alltäglich
+Right: Einmal im Leben
+---
+Left: Meh
+Right: Fantastisch
+---
+Left: Braucht Glück
+Right: Braucht Können
+---
+Left: Anfängerfreundlich
+Right: Nur für Profis
+---
+Left: Schnell vergänglich
+Right: Zeitlos
+---
+Left: Zu teuer
+Right: Ein Schnäppchen
+---
+Left: Kindisch
+Right: Erwachsen
+---
+Left: Sinnlose Regel
+Right: Faire Regel
+---
+Left: Zu leicht
+Right: Viel zu schwer
+---
+Left: Verkrampft
+Right: Locker
+---
+Left: Blöde Idee
+Right: Geniale Idee
+---
+Left: Von gestern
+Right: Das nächste große Ding
+---
+Left: Nur für Kinder
+Right: Für alle
+---
+Left: Klingt lustig
+Right: Klingt anstrengend
+---
+Left: Würde ich nie
+Right: Würde ich sofort
+
+=== de tastes
+Pack: Geschmack
+Left: Fad
+Right: Lecker
+---
+Left: Süß
+Right: Sauer
+---
+Left: Mild
+Right: Scharf
+---
+Left: Gesund
+Right: Junkfood
+---
+Left: Snack
+Right: Festmahl
+---
+Left: Bitter
+Right: Zuckrig
+---
+Left: Schlicht
+Right: Edel
+---
+Left: Wässrig
+Right: Gehaltvoll
+---
+Left: Roh
+Right: Gekocht
+---
+Left: Winzige Portion
+Right: Riesige Portion
+---
+Left: Kaltes Getränk
+Right: Heißes Getränk
+---
+Left: Nippen
+Right: In einem Zug
+---
+Left: Knusprig
+Right: Matschig
+---
+Left: Frisch
+Right: Altbacken
+---
+Left: Alltagsessen
+Right: Besonderer Genuss
+---
+Left: Happen
+Right: Bankett
+---
+Left: Nüchternes Frühstück
+Right: Nachtisch zum Abendessen
+---
+Left: Billige Küche
+Right: Gehobene Küche
+---
+Left: Zu wenig gewürzt
+Right: Zu stark gewürzt
+---
+Left: Diät
+Right: Schummeltag
+---
+Left: Zimmertemperatur
+Right: Glühend
+---
+Left: Ein Häppchen
+Right: Nachschlag, bitte
+---
+Left: Salzig
+Right: Süß
+---
+Left: Matschig
+Right: Knusprig
+---
+Left: Langweiliger Salat
+Right: Pizza mit allem
+---
+Left: Kleiner Teller
+Right: Familienportion
+---
+Left: Wasser
+Right: Energydrink
+---
+Left: Selbstgemacht
+Right: Lieferdienst
+---
+Left: Eine Sorte
+Right: Alles gleichzeitig
+---
+Left: Frühstück
+Right: Mitternachtssnack
+---
+Left: Grün und gesund
+Right: Frittiert
+---
+Left: Nur Käse
+Right: Extra alles

@@ -1,0 +1,1457 @@
+=== pt-br geral
+Pack: Conhecimentos Gerais
+Q: Qual é a capital do Brasil?
+A: Rio de Janeiro
+B: São Paulo
+C: Brasília
+D: Salvador
+Answer: C
+---
+Q: Quantos jogadores de cada time ficam em campo no futebol?
+A: 9
+B: 10
+C: 11
+D: 12
+Answer: C
+---
+Q: Quem escreveu "Dom Casmurro"?
+A: José de Alencar
+B: Machado de Assis
+C: Jorge Amado
+D: Clarice Lispector
+Answer: B
+---
+Q: Qual é o maior planeta do Sistema Solar?
+A: Terra
+B: Saturno
+C: Júpiter
+D: Marte
+Answer: C
+---
+Q: Em que ano os portugueses chegaram ao Brasil?
+A: 1492
+B: 1500
+C: 1808
+D: 1889
+Answer: B
+---
+Q: Qual é o rio mais extenso do Brasil?
+A: São Francisco
+B: Paraná
+C: Amazonas
+D: Tietê
+Answer: C
+---
+Q: Quantos continentes existem?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: C
+---
+Q: Qual é o maior oceano do mundo?
+A: Atlântico
+B: Índico
+C: Ártico
+D: Pacífico
+Answer: D
+---
+Q: Qual país é famoso pelos cangurus?
+A: Brasil
+B: Austrália
+C: Índia
+D: Quênia
+Answer: B
+---
+Q: Quantos lados tem um hexágono?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: B
+---
+Q: Qual é a moeda do Japão?
+A: Iene
+B: Won
+C: Yuan
+D: Ringgit
+Answer: A
+---
+Q: Qual planeta é conhecido como Planeta Vermelho?
+A: Vênus
+B: Marte
+C: Júpiter
+D: Saturno
+Answer: B
+---
+Q: Qual instrumento tem 88 teclas?
+A: Violão
+B: Piano
+C: Violino
+D: Harpa
+Answer: B
+---
+Q: Em que país fica a Torre Eiffel?
+A: Itália
+B: Espanha
+C: França
+D: Alemanha
+Answer: C
+---
+Q: Qual é o maior país do mundo em área?
+A: Canadá
+B: China
+C: Estados Unidos
+D: Rússia
+Answer: D
+
+=== pt-br geografia
+Pack: Geografia
+Q: Qual é a capital da Argentina?
+A: Lima
+B: Buenos Aires
+C: Santiago
+D: Montevidéu
+Answer: B
+---
+Q: Qual é o maior estado do Brasil em área?
+A: Pará
+B: Amazonas
+C: Minas Gerais
+D: Bahia
+Answer: B
+---
+Q: Qual é o único país da América do Sul onde se fala português?
+A: Chile
+B: Brasil
+C: Peru
+D: Bolívia
+Answer: B
+---
+Q: Qual é a capital do Japão?
+A: Seul
+B: Pequim
+C: Tóquio
+D: Bangkok
+Answer: C
+---
+Q: Em qual continente fica o Egito?
+A: Ásia
+B: África
+C: Europa
+D: Oceania
+Answer: B
+---
+Q: Qual é o menor país do mundo?
+A: Mônaco
+B: Vaticano
+C: Malta
+D: Liechtenstein
+Answer: B
+---
+Q: Qual oceano banha a costa leste do Brasil?
+A: Pacífico
+B: Índico
+C: Atlântico
+D: Ártico
+Answer: C
+---
+Q: Qual é a capital da Itália?
+A: Milão
+B: Roma
+C: Veneza
+D: Nápoles
+Answer: B
+---
+Q: Qual é a capital de Portugal?
+A: Porto
+B: Lisboa
+C: Coimbra
+D: Faro
+Answer: B
+---
+Q: Qual é o deserto mais famoso da África?
+A: Gobi
+B: Atacama
+C: Saara
+D: Kalahari
+Answer: C
+
+=== pt-br ciencias
+Pack: Ciências
+Q: Qual gás as plantas absorvem na fotossíntese?
+A: Oxigênio
+B: Gás carbônico
+C: Nitrogênio
+D: Hélio
+Answer: B
+---
+Q: Quantos planetas tem o Sistema Solar?
+A: 7
+B: 8
+C: 9
+D: 10
+Answer: B
+---
+Q: Qual é a fórmula química da água?
+A: H2O
+B: CO2
+C: O2
+D: NaCl
+Answer: A
+---
+Q: Qual é o maior órgão do corpo humano?
+A: Fígado
+B: Pulmão
+C: Pele
+D: Coração
+Answer: C
+---
+Q: Qual planeta é famoso pelos seus anéis?
+A: Marte
+B: Saturno
+C: Vênus
+D: Mercúrio
+Answer: B
+---
+Q: Quantos ossos tem o corpo de um adulto, aproximadamente?
+A: 106
+B: 206
+C: 306
+D: 406
+Answer: B
+---
+Q: Qual é o estado físico do gelo?
+A: Líquido
+B: Gasoso
+C: Sólido
+D: Plasma
+Answer: C
+---
+Q: Qual estrela fica no centro do nosso Sistema Solar?
+A: Sirius
+B: Sol
+C: Alfa Centauro
+D: Betelgeuse
+Answer: B
+---
+Q: O que a Terra orbita?
+A: A Lua
+B: Marte
+C: O Sol
+D: Júpiter
+Answer: C
+---
+Q: O que viaja mais rápido?
+A: O som
+B: A luz
+C: O vento
+D: Todos iguais
+Answer: B
+
+=== pt-br esportes
+Pack: Esportes
+Q: Quantos jogadores tem um time de vôlei em quadra?
+A: 5
+B: 6
+C: 7
+D: 11
+Answer: B
+---
+Q: Em qual esporte a contagem é "15, 30, 40"?
+A: Badminton
+B: Tênis
+C: Tênis de mesa
+D: Squash
+Answer: B
+---
+Q: Qual país ganhou mais Copas do Mundo masculinas de futebol?
+A: Alemanha
+B: Itália
+C: Brasil
+D: Argentina
+Answer: C
+---
+Q: Quantos pontos vale uma cesta de três pontos no basquete?
+A: 2
+B: 3
+C: 4
+D: 5
+Answer: B
+---
+Q: Em qual esporte existe o "ace"?
+A: Futebol
+B: Tênis
+C: Natação
+D: Judô
+Answer: B
+---
+Q: Quantas peças cada jogador tem no início de uma partida de xadrez?
+A: 12
+B: 14
+C: 16
+D: 18
+Answer: C
+---
+Q: Qual é a distância aproximada de uma maratona?
+A: 21 km
+B: 42 km
+C: 50 km
+D: 10 km
+Answer: B
+---
+Q: Quantos jogadores de cada time ficam em quadra no basquete?
+A: 5
+B: 6
+C: 7
+D: 9
+Answer: A
+---
+Q: Em que cidade foram as Olimpíadas de 2016?
+A: Londres
+B: Pequim
+C: Rio de Janeiro
+D: Tóquio
+Answer: C
+---
+Q: Quem é conhecido como "Rei do Futebol"?
+A: Zico
+B: Pelé
+C: Romário
+D: Garrincha
+Answer: B
+
+=== pt-br xadrez
+Pack: Xadrez
+Q: Qual peça se move em "L"?
+A: Bispo
+B: Cavalo
+C: Torre
+D: Rei
+Answer: B
+---
+Q: Como se chama o fim de jogo em que o rei não tem como escapar?
+A: Empate
+B: Xeque-mate
+C: Roque
+D: Promoção
+Answer: B
+---
+Q: Qual peça se move só na diagonal?
+A: Torre
+B: Bispo
+C: Cavalo
+D: Peão
+Answer: B
+---
+Q: Quantas casas tem um tabuleiro de xadrez?
+A: 49
+B: 64
+C: 81
+D: 100
+Answer: B
+---
+Q: Qual jogada especial envolve o rei e a torre?
+A: En passant
+B: Promoção
+C: Roque
+D: Gambito
+Answer: C
+---
+Q: O que acontece quando um peão chega à última fileira?
+A: Volta ao início
+B: Promoção
+C: Roque
+D: Nada
+Answer: B
+---
+Q: Qual peça vale mais pontos, normalmente?
+A: Bispo
+B: Torre
+C: Dama
+D: Cavalo
+Answer: C
+---
+Q: Qual peça nunca anda para trás?
+A: Peão
+B: Bispo
+C: Torre
+D: Dama
+Answer: A
+
+=== en games
+Pack: Player One
+Q: What color is Sonic the Hedgehog?
+A: Red
+B: Green
+C: Blue
+D: Yellow
+Answer: C
+---
+Q: In Minecraft, which creature explodes next to you?
+A: Zombie
+B: Creeper
+C: Skeleton
+D: Spider
+Answer: B
+---
+Q: Which company makes the PlayStation?
+A: Microsoft
+B: Nintendo
+C: Sony
+D: Sega
+Answer: C
+---
+Q: In Super Mario, which item gives an extra life?
+A: Coin
+B: Fire Flower
+C: Star
+D: 1-Up Mushroom
+Answer: D
+---
+Q: Pikachu is which type of Pokemon?
+A: Fire
+B: Water
+C: Electric
+D: Grass
+Answer: C
+---
+Q: What is the best-selling video game of all time?
+A: Tetris
+B: Minecraft
+C: GTA V
+D: Wii Sports
+Answer: B
+---
+Q: Which princess does Mario usually rescue?
+A: Zelda
+B: Peach
+C: Daisy
+D: Rosalina
+Answer: B
+---
+Q: In Pac-Man, what does Pac-Man eat to chase ghosts?
+A: Cherries
+B: Power Pellets
+C: Keys
+D: Bells
+Answer: B
+---
+Q: Which game popularized "battle royale" with 100 players?
+A: Halo
+B: Fortnite
+C: Doom
+D: Pong
+Answer: B
+---
+Q: Tetris pieces are made of how many blocks each?
+A: 3
+B: 4
+C: 5
+D: 6
+Answer: B
+
+=== en general
+Pack: General Knowledge
+Q: What is the capital of France?
+A: Paris
+B: London
+C: Berlin
+D: Madrid
+Answer: A
+---
+Q: How many continents are there on Earth?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: C
+---
+Q: What is the largest ocean on Earth?
+A: Atlantic
+B: Indian
+C: Arctic
+D: Pacific
+Answer: D
+---
+Q: Which country is home to the kangaroo?
+A: Brazil
+B: Australia
+C: India
+D: Kenya
+Answer: B
+---
+Q: How many sides does a hexagon have?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: B
+---
+Q: What is the tallest mountain above sea level?
+A: K2
+B: Mount Kilimanjaro
+C: Mount Everest
+D: Denali
+Answer: C
+---
+Q: Which language has the most native speakers?
+A: English
+B: Spanish
+C: Hindi
+D: Mandarin Chinese
+Answer: D
+---
+Q: What is the currency used in Japan?
+A: Yen
+B: Won
+C: Yuan
+D: Ringgit
+Answer: A
+---
+Q: How many colors are in a standard rainbow?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: C
+---
+Q: Which planet is known as the Red Planet?
+A: Venus
+B: Mars
+C: Jupiter
+D: Saturn
+Answer: B
+---
+Q: What is the longest river in the world?
+A: Amazon
+B: Yangtze
+C: Mississippi
+D: Nile
+Answer: D
+---
+Q: Which instrument has 88 keys?
+A: Guitar
+B: Piano
+C: Violin
+D: Harp
+Answer: B
+---
+Q: In which country would you find the Eiffel Tower?
+A: Italy
+B: Spain
+C: France
+D: Germany
+Answer: C
+---
+Q: How many minutes are in a full hour?
+A: 30
+B: 60
+C: 90
+D: 100
+Answer: B
+---
+Q: What is the largest country by land area?
+A: Canada
+B: China
+C: United States
+D: Russia
+Answer: D
+---
+
+=== en geography
+Pack: Around the World
+Q: What is the capital of Australia?
+A: Sydney
+B: Canberra
+C: Melbourne
+D: Perth
+Answer: B
+---
+Q: Which is the largest country by land area?
+A: China
+B: USA
+C: Russia
+D: Canada
+Answer: C
+---
+Q: The Nile river flows mainly through which country?
+A: Egypt
+B: Brazil
+C: India
+D: Congo
+Answer: A
+---
+Q: Mount Everest sits on the border of Nepal and which country?
+A: India
+B: China
+C: Bhutan
+D: Pakistan
+Answer: B
+---
+Q: What is the smallest country in the world?
+A: Monaco
+B: Nauru
+C: Malta
+D: Vatican City
+Answer: D
+---
+Q: Which is the largest ocean on Earth?
+A: Atlantic
+B: Pacific
+C: Indian
+D: Arctic
+Answer: B
+---
+Q: The Sahara Desert is on which continent?
+A: Africa
+B: Asia
+C: Australia
+D: South America
+Answer: A
+---
+Q: Which is the largest US state by area?
+A: Texas
+B: Alaska
+C: California
+D: Montana
+Answer: B
+---
+Q: The Great Barrier Reef lies off the coast of which country?
+A: Brazil
+B: Thailand
+C: Australia
+D: Mexico
+Answer: C
+---
+Q: Which country has the most time zones?
+A: France
+B: Russia
+C: USA
+D: China
+Answer: A
+
+=== en movies
+Pack: Movies
+Q: Who directed the 1975 film Jaws?
+A: George Lucas
+B: Steven Spielberg
+C: Martin Scorsese
+D: Ridley Scott
+Answer: B
+---
+Q: In The Wizard of Oz, what color are Dorothy's slippers?
+A: Silver
+B: Gold
+C: Ruby red
+D: Emerald green
+Answer: C
+---
+Q: Which animated film features a clownfish named Nemo?
+A: Shark Tale
+B: Finding Nemo
+C: The Little Mermaid
+D: Moana
+Answer: B
+---
+Q: What is the name of the hobbit who carries the ring to Mordor?
+A: Samwise Gamgee
+B: Bilbo Baggins
+C: Frodo Baggins
+D: Peregrin Took
+Answer: C
+---
+Q: In Toy Story, what kind of toy is Woody?
+A: An astronaut
+B: A cowboy
+C: A dinosaur
+D: A soldier
+Answer: B
+---
+Q: Which movie features the quote "May the Force be with you"?
+A: Star Trek
+B: Star Wars
+C: Guardians of the Galaxy
+D: Interstellar
+Answer: B
+---
+Q: What fictional metal is Wolverine's skeleton bonded with?
+A: Vibranium
+B: Titanium
+C: Adamantium
+D: Mithril
+Answer: C
+---
+Q: In The Lion King, what is the name of Simba's father?
+A: Scar
+B: Mufasa
+C: Rafiki
+D: Zazu
+Answer: B
+---
+Q: Which film series features a wizard school called Hogwarts?
+A: The Chronicles of Narnia
+B: Harry Potter
+C: Percy Jackson
+D: His Dark Materials
+Answer: B
+---
+Q: Who plays the character Jack in the 1997 film Titanic?
+A: Brad Pitt
+B: Matt Damon
+C: Leonardo DiCaprio
+D: Tom Cruise
+Answer: C
+---
+Q: What is the name of the fictional African nation in Black Panther?
+A: Zamunda
+B: Genovia
+C: Wakanda
+D: Sokovia
+Answer: C
+---
+Q: In Jurassic Park, what kind of creatures are brought back to life?
+A: Mammoths
+B: Dinosaurs
+C: Dragons
+D: Sabertooth cats
+Answer: B
+---
+Q: Which movie features a character named Forrest Gump?
+A: Cast Away
+B: Forrest Gump
+C: The Green Mile
+D: Big
+Answer: B
+---
+Q: What is the highest honor awarded at the Academy Awards?
+A: Golden Globe
+B: Best Picture
+C: Palme d'Or
+D: BAFTA
+Answer: B
+---
+Q: In Frozen, what is the name of Elsa's younger sister?
+A: Anna
+B: Rapunzel
+C: Merida
+D: Belle
+Answer: A
+---
+
+=== en music
+Pack: Sound Check
+Q: Which band released "Bohemian Rhapsody"?
+A: The Beatles
+B: Queen
+C: Led Zeppelin
+D: Pink Floyd
+Answer: B
+---
+Q: How many strings does a standard guitar have?
+A: 4
+B: 5
+C: 6
+D: 7
+Answer: C
+---
+Q: Who is known as the "King of Pop"?
+A: Elvis Presley
+B: Prince
+C: Michael Jackson
+D: Freddie Mercury
+Answer: C
+---
+Q: Which instrument has 88 keys?
+A: Piano
+B: Harp
+C: Accordion
+D: Organ
+Answer: A
+---
+Q: "Purple Rain" is by which artist?
+A: David Bowie
+B: Prince
+C: Jimi Hendrix
+D: Lenny Kravitz
+Answer: B
+---
+Q: What does "forte" mean in music?
+A: Slow
+B: Fast
+C: Loud
+D: Soft
+Answer: C
+---
+Q: Which decade is most associated with disco?
+A: 1960s
+B: 1970s
+C: 1980s
+D: 1990s
+Answer: B
+---
+Q: The Beatles formed in which city?
+A: London
+B: Manchester
+C: Liverpool
+D: Birmingham
+Answer: C
+---
+Q: A group of four musicians is called a?
+A: Trio
+B: Quartet
+C: Quintet
+D: Duo
+Answer: B
+---
+Q: Who sang "Rolling in the Deep"?
+A: Adele
+B: Beyonce
+C: Rihanna
+D: Lady Gaga
+Answer: A
+
+=== en science
+Pack: Science
+Q: What gas do plants absorb from the air for photosynthesis?
+A: Oxygen
+B: Nitrogen
+C: Carbon dioxide
+D: Hydrogen
+Answer: C
+---
+Q: What is the chemical symbol for water?
+A: H2O
+B: CO2
+C: O2
+D: NaCl
+Answer: A
+---
+Q: How many bones are in the adult human body?
+A: 186
+B: 206
+C: 226
+D: 246
+Answer: B
+---
+Q: Which planet is closest to the Sun?
+A: Earth
+B: Venus
+C: Mercury
+D: Mars
+Answer: C
+---
+Q: What is the powerhouse of the cell?
+A: Nucleus
+B: Ribosome
+C: Mitochondrion
+D: Vacuole
+Answer: C
+---
+Q: What force pulls objects toward the Earth?
+A: Magnetism
+B: Gravity
+C: Friction
+D: Tension
+Answer: B
+---
+Q: What is the chemical symbol for gold?
+A: Go
+B: Gd
+C: Ag
+D: Au
+Answer: D
+---
+Q: At what temperature does water freeze in Celsius?
+A: 0 degrees
+B: 10 degrees
+C: 32 degrees
+D: 100 degrees
+Answer: A
+---
+Q: Which gas makes up most of Earth's atmosphere?
+A: Oxygen
+B: Nitrogen
+C: Carbon dioxide
+D: Argon
+Answer: B
+---
+Q: What organ pumps blood through the body?
+A: Lungs
+B: Liver
+C: Heart
+D: Kidney
+Answer: C
+---
+Q: What is the speed of light approximately?
+A: 300,000 km per second
+B: 30,000 km per second
+C: 3,000 km per second
+D: 300 km per second
+Answer: A
+---
+Q: Which scientist proposed the theory of general relativity?
+A: Isaac Newton
+B: Albert Einstein
+C: Galileo Galilei
+D: Niels Bohr
+Answer: B
+---
+Q: What is the hardest known natural material?
+A: Quartz
+B: Iron
+C: Diamond
+D: Granite
+Answer: C
+---
+Q: How many chambers does a human heart have?
+A: 2
+B: 3
+C: 4
+D: 5
+Answer: C
+---
+Q: What type of animal is a dolphin?
+A: Fish
+B: Mammal
+C: Reptile
+D: Amphibian
+Answer: B
+---
+
+=== de games
+Pack: Player One
+Q: Welche Farbe hat Sonic the Hedgehog?
+A: Rot
+B: Grün
+C: Blau
+D: Gelb
+Answer: C
+---
+Q: Welche Kreatur explodiert in Minecraft neben dir?
+A: Zombie
+B: Creeper
+C: Skelett
+D: Spinne
+Answer: B
+---
+Q: Welche Firma stellt die PlayStation her?
+A: Microsoft
+B: Nintendo
+C: Sony
+D: Sega
+Answer: C
+---
+Q: Welcher Gegenstand gibt in Super Mario ein Extraleben?
+A: Münze
+B: Feuerblume
+C: Stern
+D: 1-Up-Pilz
+Answer: D
+---
+Q: Von welchem Typ ist Pikachu (Pokémon)?
+A: Feuer
+B: Wasser
+C: Elektro
+D: Pflanze
+Answer: C
+---
+Q: Was ist das meistverkaufte Videospiel aller Zeiten?
+A: Tetris
+B: Minecraft
+C: GTA V
+D: Wii Sports
+Answer: B
+---
+Q: Welche Prinzessin rettet Mario meistens?
+A: Zelda
+B: Peach
+C: Daisy
+D: Rosalina
+Answer: B
+---
+Q: Was frisst Pac-Man, um Geister zu jagen?
+A: Kirschen
+B: Power-Pillen
+C: Schlüssel
+D: Glocken
+Answer: B
+---
+Q: Welches Spiel machte "Battle Royale" mit 100 Spielern populär?
+A: Halo
+B: Fortnite
+C: Doom
+D: Pong
+Answer: B
+---
+Q: Aus wie vielen Blöcken besteht jedes Tetris-Teil?
+A: 3
+B: 4
+C: 5
+D: 6
+Answer: B
+
+=== de general
+Pack: Allgemeinwissen
+Q: Was ist die Hauptstadt von Frankreich?
+A: Paris
+B: London
+C: Berlin
+D: Madrid
+Answer: A
+---
+Q: Wie viele Kontinente hat die Erde?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: C
+---
+Q: Was ist der größte Ozean der Erde?
+A: Atlantik
+B: Indischer Ozean
+C: Arktischer Ozean
+D: Pazifik
+Answer: D
+---
+Q: In welchem Land ist das Känguru heimisch?
+A: Brasilien
+B: Australien
+C: Indien
+D: Kenia
+Answer: B
+---
+Q: Wie viele Seiten hat ein Sechseck?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: B
+---
+Q: Welcher ist der höchste Berg über dem Meeresspiegel?
+A: K2
+B: Kilimandscharo
+C: Mount Everest
+D: Denali
+Answer: C
+---
+Q: Welche Sprache hat die meisten Muttersprachler?
+A: Englisch
+B: Spanisch
+C: Hindi
+D: Mandarin-Chinesisch
+Answer: D
+---
+Q: Welche Währung wird in Japan verwendet?
+A: Yen
+B: Won
+C: Yuan
+D: Ringgit
+Answer: A
+---
+Q: Wie viele Farben hat ein normaler Regenbogen?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: C
+---
+Q: Welcher Planet wird der Rote Planet genannt?
+A: Venus
+B: Mars
+C: Jupiter
+D: Saturn
+Answer: B
+---
+Q: Was ist der längste Fluss der Welt?
+A: Amazonas
+B: Jangtse
+C: Mississippi
+D: Nil
+Answer: D
+---
+Q: Welches Instrument hat 88 Tasten?
+A: Gitarre
+B: Klavier
+C: Geige
+D: Harfe
+Answer: B
+---
+Q: In welchem Land steht der Eiffelturm?
+A: Italien
+B: Spanien
+C: Frankreich
+D: Deutschland
+Answer: C
+---
+Q: Wie viele Minuten hat eine volle Stunde?
+A: 30
+B: 60
+C: 90
+D: 100
+Answer: B
+---
+Q: Welches ist das größte Land nach Fläche?
+A: Kanada
+B: China
+C: USA
+D: Russland
+Answer: D
+
+=== de geography
+Pack: Rund um die Welt
+Q: Was ist die Hauptstadt von Australien?
+A: Sydney
+B: Canberra
+C: Melbourne
+D: Perth
+Answer: B
+---
+Q: Welches ist das größte Land nach Fläche?
+A: China
+B: USA
+C: Russland
+D: Kanada
+Answer: C
+---
+Q: Der Nil fließt hauptsächlich durch welches Land?
+A: Ägypten
+B: Brasilien
+C: Indien
+D: Kongo
+Answer: A
+---
+Q: Der Mount Everest liegt an der Grenze von Nepal und welchem Land?
+A: Indien
+B: China
+C: Bhutan
+D: Pakistan
+Answer: B
+---
+Q: Was ist das kleinste Land der Welt?
+A: Monaco
+B: Nauru
+C: Malta
+D: Vatikanstadt
+Answer: D
+---
+Q: Welches ist der größte Ozean der Erde?
+A: Atlantik
+B: Pazifik
+C: Indischer Ozean
+D: Arktischer Ozean
+Answer: B
+---
+Q: Die Sahara liegt auf welchem Kontinent?
+A: Afrika
+B: Asien
+C: Australien
+D: Südamerika
+Answer: A
+---
+Q: Welcher ist der größte US-Bundesstaat nach Fläche?
+A: Texas
+B: Alaska
+C: Kalifornien
+D: Montana
+Answer: B
+---
+Q: Das Great Barrier Reef liegt vor der Küste welchen Landes?
+A: Brasilien
+B: Thailand
+C: Australien
+D: Mexiko
+Answer: C
+---
+Q: Welches Land hat die meisten Zeitzonen?
+A: Frankreich
+B: Russland
+C: USA
+D: China
+Answer: A
+
+=== de movies
+Pack: Filme
+Q: Wer führte 1975 Regie beim Film "Der weiße Hai"?
+A: George Lucas
+B: Steven Spielberg
+C: Martin Scorsese
+D: Ridley Scott
+Answer: B
+---
+Q: Welche Farbe haben Dorothys Schuhe in "Der Zauberer von Oz"?
+A: Silber
+B: Gold
+C: Rubinrot
+D: Smaragdgrün
+Answer: C
+---
+Q: Welcher Animationsfilm handelt von einem Clownfisch namens Nemo?
+A: Große Haie – Kleine Fische
+B: Findet Nemo
+C: Arielle die Meerjungfrau
+D: Vaiana
+Answer: B
+---
+Q: Wie heißt der Hobbit, der den Ring nach Mordor bringt?
+A: Samweis Gamdschie
+B: Bilbo Beutlin
+C: Frodo Beutlin
+D: Peregrin Tuk
+Answer: C
+---
+Q: Was für ein Spielzeug ist Woody in "Toy Story"?
+A: Ein Astronaut
+B: Ein Cowboy
+C: Ein Dinosaurier
+D: Ein Soldat
+Answer: B
+---
+Q: In welchem Film fällt der Satz "Möge die Macht mit dir sein"?
+A: Star Trek
+B: Star Wars
+C: Guardians of the Galaxy
+D: Interstellar
+Answer: B
+---
+Q: Mit welchem fiktiven Metall ist Wolverines Skelett verbunden?
+A: Vibranium
+B: Titan
+C: Adamantium
+D: Mithril
+Answer: C
+---
+Q: Wie heißt Simbas Vater in "Der König der Löwen"?
+A: Scar
+B: Mufasa
+C: Rafiki
+D: Zazu
+Answer: B
+---
+Q: Welche Filmreihe spielt an einer Zaubererschule namens Hogwarts?
+A: Die Chroniken von Narnia
+B: Harry Potter
+C: Percy Jackson
+D: His Dark Materials
+Answer: B
+---
+Q: Wer spielt Jack im Film "Titanic" (1997)?
+A: Brad Pitt
+B: Matt Damon
+C: Leonardo DiCaprio
+D: Tom Cruise
+Answer: C
+---
+Q: Wie heißt die fiktive afrikanische Nation in "Black Panther"?
+A: Zamunda
+B: Genovia
+C: Wakanda
+D: Sokovia
+Answer: C
+---
+Q: Welche Kreaturen werden in "Jurassic Park" wiederbelebt?
+A: Mammuts
+B: Dinosaurier
+C: Drachen
+D: Säbelzahntiger
+Answer: B
+---
+Q: In welchem Film gibt es die Figur Forrest Gump?
+A: Cast Away
+B: Forrest Gump
+C: The Green Mile
+D: Big
+Answer: B
+---
+Q: Was ist die höchste Auszeichnung bei den Academy Awards?
+A: Golden Globe
+B: Bester Film
+C: Goldene Palme
+D: BAFTA
+Answer: B
+---
+Q: Wie heißt Elsas jüngere Schwester in "Die Eiskönigin"?
+A: Anna
+B: Rapunzel
+C: Merida
+D: Belle
+Answer: A
+
+=== de music
+Pack: Sound-Check
+Q: Welche Band veröffentlichte "Bohemian Rhapsody"?
+A: The Beatles
+B: Queen
+C: Led Zeppelin
+D: Pink Floyd
+Answer: B
+---
+Q: Wie viele Saiten hat eine Standardgitarre?
+A: 4
+B: 5
+C: 6
+D: 7
+Answer: C
+---
+Q: Wer ist als "King of Pop" bekannt?
+A: Elvis Presley
+B: Prince
+C: Michael Jackson
+D: Freddie Mercury
+Answer: C
+---
+Q: Welches Instrument hat 88 Tasten?
+A: Klavier
+B: Harfe
+C: Akkordeon
+D: Orgel
+Answer: A
+---
+Q: "Purple Rain" ist von welchem Künstler?
+A: David Bowie
+B: Prince
+C: Jimi Hendrix
+D: Lenny Kravitz
+Answer: B
+---
+Q: Was bedeutet "forte" in der Musik?
+A: Langsam
+B: Schnell
+C: Laut
+D: Leise
+Answer: C
+---
+Q: Welches Jahrzehnt wird am meisten mit Disco verbunden?
+A: 1960er
+B: 1970er
+C: 1980er
+D: 1990er
+Answer: B
+---
+Q: In welcher Stadt gründeten sich die Beatles?
+A: London
+B: Manchester
+C: Liverpool
+D: Birmingham
+Answer: C
+---
+Q: Eine Gruppe aus vier Musikern nennt man?
+A: Trio
+B: Quartett
+C: Quintett
+D: Duo
+Answer: B
+---
+Q: Wer sang "Rolling in the Deep"?
+A: Adele
+B: Beyoncé
+C: Rihanna
+D: Lady Gaga
+Answer: A
+
+=== de science
+Pack: Wissenschaft
+Q: Welches Gas nehmen Pflanzen für die Photosynthese aus der Luft auf?
+A: Sauerstoff
+B: Stickstoff
+C: Kohlendioxid
+D: Wasserstoff
+Answer: C
+---
+Q: Was ist das chemische Symbol für Wasser?
+A: H2O
+B: CO2
+C: O2
+D: NaCl
+Answer: A
+---
+Q: Wie viele Knochen hat der erwachsene menschliche Körper?
+A: 186
+B: 206
+C: 226
+D: 246
+Answer: B
+---
+Q: Welcher Planet ist der Sonne am nächsten?
+A: Erde
+B: Venus
+C: Merkur
+D: Mars
+Answer: C
+---
+Q: Was ist das Kraftwerk der Zelle?
+A: Zellkern
+B: Ribosom
+C: Mitochondrium
+D: Vakuole
+Answer: C
+---
+Q: Welche Kraft zieht Objekte zur Erde?
+A: Magnetismus
+B: Schwerkraft
+C: Reibung
+D: Spannung
+Answer: B
+---
+Q: Was ist das chemische Symbol für Gold?
+A: Go
+B: Gd
+C: Ag
+D: Au
+Answer: D
+---
+Q: Bei welcher Temperatur gefriert Wasser (Celsius)?
+A: 0 Grad
+B: 10 Grad
+C: 32 Grad
+D: 100 Grad
+Answer: A
+---
+Q: Welches Gas macht den größten Teil der Erdatmosphäre aus?
+A: Sauerstoff
+B: Stickstoff
+C: Kohlendioxid
+D: Argon
+Answer: B
+---
+Q: Welches Organ pumpt Blut durch den Körper?
+A: Lunge
+B: Leber
+C: Herz
+D: Niere
+Answer: C
+---
+Q: Wie schnell ist das Licht ungefähr?
+A: 300.000 km pro Sekunde
+B: 30.000 km pro Sekunde
+C: 3.000 km pro Sekunde
+D: 300 km pro Sekunde
+Answer: A
+---
+Q: Welcher Wissenschaftler stellte die allgemeine Relativitätstheorie auf?
+A: Isaac Newton
+B: Albert Einstein
+C: Galileo Galilei
+D: Niels Bohr
+Answer: B
+---
+Q: Was ist das härteste bekannte Naturmaterial?
+A: Quarz
+B: Eisen
+C: Diamant
+D: Granit
+Answer: C
+---
+Q: Wie viele Kammern hat das menschliche Herz?
+A: 2
+B: 3
+C: 4
+D: 5
+Answer: C
+---
+Q: Was für ein Tier ist ein Delfin?
+A: Fisch
+B: Säugetier
+C: Reptil
+D: Amphibie
+Answer: B

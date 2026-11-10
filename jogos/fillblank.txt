@@ -1,0 +1,679 @@
+=== pt-br familia
+Pack: Família
+P: O maior perigo para a humanidade em 2030 é _____.
+---
+P: Minha casa inteligente só obedece se eu pedir desculpas por _____.
+---
+P: _____ estragou o almoço de domingo da família.
+---
+P: A nova inteligência artificial só recomenda _____.
+---
+P: O que ninguém conta sobre ser adulto é _____.
+---
+P: Meu segredo para acordar cedo é _____.
+---
+P: No churrasco, o tio sempre fala sobre _____.
+---
+P: A viagem foi arruinada por causa de _____.
+---
+P: O novo remédio tem como efeito colateral _____.
+---
+P: Minha mãe descobriu no meu celular _____.
+---
+P: A escola vai ensinar _____ no próximo ano.
+---
+P: Ninguém esperava que o casamento terminasse com _____.
+---
+A: um pão de queijo gigante
+---
+A: o grupo da família no WhatsApp
+---
+A: um pernilongo que não desiste
+---
+A: o vizinho cantando pagode às 7 da manhã
+---
+A: uma segunda-feira sem fim
+---
+A: o Wi-Fi que cai na hora H
+---
+A: um cachorro que sabe demais
+---
+A: o tio do pavê
+---
+A: uma live de 6 horas
+---
+A: um chinelo voador
+---
+A: a sogra com opiniões
+---
+A: um boleto surpresa
+---
+A: meu eu do passado
+---
+A: uma reunião que podia ser e-mail
+---
+A: o gato que derruba tudo
+---
+A: um café frio
+---
+A: a fila do banco
+---
+A: o áudio de 8 minutos
+---
+A: uma dancinha de TikTok
+---
+A: o despertador no sábado
+---
+A: um churrasco sem carvão
+---
+A: a previsão do tempo errada
+---
+A: um chiclete na sola do sapato
+---
+A: uma mensagem visualizada e não respondida
+---
+A: um pagode no volume máximo
+---
+A: a promoção que acabou ontem
+---
+A: um unicórnio desempregado
+---
+A: o primo que sabe tudo
+---
+A: um pastel de vento
+---
+A: a luz que acabou na hora do jogo
+
+=== en family
+Pack: 👨‍👩‍👧 Family
+P: In 2026, the biggest threat to humanity is _____.
+---
+P: My smart home refuses to cooperate until I apologise for _____.
+---
+P: _____ ruined the family dinner.
+---
+P: The new AI assistant keeps recommending _____.
+---
+P: Grandma's secret ingredient turned out to be _____.
+---
+P: The real reason the Wi-Fi is down: _____.
+---
+P: My electric car won't start because of _____.
+---
+P: The school play this year is "The Tale of _____".
+---
+P: Nobody expected the group chat to end with _____.
+---
+P: The robot vacuum has developed a fear of _____.
+---
+P: _____ is the new sign that you are getting old.
+---
+P: Our holiday photo was ruined by _____.
+---
+P: The gym is packed every January because of _____.
+---
+P: _____ should not be allowed at the breakfast table.
+---
+P: Autocorrect keeps changing my name to _____.
+---
+P: The delivery drone dropped _____ in the neighbour's pool.
+---
+P: Dad's midlife crisis arrived in the form of _____.
+---
+P: _____ is why we can't have nice things.
+---
+P: The team-building day ended in _____.
+---
+P: The next surprise hit documentary is about _____.
+---
+P: _____ finally explains the smell in the fridge.
+---
+P: One day children will be taught that _____.
+---
+A: an AI that only speaks in emoji
+---
+A: Elon Musk renaming it again
+---
+A: a self-driving car with strong opinions
+---
+A: Taylor Swift writing a song about it
+---
+A: a robot vacuum with feelings
+---
+A: the group chat nobody can leave
+---
+A: Greta Thunberg's disappointed stare
+---
+A: a fridge that orders its own snacks
+---
+A: Dad's playlist
+---
+A: four hundred unread emails
+---
+A: Cristiano Ronaldo's abs
+---
+A: a printer that only works on Tuesdays
+---
+A: the smell of a burnt toaster
+---
+A: Mark Zuckerberg trying to seem normal
+---
+A: a smart speaker that heard everything
+---
+A: socks with sandals
+---
+A: a delivery drone with abandonment issues
+---
+A: Sam Altman promising it is completely safe
+---
+A: the last slice of cake
+---
+A: a very confident toddler
+---
+A: a video call you forgot to mute
+---
+A: Beyonce arriving unannounced
+---
+A: an escalator that goes sideways
+---
+A: a cat sitting on the keyboard
+---
+A: Bill Gates explaining it very patiently
+---
+A: a sourdough starter named Kevin
+---
+A: flat-pack furniture instructions
+---
+A: the neighbour's leaf blower
+---
+A: a vacuum robot full of glitter
+---
+A: a horse in the supermarket
+---
+A: Jeff Bezos in a very small rocket
+---
+A: my browser history
+---
+A: a suspiciously cheap flight
+---
+A: the office coffee machine
+---
+A: an AI-generated wedding speech
+---
+A: a squirrel with a plan
+---
+A: Tim Cook saying "one more thing"
+---
+A: an inflatable dinosaur costume
+---
+A: forty-seven loyalty cards
+---
+A: the annual family photo attempt
+---
+A: a smoke alarm at three in the morning
+---
+A: a scooter abandoned in the hallway
+---
+A: a self-checkout that hates you
+---
+A: someone's holiday slideshow
+---
+A: a goat that learned to open doors
+---
+A: the parking app
+---
+A: a birthday candle that will not die
+---
+A: an unskippable advert
+---
+A: a trampoline in a storm
+---
+A: the last five percent of battery
+
+=== en spicy
+Pack: 🌶️ Spicy
+P: _____ ended the relationship.
+---
+P: The dating profile just says "_____".
+---
+P: _____ is my toxic trait.
+---
+P: The wedding speech took a turn when he mentioned _____.
+---
+P: Nothing kills the mood quite like _____.
+---
+P: _____ is why I am banned from the group holiday.
+---
+P: My therapist went very quiet when I said _____.
+---
+P: The office Christmas party ended with _____.
+---
+P: _____ , and that is how I met your mother.
+---
+P: HR would like a word about _____.
+---
+P: My search history is ninety percent _____.
+---
+P: _____ is the real reason for the divorce.
+---
+P: Nobody warned me that marriage means _____.
+---
+P: The neighbours have filed a complaint about _____.
+---
+P: Apparently _____ is not an acceptable excuse.
+---
+P: My ex still owes me _____.
+---
+P: The stag party got out of hand because of _____.
+---
+P: _____ is what I do when nobody is watching.
+---
+P: The security camera caught me with _____.
+---
+P: _____ should legally require a licence.
+---
+P: In 2026, romance means _____.
+---
+P: I told everyone it was _____.
+---
+A: an ill-advised tattoo
+---
+A: crying in the furniture store car park
+---
+A: a suspiciously specific playlist
+---
+A: my ex's new haircut
+---
+A: three bottles of prosecco
+---
+A: a message sent at three in the morning
+---
+A: Vladimir Putin's shirtless horse photos
+---
+A: the entire cheese board
+---
+A: a second phone
+---
+A: Kanye's latest opinion
+---
+A: an unpaid parking fine from 2019
+---
+A: the gym membership I never use
+---
+A: a very brave outfit
+---
+A: my sister's boyfriend
+---
+A: a karaoke rendition of "My Heart Will Go On"
+---
+A: Donald Trump's handshake
+---
+A: fourteen unopened dating apps
+---
+A: the last kebab of the night
+---
+A: a lie about my height
+---
+A: someone else's wedding ring
+---
+A: a screenshot of the group chat
+---
+A: a sunburn in an unfortunate shape
+---
+A: Instagram versus reality
+---
+A: an emotional support bottle of wine
+---
+A: yesterday's shirt at breakfast
+---
+A: a spray tan gone badly wrong
+---
+A: the incognito tab
+---
+A: Mark Zuckerberg practising a smile
+---
+A: a stolen hotel bathrobe
+---
+A: a "we need to talk" message
+---
+A: the office photocopier
+---
+A: a truly unfortunate autocorrect
+---
+A: my mother's opinion
+---
+A: a shirtless Cristiano Ronaldo poster
+---
+A: nine hundred euros of shoes
+---
+A: a dolphin tattoo from 2004
+---
+A: the flatmate's yoghurt
+---
+A: Taylor Swift's revenge era
+---
+A: a prenup nobody read
+---
+A: the last train home
+---
+A: a duty-free bottle of ouzo
+---
+A: an OnlyFans nobody asked for
+---
+A: a decision made at two in the morning
+---
+A: my student loan
+---
+A: an anonymous confession
+---
+A: the neighbour's security camera
+---
+A: a suspiciously long lunch break
+---
+A: Elon Musk's direct messages
+---
+A: a tequila I do not remember ordering
+---
+A: the recycling bin at seven in the morning
+---
+A: a very loud upstairs neighbour
+---
+A: forty missed calls
+
+=== de family
+Pack: 👨‍👩‍👧 Familie
+P: Die größte Bedrohung der Menschheit 2026 ist _____.
+---
+P: Mein Smart Home streikt, bis ich mich entschuldige für _____.
+---
+P: _____ hat das Familienessen ruiniert.
+---
+P: Die KI-Assistentin empfiehlt mir ständig _____.
+---
+P: Omas Geheimzutat war am Ende _____.
+---
+P: Der wahre Grund, warum das WLAN weg ist: _____.
+---
+P: Mein E-Auto springt nicht an wegen _____.
+---
+P: Das Schultheaterstück heißt dieses Jahr "Die Sage von _____".
+---
+P: Keiner hat damit gerechnet, dass der Gruppenchat endet mit _____.
+---
+P: Der Saugroboter hat jetzt Angst vor _____.
+---
+P: _____ ist das neue Zeichen dafür, dass man alt wird.
+---
+P: Unser Urlaubsfoto wurde ruiniert von _____.
+---
+P: Im Januar ist das Fitnessstudio voll wegen _____.
+---
+P: _____ sollte am Frühstückstisch verboten sein.
+---
+P: Die Autokorrektur macht aus meinem Namen dauernd _____.
+---
+P: Die Lieferdrohne hat _____ in den Nachbarpool fallen lassen.
+---
+P: Papas Midlife-Crisis kam in Form von _____.
+---
+P: Wegen _____ können wir keine schönen Dinge haben.
+---
+P: Der Teambuilding-Tag endete in _____.
+---
+P: Die nächste überraschende Erfolgsdoku handelt von _____.
+---
+P: _____ erklärt endlich den Geruch im Kühlschrank.
+---
+P: Irgendwann lernen Kinder in der Schule, dass _____.
+---
+A: eine KI, die nur in Emojis spricht
+---
+A: Elon Musk, der es schon wieder umbenennt
+---
+A: ein selbstfahrendes Auto mit klarer Meinung
+---
+A: Taylor Swift, die ein Lied darüber schreibt
+---
+A: ein Saugroboter mit Gefühlen
+---
+A: der Gruppenchat, aus dem keiner rauskommt
+---
+A: Greta Thunbergs enttäuschter Blick
+---
+A: ein Kühlschrank, der selbst Snacks bestellt
+---
+A: Papas Playlist
+---
+A: vierhundert ungelesene E-Mails
+---
+A: Cristiano Ronaldos Bauchmuskeln
+---
+A: ein Drucker, der nur dienstags funktioniert
+---
+A: der Geruch von verbranntem Toast
+---
+A: Mark Zuckerberg, der versucht, normal zu wirken
+---
+A: ein Sprachassistent, der alles mitgehört hat
+---
+A: Socken in Sandalen
+---
+A: eine Lieferdrohne mit Bindungsangst
+---
+A: Sam Altman, der verspricht, es sei völlig sicher
+---
+A: das letzte Stück Kuchen
+---
+A: ein sehr selbstbewusstes Kleinkind
+---
+A: eine Videokonferenz ohne Stummschaltung
+---
+A: Heidi Klum, die unangekündigt auftaucht
+---
+A: eine Rolltreppe, die seitwärts fährt
+---
+A: eine Katze auf der Tastatur
+---
+A: Bill Gates, der es sehr geduldig erklärt
+---
+A: ein Sauerteig namens Kevin
+---
+A: eine Möbel-Aufbauanleitung
+---
+A: der Laubbläser vom Nachbarn
+---
+A: ein Saugroboter voller Glitzer
+---
+A: ein Pferd im Supermarkt
+---
+A: Jeff Bezos in einer sehr kleinen Rakete
+---
+A: mein Browserverlauf
+---
+A: ein verdächtig billiger Flug
+---
+A: die Kaffeemaschine im Büro
+---
+A: eine von der KI geschriebene Hochzeitsrede
+---
+A: ein Eichhörnchen mit einem Plan
+---
+A: Dieter Bohlens ehrliche Meinung
+---
+A: ein aufblasbares Dinosaurierkostüm
+---
+A: siebenundvierzig Kundenkarten
+---
+A: der jährliche Versuch eines Familienfotos
+---
+A: ein Rauchmelder um drei Uhr nachts
+---
+A: ein E-Roller im Hausflur
+---
+A: eine Selbstbedienungskasse, die dich hasst
+---
+A: die Urlaubsbilder von jemandem
+---
+A: eine Ziege, die Türen öffnen kann
+---
+A: die Park-App
+---
+A: eine Geburtstagskerze, die nicht ausgeht
+---
+A: eine Werbung, die man nicht überspringen kann
+---
+A: ein Trampolin im Sturm
+---
+A: die letzten fünf Prozent Akku
+---
+A: die Deutsche Bahn
+
+=== de spicy
+Pack: 🌶️ Pikant
+P: _____ hat die Beziehung beendet.
+---
+P: Im Dating-Profil steht nur "_____".
+---
+P: _____ ist mein toxischer Zug.
+---
+P: Die Hochzeitsrede kippte, als er _____ erwähnte.
+---
+P: Nichts killt die Stimmung so wie _____.
+---
+P: Wegen _____ bin ich vom Gruppenurlaub ausgeladen.
+---
+P: Meine Therapeutin wurde sehr still, als ich _____ sagte.
+---
+P: Die Weihnachtsfeier endete mit _____.
+---
+P: _____ , und so habe ich deine Mutter kennengelernt.
+---
+P: Die Personalabteilung möchte mich sprechen wegen _____.
+---
+P: Mein Suchverlauf besteht zu neunzig Prozent aus _____.
+---
+P: _____ ist der wahre Scheidungsgrund.
+---
+P: Keiner hat mir gesagt, dass Ehe _____ bedeutet.
+---
+P: Die Nachbarn haben sich beschwert über _____.
+---
+P: _____ ist offenbar keine akzeptable Ausrede.
+---
+P: Mein Ex schuldet mir immer noch _____.
+---
+P: Der Junggesellenabschied eskalierte wegen _____.
+---
+P: _____ mache ich, wenn keiner hinsieht.
+---
+P: Die Überwachungskamera hat mich erwischt mit _____.
+---
+P: Für _____ sollte man einen Führerschein brauchen.
+---
+P: Romantik heißt 2026: _____.
+---
+P: Ich habe allen erzählt, es sei _____ gewesen.
+---
+A: ein sehr unüberlegtes Tattoo
+---
+A: Weinen auf dem Möbelhaus-Parkplatz
+---
+A: eine verdächtig passende Playlist
+---
+A: die neue Frisur meines Ex
+---
+A: drei Flaschen Prosecco
+---
+A: eine Nachricht um drei Uhr nachts
+---
+A: Putins Fotos mit nacktem Oberkörper
+---
+A: die komplette Käseplatte
+---
+A: ein zweites Handy
+---
+A: Kanyes neueste Meinung
+---
+A: ein unbezahltes Knöllchen von 2019
+---
+A: das Fitnessabo, das ich nie nutze
+---
+A: ein sehr mutiges Outfit
+---
+A: der Freund meiner Schwester
+---
+A: eine Karaoke-Version von "My Heart Will Go On"
+---
+A: Donald Trumps Händedruck
+---
+A: vierzehn ungeöffnete Dating-Apps
+---
+A: der letzte Döner der Nacht
+---
+A: eine Lüge über meine Körpergröße
+---
+A: der Ehering von jemand anderem
+---
+A: ein Screenshot aus dem Gruppenchat
+---
+A: ein Sonnenbrand in unglücklicher Form
+---
+A: Instagram gegen die Realität
+---
+A: eine Flasche Wein zur emotionalen Unterstützung
+---
+A: das Hemd von gestern beim Frühstück
+---
+A: eine völlig missratene Selbstbräunung
+---
+A: der Inkognito-Tab
+---
+A: Mark Zuckerberg beim Lächeln-Üben
+---
+A: ein geklauter Hotelbademantel
+---
+A: eine "wir müssen reden"-Nachricht
+---
+A: der Bürokopierer
+---
+A: eine wirklich unglückliche Autokorrektur
+---
+A: die Meinung meiner Mutter
+---
+A: ein Ronaldo-Poster ohne Oberteil
+---
+A: neunhundert Euro für Schuhe
+---
+A: ein Delfin-Tattoo von 2004
+---
+A: der Joghurt vom Mitbewohner
+---
+A: Taylor Swifts Rache-Ära
+---
+A: ein Ehevertrag, den keiner gelesen hat
+---
+A: der letzte Zug nach Hause
+---
+A: eine Flasche Ouzo aus dem Duty-free
+---
+A: ein OnlyFans, nach dem keiner gefragt hat
+---
+A: eine Entscheidung um zwei Uhr nachts
+---
+A: mein Dispokredit
+---
+A: ein anonymes Geständnis
+---
+A: die Überwachungskamera vom Nachbarn
+---
+A: eine verdächtig lange Mittagspause
+---
+A: Elon Musks Direktnachrichten
+---
+A: ein Tequila, an den ich mich nicht erinnere
+---
+A: der Altglascontainer um sieben Uhr morgens
+---
+A: der sehr laute Nachbar von oben
+---
+A: vierzig verpasste Anrufe

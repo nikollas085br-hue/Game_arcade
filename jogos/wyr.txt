@@ -1,0 +1,992 @@
+=== pt-br cotidiano
+Pack: Dia a Dia
+
+A: Poder voar
+B: Ser invisível
+---
+A: Viver na praia
+B: Viver na montanha
+---
+A: Nunca mais comer pizza
+B: Nunca mais comer brigadeiro
+---
+A: Acordar cedo todo dia
+B: Dormir tarde todo dia
+---
+A: Ter super força
+B: Ler a mente das pessoas
+---
+A: Só ouvir música o resto da vida
+B: Só assistir filmes o resto da vida
+---
+A: Ficar sem celular por um mês
+B: Ficar sem internet por um mês
+---
+A: Ter um dia com 30 horas
+B: Ter uma semana com 8 dias
+---
+A: Comer só doce
+B: Comer só salgado
+---
+A: Ser muito famoso
+B: Ser muito rico
+---
+A: Sempre estar com calor
+B: Sempre estar com frio
+---
+A: Falar todas as línguas
+B: Tocar todos os instrumentos
+
+=== pt-br absurdo
+Pack: Absurdo
+
+A: Ter um dinossauro de estimação
+B: Ter um dragão de estimação
+---
+A: Ter pernas de pato
+B: Ter braços de polvo
+---
+A: Chorar suco de laranja
+B: Suar chocolate
+---
+A: Viver dentro de um videogame
+B: Viver dentro de um desenho animado
+---
+A: Só andar de costas
+B: Só falar rimando
+---
+A: Ter cabelo de macarrão
+B: Ter unhas de queijo
+---
+A: Cavalgar uma girafa
+B: Pilotar um elefante voador
+---
+A: Dormir em uma nuvem
+B: Dormir em um barco
+
+=== pt-br superpoderes
+Pack: Superpoderes
+
+A: Teletransporte
+B: Viajar no tempo
+---
+A: Controlar o fogo
+B: Controlar a água
+---
+A: Ficar super veloz
+B: Ficar super forte
+---
+A: Respirar debaixo d'água
+B: Falar com animais
+---
+A: Parar o tempo
+B: Voltar o tempo
+---
+A: Ficar invisível
+B: Voar
+---
+A: Ler pensamentos
+B: Prever o futuro
+---
+A: Ser gigante quando quiser
+B: Ser minúsculo quando quiser
+
+=== en absurd
+Pack: Totally Absurd
+
+A: Have spaghetti for hair
+B: Have sausages for fingers
+---
+A: Sweat maple syrup
+B: Cry glitter
+---
+A: Sneeze confetti
+B: Burp bubbles
+---
+A: Bark every time you laugh
+B: Meow every time you cry
+---
+A: Have a permanent clown nose
+B: Have permanently rainbow teeth
+---
+A: Only ever walk backwards
+B: Only ever speak in rhymes
+---
+A: Have feet where your hands are
+B: Have hands where your feet are
+---
+A: Always smell faintly of cheese
+B: Always look slightly wet
+---
+A: Taste every sound you hear
+B: Hear every color you see
+---
+A: Grow a tail you can't control
+B: Grow ears that flap when you're happy
+---
+A: Fart glitter
+B: Hiccup tiny bubbles
+---
+A: Be followed by dramatic music
+B: Have a narrator describe your every move
+---
+A: Hiccups that sound like a car alarm
+B: Sneezes that sound like a trumpet
+---
+A: Leave a trail of glitter
+B: Leave a trail of bubbles
+---
+A: Hair that changes colour with your mood
+B: Skin that glows when you lie
+---
+A: Only ever be able to whisper
+B: Only ever be able to shout
+---
+A: Grow an extra thumb
+B: Grow an extra ear
+---
+A: A tiny cloud that rains on you when you are sad
+B: A tiny sun that follows you around
+---
+A: Everything you touch smells of lavender
+B: Everything you eat tastes of strawberry
+---
+A: Shoes that squeak forever
+B: A zip that never stays up
+---
+A: Be able to talk to bread
+B: Be able to talk to furniture
+---
+A: A hat you can never take off
+B: Sunglasses you can never take off
+---
+A: Only blink one eye at a time
+B: Never blink at all
+---
+A: A voice that echoes indoors
+B: Footsteps that jingle
+
+=== en everyday
+Pack: Everyday
+
+A: Be able to fly
+B: Be invisible
+---
+A: Read minds
+B: See the future
+---
+A: Always be 10 min early
+B: Always be 5 min late
+---
+A: Never use the internet again
+B: Never watch films again
+---
+A: Fight one horse-sized duck
+B: 100 duck-sized horses
+---
+A: Live without music
+B: Live without TV
+---
+A: Have unlimited pizza
+B: Have unlimited tacos
+---
+A: Teleport anywhere
+B: Time travel
+---
+A: Talk to animals
+B: Speak every language
+---
+A: Always be too hot
+B: Always be too cold
+---
+A: No phone for a week
+B: No coffee for a month
+---
+A: Explore space
+B: Explore the deep ocean
+---
+A: Never use headphones again
+B: Never use a screen after dark
+---
+A: Always have to tell the truth
+B: Have to stay silent one day a week
+---
+A: A free ticket anywhere once a year
+B: Free food in your town forever
+---
+A: Fall asleep anywhere instantly
+B: Never need more than four hours
+---
+A: Lose your phone for a month
+B: Lose your favourite jumper forever
+---
+A: Always be slightly too early
+B: Never know what time it is
+---
+A: Have a personal chef
+B: Have a personal driver
+---
+A: Live where it's always spring
+B: Live where it's always autumn
+---
+A: Never wait in a queue again
+B: Never sit in traffic again
+---
+A: Be brilliant at one instrument
+B: Speak one more language perfectly
+---
+A: A shower that is always perfect
+B: A bed that is always the right temperature
+---
+A: Never lose your keys again
+B: Never lose a sock again
+
+=== en spicy
+Pack: Spicy
+
+A: Kiss and tell
+B: Never kiss and always tell
+---
+A: Date someone way funnier than you
+B: Date someone way hotter than you
+---
+A: Send an embarrassing text to your crush
+B: Have your crush see your search history
+---
+A: Get caught singing in the shower
+B: Get caught talking to yourself
+---
+A: Have your ex rate you out of 10
+B: Have your mom read your texts
+---
+A: Go on a blind date tonight
+B: Set your best friend up on one
+---
+A: Wear your outfit inside out all night
+B: Wear mismatched shoes all night
+---
+A: Reveal your most-used emoji
+B: Reveal your last search query
+---
+A: Slow dance with a stranger
+B: Karaoke a love song solo
+---
+A: Have everyone here rate your flirting
+B: Have everyone here rate your dance moves
+---
+A: Admit your worst pickup line
+B: Admit your most embarrassing crush
+---
+A: Get a spicy nickname for the night
+B: Give everyone else a spicy nickname
+---
+A: Have your crush read your diary
+B: Have your parents read your messages
+---
+A: Be set up by your best friend
+B: Be set up by your mum
+---
+A: Slow dance in front of everyone
+B: Sing a duet with a stranger
+---
+A: Have your first text to a crush read out
+B: Have your last selfie on a big screen
+---
+A: Reveal who you fancied at school
+B: Reveal who you fancy now
+---
+A: Compliment everyone here honestly
+B: Roast everyone here gently
+---
+A: A date in complete silence
+B: A date where you can't stop talking
+---
+A: Let your ex describe you in three words
+B: Let your best friend describe your type
+---
+A: Be told every secret about you
+B: Never learn a single one
+---
+A: Hold hands with the person on your left
+B: Compliment the person on your right
+---
+A: Wear matching outfits with your date
+B: Wear something your date picked
+---
+A: Every message you send is a poem
+B: Every call you make is a song
+
+=== en spooky
+Pack: Spooky
+
+A: Be chased by a ghost
+B: Be chased by a zombie
+---
+A: Live in a haunted house
+B: Live in a graveyard
+---
+A: Meet a vampire
+B: Meet a werewolf
+---
+A: Hear footsteps behind you
+B: Hear whispers in an empty room
+---
+A: Sleep in a haunted hotel
+B: Sleep in an abandoned asylum
+---
+A: Find a cursed doll
+B: Find a cursed mirror
+---
+A: Trick or treat in a storm
+B: Trick or treat in total silence
+---
+A: Be a witch
+B: Be a wizard
+---
+A: Get lost in a corn maze at midnight
+B: Get lost in the woods at midnight
+---
+A: Have a black cat cross your path
+B: Break a mirror
+---
+A: Watch a horror movie alone
+B: Tell ghost stories around a campfire
+---
+A: Wake up in a coffin
+B: Wake up in a fog-filled cemetery
+---
+A: A night in a lighthouse
+B: A night in a lift that works
+---
+A: Meet a friendly ghost
+B: Meet a shy monster
+---
+A: Hear your name whispered once
+B: See a shadow move twice
+---
+A: Find a door that wasn't there
+B: Find a key that fits nothing
+---
+A: Be followed by a crow
+B: Be followed by a stray cat
+---
+A: Sleep with the wardrobe open
+B: Sleep with one foot out of the covers
+---
+A: A diary that writes itself
+B: A mirror that shows yesterday
+---
+A: Get lost in a hedge maze
+B: Get locked in a museum after closing
+---
+A: A photo with someone extra in it
+B: A recording with a voice you can't place
+---
+A: Camp next to a graveyard
+B: Camp next to a swamp
+---
+A: Be the first into a dark room
+B: Be the last to leave it
+---
+A: A witch who owes you a favour
+B: A ghost who wants one
+
+=== en superpowers
+Pack: Superpowers
+
+A: Be able to fly
+B: Teleport anywhere
+---
+A: Be invisible
+B: Read minds
+---
+A: Have super strength
+B: Have super speed
+---
+A: Talk to animals
+B: Speak every language
+---
+A: Freeze time
+B: Rewind time
+---
+A: Breathe underwater
+B: Survive in space
+---
+A: Heal any wound instantly
+B: Never feel pain
+---
+A: Control fire
+B: Control water
+---
+A: Walk through walls
+B: Turn invisible
+---
+A: See one day into the future
+B: Change one thing in your past
+---
+A: Shrink to ant size
+B: Grow to giant size
+---
+A: Have telekinesis
+B: Have telepathy
+---
+A: Control the weather
+B: Control plants
+---
+A: Fly, but slowly
+B: Run extremely fast for ten seconds
+---
+A: Talk to machines
+B: Talk to animals in full sentences
+---
+A: Copy any skill for an hour
+B: Keep one new skill forever
+---
+A: Turn invisible whenever you sneeze
+B: Turn invisible only in the dark
+---
+A: Have super hearing
+B: Have super sight
+---
+A: Breathe fire
+B: Breathe ice
+---
+A: Never get tired
+B: Never get hurt
+---
+A: Teleport only to places you've been
+B: Teleport only to places you haven't
+---
+A: Read one thought per person
+B: Hear every thought for one minute
+---
+A: Stop time for everyone but you
+B: Slow time for everyone including you
+---
+A: Heal others but not yourself
+B: Heal yourself but nobody else
+
+=== en timespace
+Pack: Time & Space
+
+A: Visit the distant past
+B: Visit the far future
+---
+A: Live on Mars
+B: Live under the ocean
+---
+A: Meet your ancestors
+B: Meet your descendants
+---
+A: Explore deep space
+B: Explore the deep sea
+---
+A: Ride a real dinosaur
+B: Ride a rocket to the moon
+---
+A: Have a robot butler
+B: Have a flying car
+---
+A: Teleport to any year
+B: Teleport to any place
+---
+A: Restart your life from age 10
+B: Fast-forward 10 years
+---
+A: Be famous 300 years ago
+B: Be forgotten but comfortable today
+---
+A: Own a working time machine
+B: Own a working teleporter
+---
+A: Discover a new planet
+B: Discover a new species
+---
+A: Know how the world ends
+B: Know how the world began
+---
+A: Watch the dinosaurs from safety
+B: Watch the first city being built
+---
+A: Send one message to your past self
+B: Get one from your future self
+---
+A: See Earth from orbit once
+B: Walk on another planet once
+---
+A: Know the day you'll be happiest
+B: Know the day you'll be proudest
+---
+A: A week in the year 1500
+B: A week in the year 2500
+---
+A: Live one day twice
+B: Skip one day forever
+---
+A: Meet your great-grandparents
+B: Meet your great-grandchildren
+---
+A: A map of every place
+B: A calendar of every event
+---
+A: Freeze one perfect afternoon
+B: Replay one perfect evening
+---
+A: Travel anywhere with no luggage
+B: Travel with everything, but only by train
+---
+A: Learn how the pyramids were built
+B: Learn what's at the bottom of the ocean
+---
+A: Speak to someone 1000 years ago
+B: Speak to someone 1000 years from now
+
+=== de absurd
+Pack: Völlig absurd
+
+A: Spaghetti als Haare haben
+B: Würstchen als Finger haben
+---
+A: Ahornsirup schwitzen
+B: Glitzer weinen
+---
+A: Konfetti niesen
+B: Seifenblasen rülpsen
+---
+A: Bellen, wenn du lachst
+B: Miauen, wenn du weinst
+---
+A: Eine permanente Clownsnase haben
+B: Dauerhaft Regenbogenzähne haben
+---
+A: Nur noch rückwärts gehen
+B: Nur noch in Reimen sprechen
+---
+A: Füße da haben, wo die Hände sind
+B: Hände da haben, wo die Füße sind
+---
+A: Immer leicht nach Käse riechen
+B: Immer ein bisschen nass aussehen
+---
+A: Jeden Ton schmecken, den du hörst
+B: Jede Farbe hören, die du siehst
+---
+A: Einen Schwanz bekommen, den du nicht steuern kannst
+B: Ohren bekommen, die wackeln, wenn du glücklich bist
+---
+A: Glitzer furzen
+B: Beim Schluckauf winzige Blasen machen
+---
+A: Von dramatischer Musik begleitet werden
+B: Einen Erzähler haben, der jede Bewegung kommentiert
+---
+A: Schluckauf, der wie eine Autoalarmanlage klingt
+B: Niesen, das wie eine Trompete klingt
+---
+A: Eine Glitzerspur hinterlassen
+B: Eine Seifenblasenspur hinterlassen
+---
+A: Haare, die die Farbe mit deiner Stimmung wechseln
+B: Haut, die leuchtet, wenn du lügst
+---
+A: Für immer nur flüstern können
+B: Für immer nur schreien können
+---
+A: Einen zusätzlichen Daumen bekommen
+B: Ein zusätzliches Ohr bekommen
+---
+A: Eine kleine Wolke, die auf dich regnet, wenn du traurig bist
+B: Eine kleine Sonne, die dir folgt
+---
+A: Alles, was du anfasst, riecht nach Lavendel
+B: Alles, was du isst, schmeckt nach Erdbeere
+---
+A: Schuhe, die für immer quietschen
+B: Ein Reißverschluss, der nie oben bleibt
+---
+A: Mit Brot sprechen können
+B: Mit Möbeln sprechen können
+---
+A: Ein Hut, den du nie abnehmen kannst
+B: Eine Sonnenbrille, die du nie abnehmen kannst
+---
+A: Immer nur ein Auge zwinkern können
+B: Überhaupt nicht mehr blinken
+---
+A: Eine Stimme, die drinnen hallt
+B: Schritte, die klingeln
+
+=== de everyday
+Pack: Alltag
+
+A: Fliegen können
+B: Unsichtbar sein
+---
+A: Gedanken lesen
+B: In die Zukunft sehen
+---
+A: Immer 10 Min zu früh sein
+B: Immer 5 Min zu spät sein
+---
+A: Nie wieder ins Internet
+B: Nie wieder Filme schauen
+---
+A: Gegen eine pferdegroße Ente kämpfen
+B: Gegen 100 entengroße Pferde
+---
+A: Ohne Musik leben
+B: Ohne Fernsehen leben
+---
+A: Unbegrenzt Pizza
+B: Unbegrenzt Tacos
+---
+A: Dich überallhin teleportieren
+B: Durch die Zeit reisen
+---
+A: Mit Tieren sprechen
+B: Jede Sprache sprechen
+---
+A: Dir ist immer zu heiß
+B: Dir ist immer zu kalt
+---
+A: Eine Woche ohne Handy
+B: Einen Monat ohne Kaffee
+---
+A: Den Weltraum erkunden
+B: Die Tiefsee erkunden
+---
+A: Nie wieder Kopfhörer benutzen
+B: Nach Sonnenuntergang keinen Bildschirm mehr
+---
+A: Immer die Wahrheit sagen müssen
+B: Einen Tag pro Woche schweigen müssen
+---
+A: Einmal im Jahr ein Freiticket überallhin
+B: Für immer gratis Essen in deiner Stadt
+---
+A: Überall sofort einschlafen können
+B: Nie mehr als vier Stunden Schlaf brauchen
+---
+A: Einen Monat ohne Handy
+B: Deinen Lieblingspullover für immer verlieren
+---
+A: Immer ein bisschen zu früh sein
+B: Nie wissen, wie viel Uhr es ist
+---
+A: Einen eigenen Koch haben
+B: Einen eigenen Fahrer haben
+---
+A: Dort leben, wo immer Frühling ist
+B: Dort leben, wo immer Herbst ist
+---
+A: Nie wieder in einer Schlange stehen
+B: Nie wieder im Stau stehen
+---
+A: Ein Instrument perfekt beherrschen
+B: Eine weitere Sprache perfekt sprechen
+---
+A: Eine Dusche, die immer perfekt ist
+B: Ein Bett, das immer die richtige Temperatur hat
+---
+A: Nie wieder deine Schlüssel verlieren
+B: Nie wieder eine Socke verlieren
+
+=== de spicy
+Pack: Pikant
+
+A: Küssen und petzen
+B: Nie küssen und immer petzen
+---
+A: Mit jemandem daten, der viel lustiger ist als du
+B: Mit jemandem daten, der viel heißer ist als du
+---
+A: Deinem Schwarm eine peinliche Nachricht schicken
+B: Deinen Schwarm deinen Suchverlauf sehen lassen
+---
+A: Beim Singen unter der Dusche erwischt werden
+B: Beim Selbstgespräch erwischt werden
+---
+A: Von deinem Ex auf einer Skala bis 10 bewertet werden
+B: Deine Mutter deine Nachrichten lesen lassen
+---
+A: Heute Abend ein Blind Date haben
+B: Deinen besten Freund zu einem verkuppeln
+---
+A: Den ganzen Abend dein Outfit auf links tragen
+B: Den ganzen Abend zwei verschiedene Schuhe tragen
+---
+A: Dein meistgenutztes Emoji verraten
+B: Deine letzte Suchanfrage verraten
+---
+A: Mit einem Fremden eng tanzen
+B: Ein Liebeslied allein bei Karaoke singen
+---
+A: Alle hier dein Flirten bewerten lassen
+B: Alle hier deine Tanzmoves bewerten lassen
+---
+A: Deinen schlimmsten Anmachspruch zugeben
+B: Deinen peinlichsten Schwarm zugeben
+---
+A: Einen pikanten Spitznamen für heute Abend bekommen
+B: Allen anderen einen pikanten Spitznamen geben
+---
+A: Dein Schwarm liest dein Tagebuch
+B: Deine Eltern lesen deine Nachrichten
+---
+A: Deine beste Freundin verkuppelt dich
+B: Deine Mutter verkuppelt dich
+---
+A: Vor allen einen langsamen Tanz
+B: Ein Duett mit einer fremden Person singen
+---
+A: Deine erste Nachricht an einen Schwarm wird vorgelesen
+B: Dein letztes Selfie kommt auf eine große Leinwand
+---
+A: Verraten, in wen du in der Schule verliebt warst
+B: Verraten, in wen du jetzt verliebt bist
+---
+A: Allen hier ein ehrliches Kompliment machen
+B: Alle hier freundlich aufziehen
+---
+A: Ein Date in völliger Stille
+B: Ein Date, bei dem du nicht aufhören kannst zu reden
+---
+A: Dein Ex beschreibt dich in drei Worten
+B: Deine beste Freundin beschreibt deinen Typ
+---
+A: Jedes Geheimnis über dich erfahren
+B: Nie ein einziges erfahren
+---
+A: Der Person links von dir die Hand halten
+B: Der Person rechts von dir ein Kompliment machen
+---
+A: Partnerlook mit deinem Date
+B: Etwas tragen, das dein Date ausgesucht hat
+---
+A: Jede Nachricht, die du schreibst, ist ein Gedicht
+B: Jeder Anruf, den du machst, ist ein Lied
+
+=== de spooky
+Pack: Gruselig
+
+A: Von einem Geist gejagt werden
+B: Von einem Zombie gejagt werden
+---
+A: In einem Spukhaus wohnen
+B: Auf einem Friedhof wohnen
+---
+A: Einem Vampir begegnen
+B: Einem Werwolf begegnen
+---
+A: Schritte hinter dir hören
+B: Flüstern in einem leeren Raum hören
+---
+A: In einem Spukhotel schlafen
+B: In einer verlassenen Nervenheilanstalt schlafen
+---
+A: Eine verfluchte Puppe finden
+B: Einen verfluchten Spiegel finden
+---
+A: Süßes oder Saures im Sturm sammeln
+B: Süßes oder Saures in völliger Stille sammeln
+---
+A: Eine Hexe sein
+B: Ein Zauberer sein
+---
+A: Dich um Mitternacht im Maislabyrinth verirren
+B: Dich um Mitternacht im Wald verirren
+---
+A: Eine schwarze Katze kreuzt deinen Weg
+B: Einen Spiegel zerbrechen
+---
+A: Allein einen Horrorfilm schauen
+B: Am Lagerfeuer Gruselgeschichten erzählen
+---
+A: In einem Sarg aufwachen
+B: Auf einem nebligen Friedhof aufwachen
+---
+A: Eine Nacht in einem Leuchtturm
+B: Eine Nacht in einem funktionierenden Aufzug
+---
+A: Ein freundliches Gespenst treffen
+B: Ein schüchternes Monster treffen
+---
+A: Deinen Namen einmal geflüstert hören
+B: Einen Schatten zweimal sehen
+---
+A: Eine Tür finden, die vorher nicht da war
+B: Einen Schlüssel finden, der nirgends passt
+---
+A: Von einer Krähe verfolgt werden
+B: Von einer Straßenkatze verfolgt werden
+---
+A: Mit offenem Schrank schlafen
+B: Mit einem Fuß außerhalb der Decke schlafen
+---
+A: Ein Tagebuch, das sich selbst schreibt
+B: Ein Spiegel, der gestern zeigt
+---
+A: Sich in einem Heckenlabyrinth verlaufen
+B: Nach Schließung im Museum eingeschlossen sein
+---
+A: Ein Foto, auf dem eine Person zu viel ist
+B: Eine Aufnahme mit einer Stimme, die du nicht zuordnen kannst
+---
+A: Neben einem Friedhof zelten
+B: Neben einem Sumpf zelten
+---
+A: Als Erste in einen dunklen Raum gehen
+B: Als Letzte ihn verlassen
+---
+A: Eine Hexe, die dir einen Gefallen schuldet
+B: Ein Gespenst, das einen will
+
+=== de superpowers
+Pack: Superkräfte
+
+A: Fliegen können
+B: Dich überallhin teleportieren
+---
+A: Unsichtbar sein
+B: Gedanken lesen
+---
+A: Übermenschliche Stärke haben
+B: Übermenschliche Schnelligkeit haben
+---
+A: Mit Tieren sprechen
+B: Jede Sprache sprechen
+---
+A: Die Zeit anhalten
+B: Die Zeit zurückspulen
+---
+A: Unter Wasser atmen
+B: Im Weltall überleben
+---
+A: Jede Wunde sofort heilen
+B: Nie Schmerz spüren
+---
+A: Feuer beherrschen
+B: Wasser beherrschen
+---
+A: Durch Wände gehen
+B: Unsichtbar werden
+---
+A: Einen Tag in die Zukunft sehen
+B: Eine Sache in deiner Vergangenheit ändern
+---
+A: Auf Ameisengröße schrumpfen
+B: Auf Riesengröße wachsen
+---
+A: Telekinese haben
+B: Telepathie haben
+---
+A: Das Wetter steuern
+B: Pflanzen steuern
+---
+A: Fliegen, aber langsam
+B: Zehn Sekunden extrem schnell rennen
+---
+A: Mit Maschinen sprechen
+B: Mit Tieren in ganzen Sätzen sprechen
+---
+A: Jede Fähigkeit für eine Stunde kopieren
+B: Eine neue Fähigkeit für immer behalten
+---
+A: Unsichtbar werden, wenn du niest
+B: Nur im Dunkeln unsichtbar werden
+---
+A: Supergehör haben
+B: Superblick haben
+---
+A: Feuer spucken
+B: Eis atmen
+---
+A: Nie müde werden
+B: Nie verletzt werden
+---
+A: Nur dorthin teleportieren, wo du schon warst
+B: Nur dorthin, wo du noch nie warst
+---
+A: Einen Gedanken pro Person lesen
+B: Eine Minute lang alle Gedanken hören
+---
+A: Die Zeit für alle außer dir anhalten
+B: Die Zeit für alle verlangsamen, dich eingeschlossen
+---
+A: Andere heilen, aber nicht dich
+B: Dich heilen, aber niemanden sonst
+
+=== de timespace
+Pack: Zeit & Raum
+
+A: Die ferne Vergangenheit besuchen
+B: Die ferne Zukunft besuchen
+---
+A: Auf dem Mars leben
+B: Unter dem Meer leben
+---
+A: Deine Vorfahren treffen
+B: Deine Nachkommen treffen
+---
+A: Den tiefen Weltraum erkunden
+B: Die Tiefsee erkunden
+---
+A: Auf einem echten Dinosaurier reiten
+B: Mit einer Rakete zum Mond fliegen
+---
+A: Einen Roboter-Butler haben
+B: Ein fliegendes Auto haben
+---
+A: Dich in jedes Jahr teleportieren
+B: Dich an jeden Ort teleportieren
+---
+A: Dein Leben ab 10 neu starten
+B: 10 Jahre vorspulen
+---
+A: Vor 300 Jahren berühmt sein
+B: Heute unbekannt, aber sorgenfrei sein
+---
+A: Eine funktionierende Zeitmaschine besitzen
+B: Einen funktionierenden Teleporter besitzen
+---
+A: Einen neuen Planeten entdecken
+B: Eine neue Spezies entdecken
+---
+A: Wissen, wie die Welt endet
+B: Wissen, wie die Welt begann
+---
+A: Die Dinosaurier aus Sicherheit beobachten
+B: Zusehen, wie die erste Stadt gebaut wird
+---
+A: Eine Nachricht an dein früheres Ich schicken
+B: Eine von deinem zukünftigen Ich bekommen
+---
+A: Einmal die Erde aus dem Orbit sehen
+B: Einmal einen anderen Planeten betreten
+---
+A: Wissen, an welchem Tag du am glücklichsten bist
+B: Wissen, an welchem Tag du am stolzesten bist
+---
+A: Eine Woche im Jahr 1500
+B: Eine Woche im Jahr 2500
+---
+A: Einen Tag zweimal erleben
+B: Einen Tag für immer überspringen
+---
+A: Deine Urgroßeltern treffen
+B: Deine Urenkel treffen
+---
+A: Eine Karte von jedem Ort
+B: Ein Kalender mit jedem Ereignis
+---
+A: Einen perfekten Nachmittag einfrieren
+B: Einen perfekten Abend wiederholen
+---
+A: Überallhin reisen, aber ohne Gepäck
+B: Mit allem reisen, aber nur mit dem Zug
+---
+A: Erfahren, wie die Pyramiden gebaut wurden
+B: Erfahren, was am Grund des Ozeans liegt
+---
+A: Mit jemandem vor 1000 Jahren sprechen
+B: Mit jemandem in 1000 Jahren sprechen

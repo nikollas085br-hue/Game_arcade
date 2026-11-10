@@ -1,0 +1,661 @@
+=== pt-br cotidiano
+Pack: Dia a Dia
+Loc: Praia
+R: Salva-vidas
+R: Surfista
+R: Vendedor de sorvete
+R: Turista queimado de sol
+R: Construtor de castelo de areia
+---
+Loc: Hospital
+R: Médico
+R: Enfermeira
+R: Paciente
+R: Recepcionista
+R: Acompanhante
+---
+Loc: Escola
+R: Professor
+R: Aluno
+R: Diretor
+R: Merendeira
+R: Zelador
+---
+Loc: Restaurante
+R: Garçom
+R: Cozinheiro
+R: Cliente
+R: Gerente
+R: Crítico gastronômico
+---
+Loc: Cinema
+R: Pipoqueiro
+R: Lanterninha
+R: Espectador
+R: Projecionista
+R: Casal de namorados
+---
+Loc: Aeroporto
+R: Piloto
+R: Comissária
+R: Passageiro atrasado
+R: Fiscal da alfândega
+R: Carregador de malas
+---
+Loc: Supermercado
+R: Caixa
+R: Repositor
+R: Cliente com lista
+R: Segurança
+R: Açougueiro
+---
+Loc: Estádio de futebol
+R: Juiz
+R: Goleiro
+R: Torcedor
+R: Vendedor de cerveja
+R: Narrador
+
+=== en everyday
+Pack: ☕ Everyday
+Loc: Beach
+R: Lifeguard
+R: Surfer
+R: Ice cream seller
+R: Sunburnt tourist
+R: Sandcastle builder
+---
+Loc: Hospital
+R: Surgeon
+R: Nurse
+R: Patient
+R: Paramedic
+R: Receptionist
+---
+Loc: School
+R: Teacher
+R: Head teacher
+R: Pupil
+R: Janitor
+R: Bus driver
+---
+Loc: Supermarket
+R: Cashier
+R: Shelf stacker
+R: Security guard
+R: Shopper with a full trolley
+R: Baker
+---
+Loc: Cinema
+R: Ticket seller
+R: Projectionist
+R: Usher
+R: Popcorn seller
+R: Bored teenager
+---
+Loc: Restaurant
+R: Chef
+R: Waiter
+R: Dishwasher
+R: Food critic
+R: Birthday guest
+---
+Loc: Gym
+R: Personal trainer
+R: Receptionist
+R: Weightlifter
+R: Yoga instructor
+R: Member who never comes back
+---
+Loc: Zoo
+R: Zookeeper
+R: Vet
+R: Ticket seller
+R: Toddler on shoulders
+R: Souvenir seller
+---
+Loc: Library
+R: Librarian
+R: Student cramming
+R: Storytime reader
+R: Late book returner
+R: Shelver
+---
+Loc: Swimming pool
+R: Lifeguard
+R: Swimming teacher
+R: Toddler with armbands
+R: Diver
+R: Cleaner
+---
+Loc: Hair salon
+R: Hairdresser
+R: Apprentice
+R: Nervous first timer
+R: Receptionist
+R: Gossiping regular
+---
+Loc: Petrol station
+R: Cashier
+R: Lorry driver
+R: Car wash attendant
+R: Snack buyer
+R: Mechanic
+---
+Loc: Amusement park
+R: Ride operator
+R: Mascot
+R: Queueing family
+R: Candy floss seller
+R: Safety inspector
+---
+Loc: Post office
+R: Clerk
+R: Postman
+R: Customer with a huge parcel
+R: Security guard
+R: Stamp collector
+
+=== en travel
+Pack: ✈️ On the Move
+Loc: Airport
+R: Pilot
+R: Flight attendant
+R: Baggage handler
+R: Passenger running late
+R: Security officer
+R: Duty free cashier
+---
+Loc: Cruise ship
+R: Captain
+R: Waiter
+R: Entertainer
+R: Seasick passenger
+R: Engineer
+---
+Loc: Train station
+R: Conductor
+R: Ticket inspector
+R: Busker
+R: Commuter
+R: Announcer
+---
+Loc: Ski resort
+R: Ski instructor
+R: Lift operator
+R: Beginner on the nursery slope
+R: Rescue patrol
+R: Hot chocolate seller
+---
+Loc: Desert caravan
+R: Camel driver
+R: Guide
+R: Cook
+R: Lost tourist
+R: Merchant
+---
+Loc: Safari jeep
+R: Ranger
+R: Photographer
+R: Driver
+R: Birdwatcher
+R: Nervous tourist
+---
+Loc: Hotel
+R: Receptionist
+R: Housekeeper
+R: Concierge
+R: Guest in a bathrobe
+R: Bellhop
+---
+Loc: Campsite
+R: Scout leader
+R: Camper
+R: Marshmallow toaster
+R: Park ranger
+R: Person who forgot the tent poles
+---
+Loc: Lighthouse
+R: Keeper
+R: Radio operator
+R: Visiting inspector
+R: Seabird watcher
+R: Shipwrecked sailor
+---
+Loc: Submarine
+R: Captain
+R: Sonar operator
+R: Cook
+R: Engineer
+R: Nervous new recruit
+---
+Loc: Space station
+R: Commander
+R: Scientist
+R: Engineer
+R: Space tourist
+R: Voice from mission control
+---
+Loc: Motorway services
+R: Cashier
+R: Lorry driver
+R: Family on a long drive
+R: Cleaner
+R: Coffee machine engineer
+---
+Loc: Mountain hut
+R: Hut warden
+R: Hiker
+R: Mountain guide
+R: Rescue dog handler
+R: Cook
+---
+Loc: Ferry
+R: Captain
+R: Deckhand
+R: Ticket seller
+R: Passenger stuck below deck
+R: Cafe worker
+
+=== en backstage
+Pack: 🎭 Backstage
+Loc: Film set
+R: Director
+R: Stunt double
+R: Extra
+R: Makeup artist
+R: Boom operator
+---
+Loc: Rock concert
+R: Lead singer
+R: Roadie
+R: Security guard
+R: Fan in the front row
+R: Sound engineer
+---
+Loc: Castle
+R: King
+R: Knight
+R: Jester
+R: Cook
+R: Stable hand
+R: Gate guard
+---
+Loc: Pirate ship
+R: Captain
+R: Cook
+R: Lookout
+R: Parrot keeper
+R: Deckhand
+---
+Loc: Circus
+R: Ringmaster
+R: Clown
+R: Acrobat
+R: Animal trainer
+R: Ticket seller
+---
+Loc: Museum
+R: Curator
+R: Tour guide
+R: Security guard
+R: School group leader
+R: Restorer
+---
+Loc: Wedding
+R: Bride
+R: Best man
+R: Photographer
+R: Caterer
+R: Awkward cousin
+---
+Loc: Bank
+R: Manager
+R: Teller
+R: Security guard
+R: Customer
+R: Cleaner
+---
+Loc: Police station
+R: Sergeant
+R: Detective
+R: Desk clerk
+R: Suspect
+R: Sniffer dog handler
+---
+Loc: Theatre
+R: Lead actor
+R: Prompter
+R: Usher
+R: Costume designer
+R: Critic
+---
+Loc: Rocket launch
+R: Astronaut
+R: Flight director
+R: Engineer
+R: Journalist
+R: Crowd wrangler
+---
+Loc: Newspaper office
+R: Editor
+R: Reporter
+R: Photographer
+R: Intern
+R: Printer
+---
+Loc: Farm
+R: Farmer
+R: Tractor driver
+R: Vet
+R: Farmhand
+R: Market seller
+---
+Loc: Haunted house ride
+R: Actor in a costume
+R: Ticket seller
+R: Terrified visitor
+R: Makeup artist
+R: Technician
+
+=== de everyday
+Pack: ☕ Alltag
+Loc: Strand
+R: Rettungsschwimmer
+R: Surfer
+R: Eisverkäufer
+R: Sonnenbrand-Tourist
+R: Sandburgenbauer
+---
+Loc: Krankenhaus
+R: Chirurg
+R: Krankenpfleger
+R: Patient
+R: Sanitäter
+R: Empfangsdame
+---
+Loc: Schule
+R: Lehrer
+R: Schulleiter
+R: Schüler
+R: Hausmeister
+R: Busfahrer
+---
+Loc: Supermarkt
+R: Kassierer
+R: Regalauffüller
+R: Ladendetektiv
+R: Kunde mit vollem Wagen
+R: Bäcker
+---
+Loc: Kino
+R: Kartenverkäufer
+R: Filmvorführer
+R: Platzanweiser
+R: Popcornverkäufer
+R: Gelangweilter Teenager
+---
+Loc: Restaurant
+R: Koch
+R: Kellner
+R: Tellerwäscher
+R: Restaurantkritiker
+R: Geburtstagsgast
+---
+Loc: Fitnessstudio
+R: Personal Trainer
+R: Empfangskraft
+R: Gewichtheber
+R: Yogalehrerin
+R: Mitglied, das nie wiederkommt
+---
+Loc: Zoo
+R: Tierpfleger
+R: Tierarzt
+R: Kartenverkäufer
+R: Kleinkind auf Schultern
+R: Souvenirverkäufer
+---
+Loc: Bibliothek
+R: Bibliothekarin
+R: Büffelnder Student
+R: Vorleserin
+R: Mahngebühren-Zahler
+R: Regaleinräumer
+---
+Loc: Schwimmbad
+R: Bademeister
+R: Schwimmlehrer
+R: Kleinkind mit Schwimmflügeln
+R: Turmspringer
+R: Reinigungskraft
+---
+Loc: Friseursalon
+R: Friseurin
+R: Auszubildende
+R: Nervöser Erstkunde
+R: Empfangskraft
+R: Tratschende Stammkundin
+---
+Loc: Tankstelle
+R: Kassierer
+R: Lastwagenfahrer
+R: Waschstraßen-Helfer
+R: Snackkäufer
+R: Mechaniker
+---
+Loc: Freizeitpark
+R: Fahrgeschäft-Betreiber
+R: Maskottchen
+R: Wartende Familie
+R: Zuckerwatteverkäufer
+R: Sicherheitsprüfer
+---
+Loc: Postamt
+R: Schalterbeamter
+R: Postbote
+R: Kunde mit riesigem Paket
+R: Wachmann
+R: Briefmarkensammler
+
+=== de travel
+Pack: ✈️ Unterwegs
+Loc: Flughafen
+R: Pilot
+R: Flugbegleiterin
+R: Gepäckarbeiter
+R: Verspäteter Passagier
+R: Sicherheitsbeamter
+R: Duty-Free-Kassiererin
+---
+Loc: Kreuzfahrtschiff
+R: Kapitän
+R: Kellner
+R: Unterhalter
+R: Seekranker Passagier
+R: Maschinist
+---
+Loc: Bahnhof
+R: Zugbegleiter
+R: Fahrkartenkontrolleur
+R: Straßenmusiker
+R: Pendler
+R: Ansagerin
+---
+Loc: Skigebiet
+R: Skilehrer
+R: Liftwärter
+R: Anfänger am Übungshang
+R: Bergwacht
+R: Glühweinverkäufer
+---
+Loc: Wüstenkarawane
+R: Kameltreiber
+R: Führer
+R: Koch
+R: Verirrter Tourist
+R: Händler
+---
+Loc: Safari-Jeep
+R: Ranger
+R: Fotograf
+R: Fahrer
+R: Vogelbeobachter
+R: Nervöser Tourist
+---
+Loc: Hotel
+R: Rezeptionist
+R: Zimmermädchen
+R: Concierge
+R: Gast im Bademantel
+R: Page
+---
+Loc: Campingplatz
+R: Pfadfinderleiter
+R: Camper
+R: Marshmallow-Röster
+R: Parkwächter
+R: Wer die Zeltstangen vergessen hat
+---
+Loc: Leuchtturm
+R: Leuchtturmwärter
+R: Funker
+R: Inspektor auf Besuch
+R: Seevogelforscher
+R: Schiffbrüchiger
+---
+Loc: U-Boot
+R: Kapitän
+R: Sonaroperator
+R: Koch
+R: Maschinist
+R: Nervöser Neuling
+---
+Loc: Raumstation
+R: Kommandant
+R: Wissenschaftlerin
+R: Techniker
+R: Weltraumtourist
+R: Stimme aus der Bodenkontrolle
+---
+Loc: Autobahnraststätte
+R: Kassiererin
+R: Lastwagenfahrer
+R: Familie auf langer Fahrt
+R: Reinigungskraft
+R: Kaffeemaschinen-Techniker
+---
+Loc: Berghütte
+R: Hüttenwirt
+R: Wanderer
+R: Bergführer
+R: Lawinenhundeführer
+R: Koch
+---
+Loc: Fähre
+R: Kapitän
+R: Matrose
+R: Kartenverkäufer
+R: Passagier im Autodeck
+R: Bordbistro-Kraft
+
+=== de backstage
+Pack: 🎭 Hinter den Kulissen
+Loc: Filmset
+R: Regisseur
+R: Stuntdouble
+R: Statist
+R: Maskenbildnerin
+R: Tonangler
+---
+Loc: Rockkonzert
+R: Sänger
+R: Roadie
+R: Ordner
+R: Fan in der ersten Reihe
+R: Tontechniker
+---
+Loc: Burg
+R: König
+R: Ritter
+R: Hofnarr
+R: Koch
+R: Stallbursche
+R: Torwache
+---
+Loc: Piratenschiff
+R: Kapitän
+R: Schiffskoch
+R: Ausguck
+R: Papageienwärter
+R: Matrose
+---
+Loc: Zirkus
+R: Zirkusdirektor
+R: Clown
+R: Akrobatin
+R: Tiertrainer
+R: Kartenverkäufer
+---
+Loc: Museum
+R: Kurator
+R: Museumsführer
+R: Wachmann
+R: Klassenlehrerin
+R: Restauratorin
+---
+Loc: Hochzeit
+R: Braut
+R: Trauzeuge
+R: Fotograf
+R: Caterer
+R: Peinlicher Cousin
+---
+Loc: Bank
+R: Filialleiter
+R: Schalterkraft
+R: Wachmann
+R: Kunde
+R: Reinigungskraft
+---
+Loc: Polizeiwache
+R: Wachhabender
+R: Kommissarin
+R: Schalterbeamter
+R: Verdächtiger
+R: Spürhundeführer
+---
+Loc: Theater
+R: Hauptdarsteller
+R: Souffleuse
+R: Platzanweiser
+R: Kostümbildnerin
+R: Kritiker
+---
+Loc: Raketenstart
+R: Astronautin
+R: Flugdirektor
+R: Ingenieur
+R: Journalist
+R: Besucherbetreuer
+---
+Loc: Zeitungsredaktion
+R: Chefredakteur
+R: Reporterin
+R: Fotograf
+R: Praktikant
+R: Drucker
+---
+Loc: Bauernhof
+R: Bauer
+R: Traktorfahrer
+R: Tierarzt
+R: Landarbeiter
+R: Marktverkäuferin
+---
+Loc: Geisterbahn
+R: Schauspieler im Kostüm
+R: Kartenverkäufer
+R: Verängstigter Besucher
+R: Maskenbildner
+R: Techniker

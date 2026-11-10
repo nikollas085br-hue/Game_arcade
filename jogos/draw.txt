@@ -1,1 +1,900 @@
+=== pt-br coisas
+Pack: Coisas
 
+Word: elefante
+---
+Word: pinguim
+---
+Word: girafa
+---
+Word: guitarra
+---
+Word: foguete
+---
+Word: castelo
+---
+Word: bicicleta
+---
+Word: guarda-chuva
+---
+Word: casa
+---
+Word: arvore
+---
+Word: sol
+---
+Word: barco
+---
+Word: aviao
+---
+Word: robo
+---
+Word: pizza
+---
+Word: oculos
+---
+Word: relogio
+---
+Word: telefone
+---
+Word: balao
+---
+Word: sorvete
+
+=== pt-br animais
+Pack: Animais
+
+Word: cachorro
+---
+Word: gato
+---
+Word: peixe
+---
+Word: passaro
+---
+Word: cobra
+---
+Word: tartaruga
+---
+Word: coelho
+---
+Word: macaco
+---
+Word: aranha
+---
+Word: borboleta
+---
+Word: cavalo
+---
+Word: vaca
+
+=== pt-br comidas
+Pack: Comidas
+
+Word: hamburguer
+---
+Word: pizza
+---
+Word: banana
+---
+Word: bolo
+---
+Word: sorvete
+---
+Word: melancia
+---
+Word: ovo frito
+---
+Word: cenoura
+---
+Word: pao
+---
+Word: queijo
+---
+Word: pipoca
+---
+Word: maca
+
+=== en animals
+Pack: Critters
+
+Word: elephant
+---
+Word: penguin
+---
+Word: giraffe
+---
+Word: octopus
+---
+Word: snail
+---
+Word: spider
+---
+Word: turtle
+---
+Word: rabbit
+---
+Word: whale
+---
+Word: owl
+---
+Word: frog
+---
+Word: snake
+---
+Word: crab
+---
+Word: butterfly
+---
+Word: shark
+---
+Word: dolphin
+---
+Word: hedgehog
+---
+Word: kangaroo
+---
+Word: flamingo
+---
+Word: dinosaur
+---
+Word: bee
+---
+Word: camel
+---
+Word: chicken
+---
+Word: deer
+---
+Word: eagle
+---
+Word: fox
+---
+Word: hamster
+---
+Word: jellyfish
+---
+Word: ladybug
+---
+Word: lion
+---
+Word: panda
+---
+Word: seahorse
+
+=== en classic
+Pack: Classic
+
+Word: apple
+---
+Word: house
+---
+Word: car
+---
+Word: tree
+---
+Word: cat
+---
+Word: dog
+---
+Word: sun
+---
+Word: star
+---
+Word: boat
+---
+Word: fish
+---
+Word: clock
+---
+Word: flower
+---
+Word: book
+---
+Word: phone
+---
+Word: chair
+---
+Word: heart
+---
+Word: cloud
+---
+Word: key
+---
+Word: shoe
+---
+Word: smile
+---
+Word: pizza
+---
+Word: robot
+---
+Word: ghost
+---
+Word: snake
+---
+Word: crown
+---
+Word: guitar
+---
+Word: rocket
+---
+Word: cake
+---
+Word: moon
+---
+Word: ladder
+---
+Word: umbrella
+---
+Word: bridge
+
+=== en fantasy
+Pack: Once Upon a Time
+
+Word: dragon
+---
+Word: castle
+---
+Word: wizard
+---
+Word: unicorn
+---
+Word: mermaid
+---
+Word: crown
+---
+Word: sword
+---
+Word: ghost
+---
+Word: robot
+---
+Word: alien
+---
+Word: rocket
+---
+Word: pirate
+---
+Word: knight
+---
+Word: witch
+---
+Word: fairy
+---
+Word: treasure
+---
+Word: potion
+---
+Word: spaceship
+---
+Word: monster
+---
+Word: wand
+---
+Word: goblin
+---
+Word: troll
+---
+Word: phoenix
+---
+Word: griffin
+---
+Word: vampire
+---
+Word: werewolf
+---
+Word: elf
+---
+Word: dwarf
+---
+Word: giant
+---
+Word: yeti
+---
+Word: genie
+---
+Word: crystal ball
+
+=== en food
+Pack: Yum
+
+Word: pizza
+---
+Word: banana
+---
+Word: cupcake
+---
+Word: hotdog
+---
+Word: donut
+---
+Word: egg
+---
+Word: cherry
+---
+Word: carrot
+---
+Word: mushroom
+---
+Word: pineapple
+---
+Word: taco
+---
+Word: burger
+---
+Word: cheese
+---
+Word: grapes
+---
+Word: lollipop
+---
+Word: watermelon
+---
+Word: cookie
+---
+Word: popcorn
+---
+Word: strawberry
+---
+Word: sundae
+---
+Word: pretzel
+---
+Word: waffle
+---
+Word: ice cream
+---
+Word: sushi
+---
+Word: spaghetti
+---
+Word: apple pie
+---
+Word: croissant
+---
+Word: pancake
+---
+Word: milkshake
+---
+Word: gingerbread
+---
+Word: corn
+---
+Word: peach
+
+=== en movies
+Pack: Movies
+
+Word: batman
+---
+Word: superman
+---
+Word: spiderman
+---
+Word: yoda
+---
+Word: godzilla
+---
+Word: shrek
+---
+Word: minion
+---
+Word: gollum
+---
+Word: chewbacca
+---
+Word: joker
+---
+Word: nemo
+---
+Word: simba
+---
+Word: elsa
+---
+Word: gandalf
+---
+Word: mario
+---
+Word: dracula
+---
+Word: kingkong
+---
+Word: pikachu
+---
+Word: hulk
+---
+Word: wolverine
+---
+Word: groot
+---
+Word: r2d2
+---
+Word: stormtrooper
+---
+Word: hermione
+---
+Word: harry potter
+---
+Word: sonic
+---
+Word: kermit
+---
+Word: olaf
+---
+Word: buzz lightyear
+---
+Word: woody
+---
+Word: mickey mouse
+---
+Word: wednesday
+
+=== en nature
+Pack: Great Outdoors
+
+Word: mountain
+---
+Word: river
+---
+Word: cloud
+---
+Word: rainbow
+---
+Word: flower
+---
+Word: cactus
+---
+Word: volcano
+---
+Word: island
+---
+Word: waterfall
+---
+Word: snowflake
+---
+Word: tornado
+---
+Word: forest
+---
+Word: moon
+---
+Word: star
+---
+Word: sun
+---
+Word: leaf
+---
+Word: campfire
+---
+Word: tent
+---
+Word: lightning
+---
+Word: beach
+---
+Word: sunflower
+---
+Word: mushroom
+---
+Word: acorn
+---
+Word: seashell
+---
+Word: iceberg
+---
+Word: palm tree
+---
+Word: thunderstorm
+---
+Word: fog
+---
+Word: sand dune
+---
+Word: geyser
+---
+Word: coral
+---
+Word: pinecone
+
+=== de animals
+Pack: Tiere
+
+Word: Elefant
+---
+Word: Pinguin
+---
+Word: Giraffe
+---
+Word: Krake
+---
+Word: Schnecke
+---
+Word: Spinne
+---
+Word: Schildkröte
+---
+Word: Hase
+---
+Word: Wal
+---
+Word: Eule
+---
+Word: Frosch
+---
+Word: Schlange
+---
+Word: Krabbe
+---
+Word: Schmetterling
+---
+Word: Hai
+---
+Word: Delfin
+---
+Word: Igel
+---
+Word: Känguru
+---
+Word: Flamingo
+---
+Word: Dinosaurier
+---
+Word: Biene
+---
+Word: Kamel
+---
+Word: Huhn
+---
+Word: Hirsch
+---
+Word: Adler
+---
+Word: Fuchs
+---
+Word: Hamster
+---
+Word: Qualle
+---
+Word: Marienkäfer
+---
+Word: Löwe
+---
+Word: Panda
+---
+Word: Seepferdchen
+
+=== de classic
+Pack: Alltag
+
+Word: Apfel
+---
+Word: Haus
+---
+Word: Auto
+---
+Word: Baum
+---
+Word: Katze
+---
+Word: Hund
+---
+Word: Sonne
+---
+Word: Stern
+---
+Word: Boot
+---
+Word: Fisch
+---
+Word: Uhr
+---
+Word: Blume
+---
+Word: Buch
+---
+Word: Handy
+---
+Word: Stuhl
+---
+Word: Herz
+---
+Word: Wolke
+---
+Word: Schlüssel
+---
+Word: Schuh
+---
+Word: Lächeln
+---
+Word: Pizza
+---
+Word: Roboter
+---
+Word: Gespenst
+---
+Word: Schlange
+---
+Word: Krone
+---
+Word: Gitarre
+---
+Word: Rakete
+---
+Word: Kuchen
+---
+Word: Mond
+---
+Word: Leiter
+---
+Word: Regenschirm
+---
+Word: Brücke
+
+=== de fantasy
+Pack: Fantasy
+
+Word: Drache
+---
+Word: Schloss
+---
+Word: Zauberer
+---
+Word: Einhorn
+---
+Word: Meerjungfrau
+---
+Word: Krone
+---
+Word: Schwert
+---
+Word: Gespenst
+---
+Word: Roboter
+---
+Word: Alien
+---
+Word: Rakete
+---
+Word: Pirat
+---
+Word: Ritter
+---
+Word: Hexe
+---
+Word: Fee
+---
+Word: Schatz
+---
+Word: Zaubertrank
+---
+Word: Raumschiff
+---
+Word: Monster
+---
+Word: Zauberstab
+---
+Word: Kobold
+---
+Word: Troll
+---
+Word: Phönix
+---
+Word: Greif
+---
+Word: Vampir
+---
+Word: Werwolf
+---
+Word: Elf
+---
+Word: Zwerg
+---
+Word: Riese
+---
+Word: Yeti
+---
+Word: Flaschengeist
+---
+Word: Kristallkugel
+
+=== de food
+Pack: Essen
+
+Word: Pizza
+---
+Word: Banane
+---
+Word: Cupcake
+---
+Word: Hotdog
+---
+Word: Donut
+---
+Word: Ei
+---
+Word: Kirsche
+---
+Word: Karotte
+---
+Word: Pilz
+---
+Word: Ananas
+---
+Word: Taco
+---
+Word: Burger
+---
+Word: Käse
+---
+Word: Trauben
+---
+Word: Lutscher
+---
+Word: Wassermelone
+---
+Word: Keks
+---
+Word: Popcorn
+---
+Word: Erdbeere
+---
+Word: Eisbecher
+---
+Word: Brezel
+---
+Word: Waffel
+---
+Word: Eis
+---
+Word: Sushi
+---
+Word: Spaghetti
+---
+Word: Apfelkuchen
+---
+Word: Croissant
+---
+Word: Pfannkuchen
+---
+Word: Milchshake
+---
+Word: Lebkuchen
+---
+Word: Mais
+---
+Word: Pfirsich
+
+=== de movies
+Pack: Filme
+
+Word: Batman
+---
+Word: Superman
+---
+Word: Spider-Man
+---
+Word: Yoda
+---
+Word: Godzilla
+---
+Word: Shrek
+---
+Word: Minion
+---
+Word: Gollum
+---
+Word: Chewbacca
+---
+Word: Joker
+---
+Word: Nemo
+---
+Word: Simba
+---
+Word: Elsa
+---
+Word: Gandalf
+---
+Word: Mario
+---
+Word: Dracula
+---
+Word: King Kong
+---
+Word: Pikachu
+---
+Word: Hulk
+---
+Word: Wolverine
+---
+Word: Groot
+---
+Word: R2-D2
+---
+Word: Stormtrooper
+---
+Word: Hermine
+---
+Word: Harry Potter
+---
+Word: Sonic
+---
+Word: Kermit
+---
+Word: Olaf
+---
+Word: Buzz Lightyear
+---
+Word: Woody
+---
+Word: Micky Maus
+---
+Word: Wednesday
+
+=== de nature
+Pack: Natur
+
+Word: Berg
+---
+Word: Fluss
+---
+Word: Wolke
+---
+Word: Regenbogen
+---
+Word: Blume
+---
+Word: Kaktus
+---
+Word: Vulkan
+---
+Word: Insel
+---
+Word: Wasserfall
+---
+Word: Schneeflocke
+---
+Word: Tornado
+---
+Word: Wald
+---
+Word: Mond
+---
+Word: Stern
+---
+Word: Sonne
+---
+Word: Blatt
+---
+Word: Lagerfeuer
+---
+Word: Zelt
+---
+Word: Blitz
+---
+Word: Strand
+---
+Word: Sonnenblume
+---
+Word: Pilz
+---
+Word: Eichel
+---
+Word: Muschel
+---
+Word: Eisberg
+---
+Word: Palme
+---
+Word: Gewitter
+---
+Word: Nebel
+---
+Word: Sanddüne
+---
+Word: Geysir
+---
+Word: Koralle
+---
+Word: Tannenzapfen

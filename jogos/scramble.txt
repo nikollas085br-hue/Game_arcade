@@ -1,0 +1,912 @@
+=== pt-br palavras
+Pack: Palavras
+
+Word: janela
+---
+Word: computador
+---
+Word: chocolate
+---
+Word: bicicleta
+---
+Word: montanha
+---
+Word: telefone
+---
+Word: estrela
+---
+Word: floresta
+---
+Word: futebol
+---
+Word: escola
+---
+Word: viagem
+---
+Word: amigo
+---
+Word: mochila
+---
+Word: guitarra
+---
+Word: sorvete
+---
+Word: biblioteca
+---
+Word: foguete
+---
+Word: tesouro
+---
+Word: relogio
+---
+Word: verao
+
+=== pt-br animais
+Pack: Animais
+
+Word: cachorro
+---
+Word: elefante
+---
+Word: girafa
+---
+Word: pinguim
+---
+Word: tartaruga
+---
+Word: golfinho
+---
+Word: macaco
+---
+Word: cavalo
+---
+Word: borboleta
+---
+Word: jacare
+---
+Word: coelho
+---
+Word: tubarao
+---
+Word: leao
+---
+Word: aranha
+---
+Word: papagaio
+
+=== pt-br comidas
+Pack: Comidas
+
+Word: banana
+---
+Word: macarrao
+---
+Word: feijoada
+---
+Word: brigadeiro
+---
+Word: pizza
+---
+Word: sorvete
+---
+Word: melancia
+---
+Word: hamburguer
+---
+Word: churrasco
+---
+Word: pipoca
+---
+Word: chocolate
+---
+Word: morango
+---
+Word: tapioca
+---
+Word: pastel
+---
+Word: abacaxi
+
+=== en animals
+Pack: Animals
+
+Word: elephant
+---
+Word: giraffe
+---
+Word: kangaroo
+---
+Word: leopard
+---
+Word: octopus
+---
+Word: peacock
+---
+Word: raccoon
+---
+Word: squirrel
+---
+Word: cheetah
+---
+Word: gorilla
+---
+Word: hedgehog
+---
+Word: flamingo
+---
+Word: panther
+---
+Word: walrus
+---
+Word: iguana
+---
+Word: otter
+---
+Word: falcon
+---
+Word: bison
+---
+Word: butterfly
+---
+Word: crocodile
+---
+Word: chameleon
+---
+Word: porcupine
+---
+Word: armadillo
+---
+Word: dolphin
+---
+Word: salamander
+---
+Word: tortoise
+---
+Word: buffalo
+---
+Word: meerkat
+---
+Word: platypus
+---
+Word: seahorse
+---
+Word: pelican
+---
+Word: badger
+
+=== en classic
+Pack: Classic
+
+Word: planet
+---
+Word: guitar
+---
+Word: picture
+---
+Word: monster
+---
+Word: rainbow
+---
+Word: diamond
+---
+Word: kitchen
+---
+Word: bicycle
+---
+Word: dolphin
+---
+Word: penguin
+---
+Word: volcano
+---
+Word: pyramid
+---
+Word: compass
+---
+Word: blanket
+---
+Word: cactus
+---
+Word: harbor
+---
+Word: jungle
+---
+Word: magnet
+---
+Word: puzzle
+---
+Word: rocket
+---
+Word: sunset
+---
+Word: tiger
+---
+Word: violin
+---
+Word: wizard
+---
+Word: anchor
+---
+Word: bridge
+---
+Word: castle
+---
+Word: forest
+---
+Word: island
+---
+Word: orbit
+---
+Word: lantern
+---
+Word: treasure
+
+=== en food
+Pack: Snack Attack
+
+Word: pizza
+---
+Word: burger
+---
+Word: noodles
+---
+Word: pancake
+---
+Word: popcorn
+---
+Word: avocado
+---
+Word: spaghetti
+---
+Word: cupcake
+---
+Word: sandwich
+---
+Word: pretzel
+---
+Word: waffle
+---
+Word: muffin
+---
+Word: burrito
+---
+Word: donut
+---
+Word: cookie
+---
+Word: banana
+---
+Word: pickle
+---
+Word: nachos
+---
+Word: pudding
+---
+Word: cereal
+---
+Word: chocolate
+---
+Word: strawberry
+---
+Word: pineapple
+---
+Word: watermelon
+---
+Word: lasagna
+---
+Word: omelette
+---
+Word: croissant
+---
+Word: marmalade
+---
+Word: cinnamon
+---
+Word: blueberry
+---
+Word: cauliflower
+---
+Word: gingerbread
+
+=== en music
+Pack: Turn It Up
+
+Word: guitar
+---
+Word: drums
+---
+Word: piano
+---
+Word: violin
+---
+Word: trumpet
+---
+Word: melody
+---
+Word: rhythm
+---
+Word: chorus
+---
+Word: concert
+---
+Word: singer
+---
+Word: banjo
+---
+Word: cello
+---
+Word: flute
+---
+Word: saxophone
+---
+Word: keyboard
+---
+Word: harmony
+---
+Word: lyrics
+---
+Word: festival
+---
+Word: speaker
+---
+Word: encore
+---
+Word: orchestra
+---
+Word: symphony
+---
+Word: microphone
+---
+Word: headphones
+---
+Word: tambourine
+---
+Word: accordion
+---
+Word: clarinet
+---
+Word: trombone
+---
+Word: conductor
+---
+Word: playlist
+---
+Word: ballad
+---
+Word: karaoke
+
+=== en space
+Pack: Blast Off
+
+Word: planet
+---
+Word: galaxy
+---
+Word: comet
+---
+Word: meteor
+---
+Word: rocket
+---
+Word: asteroid
+---
+Word: nebula
+---
+Word: gravity
+---
+Word: saturn
+---
+Word: jupiter
+---
+Word: eclipse
+---
+Word: cosmos
+---
+Word: satellite
+---
+Word: telescope
+---
+Word: astronaut
+---
+Word: crater
+---
+Word: stardust
+---
+Word: universe
+---
+Word: orbit
+---
+Word: launch
+---
+Word: astronomy
+---
+Word: spacesuit
+---
+Word: supernova
+---
+Word: constellation
+---
+Word: cosmonaut
+---
+Word: spaceship
+---
+Word: meteorite
+---
+Word: atmosphere
+---
+Word: spacewalk
+---
+Word: launchpad
+---
+Word: moonrock
+---
+Word: starlight
+
+=== en sports
+Pack: Game On
+
+Word: soccer
+---
+Word: tennis
+---
+Word: hockey
+---
+Word: cricket
+---
+Word: boxing
+---
+Word: karate
+---
+Word: cycling
+---
+Word: bowling
+---
+Word: archery
+---
+Word: surfing
+---
+Word: skating
+---
+Word: rugby
+---
+Word: sprint
+---
+Word: marathon
+---
+Word: referee
+---
+Word: stadium
+---
+Word: trophy
+---
+Word: whistle
+---
+Word: goalie
+---
+Word: racket
+---
+Word: basketball
+---
+Word: volleyball
+---
+Word: badminton
+---
+Word: gymnastics
+---
+Word: swimming
+---
+Word: wrestling
+---
+Word: snowboard
+---
+Word: triathlon
+---
+Word: penalty
+---
+Word: champion
+---
+Word: dribble
+---
+Word: offside
+
+=== de animals
+Pack: Tiere
+
+Word: Elefant
+---
+Word: Giraffe
+---
+Word: Känguru
+---
+Word: Leopard
+---
+Word: Krake
+---
+Word: Pfau
+---
+Word: Waschbär
+---
+Word: Gepard
+---
+Word: Gorilla
+---
+Word: Igel
+---
+Word: Flamingo
+---
+Word: Panther
+---
+Word: Walross
+---
+Word: Leguan
+---
+Word: Otter
+---
+Word: Falke
+---
+Word: Bison
+---
+Word: Pinguin
+---
+Word: Schmetterling
+---
+Word: Krokodil
+---
+Word: Chamäleon
+---
+Word: Stachelschwein
+---
+Word: Gürteltier
+---
+Word: Delfin
+---
+Word: Salamander
+---
+Word: Schildkröte
+---
+Word: Büffel
+---
+Word: Erdmännchen
+---
+Word: Schnabeltier
+---
+Word: Seepferdchen
+---
+Word: Pelikan
+---
+Word: Dachs
+
+=== de classic
+Pack: Alltag
+
+Word: Planet
+---
+Word: Gitarre
+---
+Word: Bild
+---
+Word: Monster
+---
+Word: Regenbogen
+---
+Word: Diamant
+---
+Word: Küche
+---
+Word: Fahrrad
+---
+Word: Delfin
+---
+Word: Pinguin
+---
+Word: Vulkan
+---
+Word: Pyramide
+---
+Word: Kompass
+---
+Word: Decke
+---
+Word: Kaktus
+---
+Word: Hafen
+---
+Word: Dschungel
+---
+Word: Magnet
+---
+Word: Puzzle
+---
+Word: Rakete
+---
+Word: Sonnenuntergang
+---
+Word: Tiger
+---
+Word: Geige
+---
+Word: Zauberer
+---
+Word: Anker
+---
+Word: Brücke
+---
+Word: Schloss
+---
+Word: Wald
+---
+Word: Insel
+---
+Word: Umlaufbahn
+---
+Word: Laterne
+---
+Word: Schatz
+
+=== de food
+Pack: Essen
+
+Word: Pizza
+---
+Word: Burger
+---
+Word: Nudeln
+---
+Word: Pfannkuchen
+---
+Word: Popcorn
+---
+Word: Avocado
+---
+Word: Spaghetti
+---
+Word: Cupcake
+---
+Word: Sandwich
+---
+Word: Brezel
+---
+Word: Waffel
+---
+Word: Muffin
+---
+Word: Burrito
+---
+Word: Donut
+---
+Word: Keks
+---
+Word: Banane
+---
+Word: Gurke
+---
+Word: Nachos
+---
+Word: Pudding
+---
+Word: Müsli
+---
+Word: Schokolade
+---
+Word: Erdbeere
+---
+Word: Ananas
+---
+Word: Wassermelone
+---
+Word: Lasagne
+---
+Word: Omelett
+---
+Word: Croissant
+---
+Word: Marmelade
+---
+Word: Zimt
+---
+Word: Blaubeere
+---
+Word: Blumenkohl
+---
+Word: Lebkuchen
+
+=== de music
+Pack: Musik
+
+Word: Gitarre
+---
+Word: Schlagzeug
+---
+Word: Klavier
+---
+Word: Geige
+---
+Word: Trompete
+---
+Word: Melodie
+---
+Word: Rhythmus
+---
+Word: Refrain
+---
+Word: Konzert
+---
+Word: Sänger
+---
+Word: Banjo
+---
+Word: Cello
+---
+Word: Flöte
+---
+Word: Saxophon
+---
+Word: Keyboard
+---
+Word: Harmonie
+---
+Word: Songtext
+---
+Word: Festival
+---
+Word: Lautsprecher
+---
+Word: Zugabe
+---
+Word: Orchester
+---
+Word: Sinfonie
+---
+Word: Mikrofon
+---
+Word: Kopfhörer
+---
+Word: Tamburin
+---
+Word: Akkordeon
+---
+Word: Klarinette
+---
+Word: Posaune
+---
+Word: Dirigent
+---
+Word: Playlist
+---
+Word: Ballade
+---
+Word: Karaoke
+
+=== de space
+Pack: Weltraum
+
+Word: Planet
+---
+Word: Galaxie
+---
+Word: Komet
+---
+Word: Meteor
+---
+Word: Rakete
+---
+Word: Asteroid
+---
+Word: Nebel
+---
+Word: Schwerkraft
+---
+Word: Saturn
+---
+Word: Jupiter
+---
+Word: Finsternis
+---
+Word: Kosmos
+---
+Word: Satellit
+---
+Word: Teleskop
+---
+Word: Astronaut
+---
+Word: Krater
+---
+Word: Sternenstaub
+---
+Word: Universum
+---
+Word: Umlaufbahn
+---
+Word: Start
+---
+Word: Astronomie
+---
+Word: Raumanzug
+---
+Word: Supernova
+---
+Word: Sternbild
+---
+Word: Kosmonaut
+---
+Word: Raumschiff
+---
+Word: Meteorit
+---
+Word: Atmosphäre
+---
+Word: Ausstieg
+---
+Word: Startrampe
+---
+Word: Mondgestein
+---
+Word: Sternenlicht
+
+=== de sports
+Pack: Sport
+
+Word: Fußball
+---
+Word: Tennis
+---
+Word: Hockey
+---
+Word: Cricket
+---
+Word: Boxen
+---
+Word: Karate
+---
+Word: Radfahren
+---
+Word: Bowling
+---
+Word: Bogenschießen
+---
+Word: Surfen
+---
+Word: Skaten
+---
+Word: Rugby
+---
+Word: Sprint
+---
+Word: Marathon
+---
+Word: Schiedsrichter
+---
+Word: Stadion
+---
+Word: Pokal
+---
+Word: Trillerpfeife
+---
+Word: Torwart
+---
+Word: Schläger
+---
+Word: Basketball
+---
+Word: Volleyball
+---
+Word: Badminton
+---
+Word: Turnen
+---
+Word: Schwimmen
+---
+Word: Ringen
+---
+Word: Snowboard
+---
+Word: Triathlon
+---
+Word: Elfmeter
+---
+Word: Meister
+---
+Word: Dribbling
+---
+Word: Abseits
