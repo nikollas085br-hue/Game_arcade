@@ -1,0 +1,7 @@
+# gerados pelo build -- nao precisa subir
+hotspot-arcade-cardputer/
+build/
+saida/
+libs/
+.DS_Store
+Thumbs.db
