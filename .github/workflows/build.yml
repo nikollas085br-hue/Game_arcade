@@ -1,1 +1,59 @@
+name: Compilar firmware
 
+# Roda sozinho a cada envio de arquivos ao GitHub (e pode ser rodado a mao:
+# aba Actions > "Compilar firmware" > Run workflow).
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Instalar arduino-cli
+        run: |
+          mkdir -p "$HOME/bin"
+          curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR="$HOME/bin" sh
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+
+      - name: Instalar placa ESP32 e bibliotecas
+        run: |
+          arduino-cli config init --overwrite
+          arduino-cli config set board_manager.additional_urls \
+            https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+          arduino-cli core update-index
+          arduino-cli core install esp32:esp32@3.3.11
+          arduino-cli lib install M5Cardputer
+          # Servidor web assincrono (mesmas versoes do projeto original)
+          mkdir libs
+          clone() { # $1 = nome do repositorio, $2 = versao
+            git clone --depth 1 --branch "v$2" "https://github.com/ESP32Async/$1" "libs/$1" ||
+            git clone --depth 1 --branch "$2" "https://github.com/ESP32Async/$1" "libs/$1"
+          }
+          clone AsyncTCP 3.3.2
+          clone ESPAsyncWebServer 3.6.0
+
+      - name: Compilar
+        run: |
+          node gerar-assets.mjs
+          arduino-cli compile \
+            --fqbn "esp32:esp32:m5stack_cardputer:FlashSize=8M,PartitionScheme=default_8MB" \
+            --libraries libs \
+            --output-dir build \
+            hotspot-arcade-cardputer
+          mkdir -p saida
+          cp build/hotspot-arcade-cardputer.ino.bin saida/arcade-m5-app.bin
+          cp build/hotspot-arcade-cardputer.ino.merged.bin saida/arcade-m5-completo.bin
+          ls -la saida
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arcade-m5
+          path: saida/
