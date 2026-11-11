@@ -373,7 +373,7 @@
     });
     if (!draft.g) { ov.appendChild(h("p", "Escolha o jogo.", "exinfo")); return; }
     var G = EX.games[draft.g];
-    ov.appendChild(h("p", G.desc + " (" + G.min + (G.max > G.min ? " a " + G.max : "") + " jogadores)", "exinfo"));
+    ov.appendChild(h("p", G.desc + " (" + (G.max >= 99 ? G.min + " ou mais" : G.min + (G.max > G.min ? " a " + G.max : "")) + " jogadores)", "exinfo"));
     ov.appendChild(h("h3", "Quem vai jogar?"));
     ov.appendChild(btn(draft.all ? "☑ Todos" : "☐ Selecionar todos", function () { draft.all = !draft.all; paint(); }, draft.all ? "on" : ""));
     live().forEach(function (p) {
@@ -398,7 +398,7 @@
     if (mine || me.admin) ov.appendChild(btn("Encerrar mesa", function () { if (mine) endTable(s.id); else { send({ k: "fim", id: s.id }); delete tb[s.id]; cur = null; paint(); } }));
     ov.appendChild(h("h2", G.nome + " - mesa de " + s.on));
     if (s.ph === "lobby") {
-      ov.appendChild(h("h3", "Jogadores (" + s.pl.length + "/" + G.max + ")"));
+      ov.appendChild(h("h3", "Jogadores (" + s.pl.length + (G.max >= 99 ? "" : "/" + G.max) + ")"));
       s.pl.forEach(function (p) { ov.appendChild(h("p", "• " + p.n)); });
       if (s.inv && s.inv !== 1) {
         var wait = s.inv.filter(function (id) { return !s.pl.some(function (p) { return p.id === id; }); });

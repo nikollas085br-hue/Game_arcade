@@ -681,7 +681,7 @@
     }, 30000);
   }
   var mat = {
-    nome: "Desafio Matemático", desc: "Cálculo mental: o primeiro a acertar ganha o ponto.", min: 1, max: 12,
+    nome: "Desafio Matemático", desc: "Cálculo mental: o primeiro a acertar ganha o ponto.", min: 1, max: 99,
     opts: [
       { k: "nivel", label: "Dificuldade", vals: [[1, "Fácil"], [2, "Médio"], [3, "Difícil"], [4, "Impossível"]], def: 1 },
       { k: "r", label: "Perguntas", vals: [[5, "5"], [10, "10"], [15, "15"], [20, "20"]], def: 10 }

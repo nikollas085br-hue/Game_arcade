@@ -112,7 +112,7 @@ Trivia, Desenho, Lobisomem...), o botão laranja **🎲 Jogos** abre:
 | **Dominó** | 2 a 4 jogadores. Escolha quantas peças cada um recebe, com ou sem monte para comprar, e jogar até 50/100 pontos ou uma rodada. Pontos contados sozinhos. |
 | **Cidade Dorme** | O dono define quantos assassinos, médicos e detetives. Papéis secretos. De noite quem não tem papel faz uma tarefa na tela (pode desligar), para ninguém saber quem está agindo. |
 | **Quem Eu Sou?** | O sistema sorteia quem escreve o personagem de quem. Você vê o personagem de todos, menos o seu. Botão 🔒/🔍 esconde a tela rápido. |
-| **Desafio Matemático** | Fácil, Médio, Difícil e Impossível (expressões e equações do 1º grau). O primeiro a acertar ganha o ponto. |
+| **Desafio Matemático** | De 1 jogador até quantos couberem na rede (o Wi-Fi do Cardputer aceita no máximo 10 aparelhos ao mesmo tempo). Fácil, Médio, Difícil e Impossível (expressões e equações do 1º grau). O primeiro a acertar ganha o ponto. |
 | **Stop (Adedonha)** | Letra sorteada, tempo configurável, categorias padrão e criadas pelos jogadores, validação das respostas entre todos. |
 | **Chat** | Texto, foto da galeria, foto na hora pela câmera e áudio. |
 
