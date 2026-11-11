@@ -37,6 +37,7 @@ Dicas:
 | `L` | placar completo (dentro dele, `R` zera) |
 | `S` | configurações |
 | `E` | encerrar a rodada |
+| `T` | girar a tela 180° (se o texto aparecer de cabeça para baixo) |
 | `Esc` | voltar |
 
 **Configurações (`S`)**: *Nome* da rede, *Senha*, Som, Idioma, Wi-Fi ligado/desligado, Eventos.
@@ -99,6 +100,46 @@ Formato de cada jogo (copie um pack que já existe e troque o texto):
 Limites do motor: até 6 packs por jogo em cada idioma, 15 perguntas por pack de trivia.
 Palavras de `scramble` e `draw` ficam melhores **sem acento** (o jogador digita no celular).
 
+## Jogos extras (botão 🎲 Jogos, no canto do celular)
+
+Além dos jogos da tela principal (Jogo da Velha, Xadrez, Quatro em Linha, Batalha Naval,
+Trivia, Desenho, Lobisomem...), o botão laranja **🎲 Jogos** abre:
+
+| Jogo | Resumo |
+| --- | --- |
+| **Forca** | Um jogador toca em *Ser o criador*; se os outros concordarem, ele digita a palavra e a dica (escrita, categoria pronta ou *sem dica*). Os outros chutam no teclado da tela. Quando a letra erra, o criador decide se *conta como erro*. |
+| **Dama** | Regras brasileiras: captura obrigatória, lei da maioria, dama voadora. 2 jogadores. |
+| **Dominó** | 2 a 4 jogadores. Escolha quantas peças cada um recebe, com ou sem monte para comprar, e jogar até 50/100 pontos ou uma rodada. Pontos contados sozinhos. |
+| **Cidade Dorme** | O dono define quantos assassinos, médicos e detetives. Papéis secretos. De noite quem não tem papel faz uma tarefa na tela (pode desligar), para ninguém saber quem está agindo. |
+| **Quem Eu Sou?** | O sistema sorteia quem escreve o personagem de quem. Você vê o personagem de todos, menos o seu. Botão 🔒/🔍 esconde a tela rápido. |
+| **Desafio Matemático** | Fácil, Médio, Difícil e Impossível (expressões e equações do 1º grau). O primeiro a acertar ganha o ponto. |
+| **Stop (Adedonha)** | Letra sorteada, tempo configurável, categorias padrão e criadas pelos jogadores, validação das respostas entre todos. |
+| **Chat** | Texto, foto da galeria, foto na hora pela câmera e áudio. |
+
+**Mesas e convites:** em *Criar*, escolha o jogo e marque quem vai jogar (ou *Selecionar todos*).
+Os chamados recebem um aviso e tocam em *Entrar*. Quem não foi chamado fica livre: navega, joga em
+outra mesa ou assiste. Várias mesas funcionam ao mesmo tempo.
+
+**Administrador:** o primeiro a abrir o site recebe a pergunta "Quer ser o Administrador?" e confirma
+com a senha **nikollas**. Quem fechou a pergunta pode virar admin depois em *Mesas → Sou o administrador*.
+O admin vê a aba **Admin**: troca o modo **Competitivo** (pontos e ranking) / **Entretenimento**
+(sem pontos), vê quem está na sala e encerra qualquer mesa. Para trocar a senha, edite
+`ADMIN_SENHA` no começo de `extras.js`.
+
+**Limites (por causa do Cardputer, que tem pouca memória):**
+- Quem criou a mesa é o "juiz": se o celular dele fechar ou recarregar, a mesa some.
+- O ranking e o chat ficam só na memória dos celulares abertos (reiniciar apaga).
+- Fotos são reduzidas (cerca de 220 px) e áudios têm de ser curtos (uns 8 s). Quem entrar depois
+  não vê o chat antigo.
+- A câmera e o microfone "ao vivo" exigem https, que o Cardputer não tem. Por isso *Tirar foto* abre o
+  app da câmera do celular e *Enviar áudio gravado* abre o gravador do celular.
+- A senha do admin fica no código do site: quem souber abrir o código a vê. Serve para brincadeira
+  entre amigos, não é segurança de verdade.
+
+O código está em `extras.js` (mesas, convites, admin, chat) e `extras-jogos.js` (os jogos).
+Para criar um jogo novo, copie um jogo de `extras-jogos.js` e registre com `EX.reg`.
+O GitHub cola os dois no site sozinho.
+
 ## O site
 
 `index.html` é a página que abre no celular (já em português por padrão). Os textos ficam
@@ -115,6 +156,8 @@ em `index.html` (JavaScript) — o xadrez, por exemplo, já está pronto lá den
 | `ha_host.h`, `ha_history.h`, `ha_content.h` | placar, histórico no SD, leitura dos packs |
 | `ha_games.h`, `ha_json.h`, `ha_proto.h` | motor dos jogos (do projeto original) |
 | `index.html` | site dos jogos |
+| `extras.js` | mesas, convites, administrador, ranking e chat (rodam no celular) |
+| `extras-jogos.js` | Forca, Dama, Dominó, Cidade Dorme, Quem Eu Sou, Matemática e Stop |
 | `jogos/*.txt` | conteúdo dos jogos |
 | `gerar-assets.mjs` | usado pelo GitHub para embutir site e jogos no firmware |
 

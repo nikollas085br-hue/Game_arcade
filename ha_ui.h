@@ -278,7 +278,20 @@ static lgfx::LovyanGFX* haUiG() {
 }
 
 static void haUiBegin() {
-    M5Cardputer.Display.setRotation(1);
+    // A tela do Cardputer e DEITADA (240x135). Se este modelo comecar "em pe" (135x240),
+    // o desenho fica bugado: aqui testamos e giramos ate ficar deitada. A tecla T na tela
+    // inicial gira 180 graus (se o texto aparecer de cabeca para baixo) e fica salvo.
+    uint8_t rot = 1;
+    {
+        Preferences p;
+        if(p.begin("ha_cfg", true)) { rot = p.getUChar("rot", 1); p.end(); }
+    }
+    if(rot > 3) rot = 1;
+    M5Cardputer.Display.setRotation(rot);
+    if(M5Cardputer.Display.width() < M5Cardputer.Display.height()) {
+        rot = (uint8_t)((rot + 1) % 4);
+        M5Cardputer.Display.setRotation(rot);
+    }
     M5Cardputer.Display.setBrightness(90);
     // 8bpp keeps the off-screen buffer at ~32KB. 16bpp would be 65KB, which is a
     // lot to hold alongside the WiFi stack and eight WebSocket clients on a board
@@ -851,6 +864,15 @@ static void haUiChar(char c) {
         }
         haUiForce = true;
         return;
+    case 't':
+    case 'T': { // gira a tela 180 graus (texto de cabeca para baixo)
+        uint8_t r = (uint8_t)((M5Cardputer.Display.getRotation() + 2) % 4);
+        M5Cardputer.Display.setRotation(r);
+        Preferences p;
+        if(p.begin("ha_cfg", false)) { p.putUChar("rot", r); p.end(); }
+        haUiForce = true;
+        return;
+    }
     case 'r':
     case 'R':
         if(haUiView == HA_VIEW_BOARD) haHostResetScores(); // reset lives on the board

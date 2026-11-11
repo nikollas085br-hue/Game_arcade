@@ -45,7 +45,7 @@
 #include "ha_content.h"
 #include "ha_ui.h"
 
-#define WS_MSG_MAX 512
+#define WS_MSG_MAX 2048 // mensagens dos jogos extras (extras.js) chegam a ~1.2 KB
 // 10 is the ESP32-S3 softAP hardware maximum (ESP_WIFI_MAX_CONN_NUM). More phones
 // than this cannot associate no matter what -- the chip, not the code, is the cap.
 #define AP_MAX_CONN 10
@@ -559,6 +559,12 @@ static void onWsEvent(
             char buf[WS_MSG_MAX];
             memcpy(buf, data, len);
             buf[len] = '\0';
+            // Jogos extras (Forca, Dama...): {"x":1,...} so e repassado para todos os
+            // aparelhos; as regras rodam no celular (extras.js), nao no motor.
+            if(len > 6 && strncmp(buf, "{\"x\":1", 6) == 0) {
+                ws.textAll(String(buf));
+                return;
+            }
             ENGINE_LOCK();
             engine.onInput(client->id(), peerDeviceKey(client), buf);
             ENGINE_UNLOCK();

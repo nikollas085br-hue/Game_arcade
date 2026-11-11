@@ -3,7 +3,7 @@
 //
 //   node gerar-assets.mjs
 //
-// 1. Le o site        (index.html)
+// 1. Le o site        (index.html + extras.js)
 // 2. Le os jogos      (jogos/*.txt, um arquivo por jogo)
 // 3. Cria a pasta     hotspot-arcade-cardputer/ com o .ino, todos os .h e o ha_bundle.h
 //                     (o arduino-cli exige que o .ino fique numa pasta com o mesmo nome).
@@ -49,7 +49,12 @@ const TRIVIA_MAX_QS = 15; // limite do engine: 15 perguntas por pack de trivia
 
 // ---- 1. site ------------------------------------------------------------------
 if (!existsSync(join(root, 'index.html'))) fail('index.html nao encontrado na raiz do projeto.');
-const webBytes = gzipSync(readFileSync(join(root, 'index.html')), { level: 9 });
+// extras.js e extras-jogos.js (Forca, Dama, Domino...) sao colados no fim do site, dentro de uma tag <script>.
+let html = readFileSync(join(root, 'index.html'), 'utf8');
+for (const f of ['extras.js', 'extras-jogos.js']) { // nucleo primeiro, depois os jogos
+  if (existsSync(join(root, f))) html += '\n<script>' + readFileSync(join(root, f), 'utf8') + '</script>\n';
+}
+const webBytes = gzipSync(Buffer.from(html, 'utf8'), { level: 9 });
 
 // ---- 2. jogos -----------------------------------------------------------------
 const jogosDir = join(root, 'jogos');
