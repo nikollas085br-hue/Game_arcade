@@ -289,7 +289,9 @@ static void haUiBegin() {
     if(rot > 3) rot = 1;
     M5Cardputer.Display.setRotation(rot);
     if(M5Cardputer.Display.width() < M5Cardputer.Display.height()) {
-        rot = (uint8_t)((rot + 1) % 4);
+        // Em pe (135x240): gira para deitada. No Cardputer ADV a rotacao 1 sai em pe e a 0 e a certa
+        // (a 2 saia de cabeca para baixo). Os pares 1<->0 e 3<->2 mantem o mesmo sentido do texto.
+        rot = (uint8_t)(rot == 1 ? 0 : rot == 3 ? 2 : rot == 0 ? 1 : 3);
         M5Cardputer.Display.setRotation(rot);
     }
     M5Cardputer.Display.setBrightness(90);
@@ -359,10 +361,14 @@ static void haUiHeaderRefresh() {
     haUiHeader((lgfx::LovyanGFX*)&M5Cardputer.Display, haUiLastTitle);
 }
 
+static char haUiLastKey = '-'; // ultima tecla recebida: aparece no canto do rodape e ajuda a achar problema de teclado
 static void haUiFooter(lgfx::LovyanGFX* g, const char* hint) {
     g->fillRect(0, HA_UI_H - 11, HA_UI_W, 11, TFT_DARKGREY);
     g->setTextColor(TFT_WHITE, TFT_DARKGREY);
     g->drawString(hint, 3, HA_UI_H - 9);
+    char kk[5] = {'[', haUiLastKey, ']', 0, 0};
+    g->setTextColor(TFT_YELLOW, TFT_DARKGREY);
+    g->drawString(kk, HA_UI_W - 20, HA_UI_H - 9);
 }
 
 // Player order for both the dashboard and the leaderboard: score desc, then pid,
@@ -960,9 +966,10 @@ static void haUiPumpKeys() {
     if(!M5Cardputer.Keyboard.isChange()) return;
     if(!M5Cardputer.Keyboard.isPressed()) return;
     auto st = M5Cardputer.Keyboard.keysState();
-    for(auto c : st.word) haUiChar(c);
-    if(st.del) haUiDel();
-    if(st.enter) haUiEnter();
+    for(auto c : st.word) { haUiLastKey = c; haUiChar(c); }
+    if(st.del) { haUiLastKey = '<'; haUiDel(); }
+    if(st.enter) { haUiLastKey = '>'; haUiEnter(); }
+    haUiForce = true;
 }
 
 // Redraw when the mirror moved or a key changed the view, rate-limited so a busy

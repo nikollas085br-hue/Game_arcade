@@ -83,74 +83,95 @@
     draw: function (box, S, c) { drawForca(box, S, c); }
   };
   var FD = { w: "", h: "", ht: "none", cat: "" };
-  function bonecoEmoji(e) { return ["😀", "😐", "😟", "😨", "😱", "😵", "💀"][Math.min(e, 6)]; }
+  function svgEl(parent, ns, t, at) { var x = document.createElementNS(ns, t); for (var k in at) x.setAttribute(k, at[k]); parent.appendChild(x); return x; }
+  function gallowsSvg(e) { // forca desenhada: uma parte do boneco a cada erro
+    var ns = "http://www.w3.org/2000/svg", s = document.createElementNS(ns, "svg");
+    s.setAttribute("viewBox", "0 0 200 200"); s.setAttribute("class", "fcsvg");
+    svgEl(s, ns, "line", { x1: 20, y1: 190, x2: 120, y2: 190, class: "gal" });
+    svgEl(s, ns, "line", { x1: 50, y1: 190, x2: 50, y2: 15, class: "gal" });
+    svgEl(s, ns, "line", { x1: 50, y1: 15, x2: 135, y2: 15, class: "gal" });
+    svgEl(s, ns, "line", { x1: 50, y1: 50, x2: 80, y2: 15, class: "gal" });
+    svgEl(s, ns, "line", { x1: 135, y1: 15, x2: 135, y2: 45, class: "gal" });
+    if (e > 0) svgEl(s, ns, "circle", { cx: 135, cy: 62, r: 17 });
+    if (e > 1) svgEl(s, ns, "line", { x1: 135, y1: 79, x2: 135, y2: 130 });
+    if (e > 2) svgEl(s, ns, "line", { x1: 135, y1: 90, x2: 112, y2: 112 });
+    if (e > 3) svgEl(s, ns, "line", { x1: 135, y1: 90, x2: 158, y2: 112 });
+    if (e > 4) svgEl(s, ns, "line", { x1: 135, y1: 130, x2: 115, y2: 165 });
+    if (e > 5) svgEl(s, ns, "line", { x1: 135, y1: 130, x2: 155, y2: 165 });
+    return s;
+  }
   function drawForca(box, S, c) {
-    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me;
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, card = h("div", null, "excard");
+    box.appendChild(card);
     if (S.st === "vote") {
       if (!S.pr) {
-        box.appendChild(h("p", "Quem quer criar a palavra desta rodada?"));
-        if (c.isP) box.appendChild(btn("Ser o criador", function () { c.act({ a: "quero" }); }));
+        card.appendChild(h("p", "Quem quer criar a palavra desta rodada?"));
+        if (c.isP) card.appendChild(btn("Ser o criador", function () { c.act({ a: "quero" }); }, "pri"));
       } else if (S.pr === I) {
-        box.appendChild(h("p", "Esperando os outros concordarem... (sim: " + S.y + ", não: " + S.n + ")"));
+        card.appendChild(h("p", "Esperando os outros concordarem..."));
+        card.appendChild(h("span", "sim: " + S.y + "   não: " + S.n, "pill hot"));
       } else {
-        box.appendChild(h("p", nm(pl, S.pr) + " quer ser o criador. Você concorda?"));
+        card.appendChild(h("p", nm(pl, S.pr) + " quer ser o criador. Você concorda?"));
         if (c.isP) {
-          box.appendChild(btn("Sim", function () { c.act({ a: "voto", v: 1 }); }));
-          box.appendChild(btn("Não", function () { c.act({ a: "voto", v: 0 }); }));
+          card.appendChild(btn("Sim", function () { c.act({ a: "voto", v: 1 }); }, "pri"));
+          card.appendChild(btn("Não", function () { c.act({ a: "voto", v: 0 }); }));
         }
       }
       return;
     }
     if (S.st === "cria") {
-      if (S.cr !== I) { box.appendChild(h("p", nm(pl, S.cr) + " está escolhendo a palavra...")); return; }
-      box.appendChild(h("p", "Você é o criador. Digite a palavra ou frase (só você vê):"));
+      if (S.cr !== I) { card.appendChild(h("p", nm(pl, S.cr) + " está escolhendo a palavra...")); return; }
+      card.appendChild(h("p", "Você é o criador. Digite a palavra ou frase (só você vê):"));
       var w = h("input"); w.value = FD.w; w.placeholder = "Palavra ou frase"; w.dataset.keep = 1; w.oninput = function () { FD.w = w.value; };
-      box.appendChild(w);
-      box.appendChild(h("p", "Dica:"));
+      card.appendChild(w);
+      card.appendChild(h("h3", "Dica"));
       [["none", "Sem dica"], ["txt", "Dica escrita"], ["cat", "Categoria"]].forEach(function (x) {
-        box.appendChild(btn(x[1], function () { FD.ht = x[0]; EX.paint(); }, FD.ht === x[0] ? "on" : ""));
+        card.appendChild(btn(x[1], function () { FD.ht = x[0]; EX.paint(); }, FD.ht === x[0] ? "on" : ""));
       });
       if (FD.ht === "txt") {
         var d = h("input"); d.value = FD.h; d.placeholder = "Escreva a dica"; d.dataset.keep = 1; d.oninput = function () { FD.h = d.value; };
-        box.appendChild(d);
+        card.appendChild(d);
       } else if (FD.ht === "cat") {
-        CATS.forEach(function (k) { box.appendChild(btn(k, function () { FD.cat = k; EX.paint(); }, FD.cat === k ? "on" : "")); });
+        CATS.forEach(function (k) { card.appendChild(btn(k, function () { FD.cat = k; EX.paint(); }, FD.cat === k ? "on" : "")); });
       }
-      box.appendChild(btn("Começar a rodada", function () {
+      card.appendChild(btn("Começar a rodada", function () {
         var hint = FD.ht === "txt" ? FD.h : FD.ht === "cat" ? FD.cat : "";
         if (!FD.w.trim()) return;
         if (FD.ht !== "none" && !hint.trim()) { alert("Escreva a dica ou escolha 'Sem dica'."); return; }
         c.act({ a: "pal", w: FD.w, ht: FD.ht, h: hint });
         FD.w = ""; FD.h = ""; FD.cat = ""; FD.ht = "none";
-      }));
+      }, "pri"));
       return;
     }
-    box.appendChild(h("p", "Criador: " + nm(pl, S.cr) + "   |   " + (S.h ? "Dica: " + S.h : "Sem dica")));
-    var big = h("div", S.m.split("").join(" "), "exbig"); box.appendChild(big);
-    box.appendChild(h("p", "Erros: " + S.e + " / 6   " + bonecoEmoji(S.e)));
-    box.appendChild(h("p", "Letras: " + (S.g.split("").join(" ") || "-"), "exinfo"));
+    card.appendChild(h("span", "Criador: " + nm(pl, S.cr), "pill"));
+    card.appendChild(h("span", S.h ? "Dica: " + S.h : "Sem dica", "pill hot"));
+    card.appendChild(gallowsSvg(S.e));
+    var wd = h("div", null, "fcword");
+    S.m.split("").forEach(function (ch) { wd.appendChild(h("div", ch === "_" ? "" : ch === " " ? "" : ch, "fcl" + (ch === " " ? " sp" : ""))); });
+    card.appendChild(wd);
+    card.appendChild(h("p", "Erros: " + S.e + " / 6", "exinfo"));
     if (S.st === "fim") {
-      box.appendChild(h("p", S.w === 1 ? "Acertaram! 🎉" : "Enforcou! 💀", "exbig"));
-      if (c.isP) box.appendChild(btn("Próxima rodada", function () { c.act({ a: "outra" }); }));
+      card.appendChild(h("p", S.w === 1 ? "Acertaram! 🎉" : "Enforcou! 💀", "exbig"));
+      if (c.isP) card.appendChild(btn("Próxima rodada", function () { c.act({ a: "outra" }); }, "pri"));
       return;
     }
     if (S.p) {
       if (S.cr === I) {
-        box.appendChild(h("p", "A letra " + S.p + " NÃO está na palavra. Conta como erro?"));
-        box.appendChild(btn("Conta como erro", function () { c.act({ a: "val", v: 1 }); }));
-        box.appendChild(btn("Não conta", function () { c.act({ a: "val", v: 0 }); }));
-      } else box.appendChild(h("p", "Letra " + S.p + ": esperando o criador decidir se conta como erro..."));
+        card.appendChild(h("p", "A letra " + S.p + " NÃO está na palavra. Conta como erro?"));
+        card.appendChild(btn("Conta como erro", function () { c.act({ a: "val", v: 1 }); }, "pri"));
+        card.appendChild(btn("Não conta", function () { c.act({ a: "val", v: 0 }); }));
+      } else card.appendChild(h("p", "Letra " + S.p + ": esperando o criador decidir se conta como erro...", "exinfo"));
       return;
     }
-    if (S.cr === I) { box.appendChild(h("p", "Você criou esta palavra: espere os palpites.")); return; }
+    if (S.cr === I) { card.appendChild(h("p", "Você criou esta palavra: espere os palpites.", "exinfo")); return; }
     if (!c.isP) return;
-    var kb = h("div", null, "exkb");
+    var shown = norm(S.m), kb = h("div", null, "exkb");
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(function (L) {
-      var b = btn(L, function () { c.act({ a: "let", v: L }); });
-      if (S.g.indexOf(L) >= 0) b.disabled = true;
+      var used = S.g.indexOf(L) >= 0, b = btn(L, function () { c.act({ a: "let", v: L }); }, used ? (shown.indexOf(L) >= 0 ? "kok" : "kno") : "");
+      if (used) b.disabled = true;
       kb.appendChild(b);
     });
-    box.appendChild(kb);
+    card.appendChild(kb);
   }
 
   // =========================== DAMA (regras brasileiras) ===========================
@@ -235,7 +256,7 @@
   var dama = {
     nome: "Dama", desc: "Dama brasileira (captura obrigatória, dama voadora).", min: 2, max: 2,
     start: function (t) { t.d = { bd: newBoard(), turn: 1, win: 0 }; },
-    pub: function (t) { return t.d ? { bd: enc(t.d.bd), t: t.d.turn, w: t.d.win } : {}; },
+    pub: function (t) { return t.d ? { bd: enc(t.d.bd), t: t.d.turn, w: t.d.win, lm: t.d.lm || 0 } : {}; },
     msg: function (t, m) {
       var d = t.d, si = -1, i;
       if (!d || d.win) return;
@@ -247,37 +268,49 @@
       for (i = 0; i < ms.length; i++) if (samePath(ms[i].p, m.p)) { found = ms[i]; break; }
       if (!found) return;
       d.bd = applyMove(d.bd, found, sd);
+      d.lm = [found.p[0][0], found.p[0][1], found.p[found.p.length - 1][0], found.p[found.p.length - 1][1]];
       d.turn = -sd;
       if (!legalMoves(d.bd, d.turn).length) { d.win = sd; damaFim(t); }
       EX.announce(t);
     },
     draw: function (box, S, c) { drawDama(box, S, c); }
   };
-  var dsel = null;
+  var DM = { num: false, sel: null };
+  try { DM.num = localStorage.getItem("ex_dnum") === "1"; } catch (e) {}
   function drawDama(box, S, c) {
-    var h = EX.h, btn = EX.btn, pl = c.s.pl, bd = dec(S.bd);
-    var my = pl[0] && pl[0].id === c.me ? 1 : (pl[1] && pl[1].id === c.me ? -1 : 0);
-    box.appendChild(h("p", "Brancas: " + pl[0].n + "   Pretas: " + pl[1].n));
-    box.appendChild(h("p", S.w ? "Fim! Venceu: " + (S.w === 1 ? pl[0].n + " (brancas)" : pl[1].n + " (pretas)") : "Vez de: " + (S.t === 1 ? pl[0].n + " (brancas)" : pl[1].n + " (pretas)")));
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, bd = dec(S.bd), card = h("div", null, "excard");
+    box.appendChild(card);
+    var my = pl[0] && pl[0].id === c.me ? 1 : (pl[1] && pl[1].id === c.me ? -1 : 0), nw = 0, nb = 0;
+    bd.forEach(function (row) { row.forEach(function (v) { if (v > 0) nw++; else if (v < 0) nb++; }); });
+    card.appendChild(h("span", "⚪ " + pl[0].n + ": " + nw, "pill" + (S.t === 1 && !S.w ? " hot" : "")));
+    card.appendChild(h("span", "⚫ " + pl[1].n + ": " + nb, "pill" + (S.t === -1 && !S.w ? " hot" : "")));
+    card.appendChild(h("p", S.w ? "Fim! Venceu: " + (S.w === 1 ? pl[0].n + " (brancas)" : pl[1].n + " (pretas)") : "Vez de: " + (S.t === 1 ? pl[0].n : pl[1].n), S.w ? "exbig" : ""));
     var moves = my && my === S.t && !S.w ? legalMoves(bd, my) : [], targets = {};
-    if (dsel) moves.forEach(function (m) { if (m.p[0][0] === dsel[0] && m.p[0][1] === dsel[1]) { var e = m.p[m.p.length - 1]; targets[e[0] + "," + e[1]] = m; } });
-    var grid = h("div", null, "exboard");
+    if (DM.sel) moves.forEach(function (m) { if (m.p[0][0] === DM.sel[0] && m.p[0][1] === DM.sel[1]) { var e = m.p[m.p.length - 1]; targets[e[0] + "," + e[1]] = m; } });
+    var mustCapture = moves.length && moves[0].n > 0;
+    if (mustCapture) card.appendChild(h("p", "Captura obrigatória!", "exred"));
+    var grid = h("div", null, "dmboard");
     for (var i = 0; i < 8; i++) for (var j = 0; j < 8; j++) {
-      var r = my === -1 ? 7 - i : i, cc = my === -1 ? 7 - j : j;
-      var cell = h("div", null, "excell " + ((r + cc) % 2 ? "dk" : "lt")), key = r + "," + cc, v = bd[r][cc];
-      if (dsel && dsel[0] === r && dsel[1] === cc) cell.className += " sel";
+      var r = my === -1 ? 7 - i : i, cc = my === -1 ? 7 - j : j, dark = (r + cc) % 2 === 1;
+      var cell = h("div", null, "dmc " + (dark ? "dk" : "lt")), key = r + "," + cc, v = bd[r][cc];
+      if (DM.sel && DM.sel[0] === r && DM.sel[1] === cc) cell.className += " sel";
       if (targets[key]) cell.className += " tg";
-      if (v) cell.appendChild(h("div", Math.abs(v) === 2 ? "♛" : "", "expc " + (v > 0 ? "pw" : "pb")));
+      if (S.lm && ((S.lm[0] === r && S.lm[1] === cc) || (S.lm[2] === r && S.lm[3] === cc))) cell.className += " lm";
+      if (DM.num && dark) cell.appendChild(h("span", String(r * 4 + Math.floor(cc / 2) + 1), "dmn"));
+      if (v) cell.appendChild(h("div", Math.abs(v) === 2 ? "♛" : "", "dpc " + (v > 0 ? "dpw" : "dpb")));
       (function (r, cc, key) {
         cell.onclick = function () {
-          if (targets[key]) { var p = targets[key].p; dsel = null; c.act({ a: "jog", p: p }); return; }
-          dsel = moves.some(function (m) { return m.p[0][0] === r && m.p[0][1] === cc; }) ? [r, cc] : null;
+          if (targets[key]) { var p = targets[key].p; DM.sel = null; c.act({ a: "jog", p: p }); return; }
+          DM.sel = moves.some(function (m) { return m.p[0][0] === r && m.p[0][1] === cc; }) ? [r, cc] : null;
           EX.paint();
         };
       })(r, cc, key);
       grid.appendChild(cell);
     }
     box.appendChild(grid);
+    box.appendChild(btn(DM.num ? "🔢 Esconder numeração" : "🔢 Mostrar numeração das casas", function () {
+      DM.num = !DM.num; try { localStorage.setItem("ex_dnum", DM.num ? "1" : "0"); } catch (e) {} EX.paint();
+    }, DM.num ? "on" : ""));
     if (my && !S.w) box.appendChild(btn("Desistir", function () { c.act({ a: "des" }); }));
   }
 
@@ -398,46 +431,128 @@
     },
     draw: function (box, S, c) { drawDomino(box, S, c); }
   };
-  function tileEl(a, b, fn, off) {
-    var e = EX.h(fn ? "button" : "span", null, "dt");
-    e.appendChild(EX.h("span", String(a))); e.appendChild(EX.h("span", String(b)));
-    if (fn) { e.onclick = fn; if (off) e.disabled = true; }
-    return e;
+  var DS = { numeric: false, sel: null };
+  try { DS.numeric = localStorage.getItem("ex_domnum") === "1"; } catch (e) {}
+  var PIPS = { 0: [], 1: [[0, 0]], 2: [[-1, -1], [1, 1]], 3: [[-1, -1], [0, 0], [1, 1]], 4: [[-1, -1], [1, -1], [-1, 1], [1, 1]],
+    5: [[-1, -1], [1, -1], [0, 0], [-1, 1], [1, 1]], 6: [[-1, -1], [1, -1], [-1, 0], [1, 0], [-1, 1], [1, 1]] };
+  // Peca de domino desenhada em SVG: bolinhas como no jogo de verdade, ou numeros (modo numerico)
+  function tileSvg(a, b, vert, numeric, scale) {
+    var NS = "http://www.w3.org/2000/svg", W = vert ? 36 : 72, H = vert ? 72 : 36, s = document.createElementNS(NS, "svg");
+    s.setAttribute("viewBox", "0 0 " + W + " " + H);
+    s.setAttribute("width", String(W * scale)); s.setAttribute("height", String(H * scale));
+    svgEl(s, NS, "rect", { x: 1.5, y: 1.5, width: W - 3, height: H - 3, rx: 6, fill: "#f7f2e4", stroke: "#2a2a2a", "stroke-width": 2 });
+    if (vert) svgEl(s, NS, "line", { x1: 5, y1: H / 2, x2: W - 5, y2: H / 2, stroke: "#9a9484", "stroke-width": 2 });
+    else svgEl(s, NS, "line", { x1: W / 2, y1: 5, x2: W / 2, y2: H - 5, stroke: "#9a9484", "stroke-width": 2 });
+    svgEl(s, NS, "circle", { cx: W / 2, cy: H / 2, r: 2.5, fill: "#b8860b" });
+    function half(cx, cy, n) {
+      if (numeric) {
+        var t = svgEl(s, NS, "text", { x: cx, y: cy + 7, "text-anchor": "middle", "font-size": 22, "font-weight": 800, "font-family": "monospace", fill: "#111" });
+        t.textContent = String(n);
+        return;
+      }
+      PIPS[n].forEach(function (p) { svgEl(s, NS, "circle", { cx: cx + p[0] * 8.5, cy: cy + p[1] * 8.5, r: 3.6, fill: "#111" }); });
+    }
+    if (vert) { half(18, 18, a); half(18, 54, b); } else { half(18, 18, a); half(54, 18, b); }
+    return s;
   }
-  var dsx = null;
   function drawDomino(box, S, c) {
-    var h = EX.h, btn = EX.btn, pl = c.s.pl, hand = c.pv && c.pv.h;
-    box.appendChild(h("p", S.ev));
-    box.appendChild(h("p", "Pontos: " + pl.map(function (p) { return p.n + " " + (S.sc[p.id] || 0); }).join("  |  "), "exinfo"));
-    box.appendChild(h("p", pl.map(function (p) { return p.n + ": " + S.hc[p.id] + " peças"; }).join("  |  ") + "  |  Monte: " + S.sk, "exinfo"));
-    var tr = h("div"); S.b.forEach(function (x) { tr.appendChild(tileEl(x[0], x[1])); });
-    box.appendChild(h("p", "Mesa:")); box.appendChild(tr);
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, hand = c.pv && c.pv.h, num = DS.numeric, card = h("div", null, "excard");
+    box.appendChild(card);
+    pl.forEach(function (p) {
+      var pillEl = h("span", null, "pill" + (S.tn === p.id && S.st === "jogo" ? " hot" : ""));
+      pillEl.appendChild(h("b", p.n + "  " + (S.sc[p.id] || 0) + " pts  "));
+      for (var k = 0; k < (S.hc[p.id] || 0); k++) pillEl.appendChild(h("i", null, "dback"));
+      card.appendChild(pillEl);
+    });
+    card.appendChild(h("p", S.ev, "exinfo"));
+    card.appendChild(h("span", "Monte: " + S.sk, "pill"));
+    card.appendChild(btn(num ? "⚀ Ver bolinhas" : "🔢 Ver números", function () {
+      DS.numeric = !DS.numeric; try { localStorage.setItem("ex_domnum", DS.numeric ? "1" : "0"); } catch (e) {} EX.paint();
+    }, num ? "on" : ""));
+
+    var mine = S.tn === c.me && S.st === "jogo" && c.isP, e = S.b.length ? [S.b[0][0], S.b[S.b.length - 1][1]] : null;
+    function fits(t, side) { if (!e) return side === "R"; var v = side === "L" ? e[0] : e[1]; return t[0] === v || t[1] === v; }
+    function place(i, side) { DS.sel = null; c.act({ a: "joga", i: i, s: side }); }
+    var selT = hand && DS.sel !== null ? hand[DS.sel] : null;
+    function zone(side, label) {
+      var z = h("div", label, "dmzone" + (mine && selT && fits(selT, side) ? " act" : ""));
+      z.dataset.side = side;
+      z.onclick = function () { if (mine && selT && fits(selT, side)) place(DS.sel, side); };
+      return z;
+    }
+    var tb = h("div", null, "dmtable");
+    if (!S.b.length) tb.appendChild(zone("R", mine ? "Jogue aqui" : "Mesa vazia"));
+    else {
+      if (mine) tb.appendChild(zone("L", "◀ " + e[0]));
+      S.b.forEach(function (t) { tb.appendChild(tileSvg(t[0], t[1], t[0] === t[1], num, 0.8)); });
+      if (mine) tb.appendChild(zone("R", e[1] + " ▶"));
+    }
+    box.appendChild(tb);
+
     if (S.st !== "jogo") {
-      box.appendChild(h("p", "Peças que sobraram:"));
-      pl.forEach(function (p) { var d = h("div", p.n + ": "); (S.rv && S.rv[p.id] || []).forEach(function (x) { d.appendChild(tileEl(x[0], x[1])); }); box.appendChild(d); });
-      if (S.st === "rodada" && c.isP) box.appendChild(btn("Próxima rodada", function () { c.act({ a: "prox" }); }));
+      var rc = h("div", null, "excard");
+      rc.appendChild(h("h3", "Peças que sobraram"));
+      pl.forEach(function (p) {
+        var d = h("div", p.n + ": ");
+        (S.rv && S.rv[p.id] || []).forEach(function (x) { d.appendChild(tileSvg(x[0], x[1], true, num, 0.5)); });
+        rc.appendChild(d);
+      });
+      if (S.st === "rodada" && c.isP) rc.appendChild(btn("Próxima rodada", function () { c.act({ a: "prox" }); }, "pri"));
+      box.appendChild(rc);
       return;
     }
     if (!c.isP) return;
     if (!hand) { c.needPv(); box.appendChild(h("p", "Carregando suas peças...")); return; }
-    var mine = S.tn === c.me, e = S.b.length ? [S.b[0][0], S.b[S.b.length - 1][1]] : null;
-    box.appendChild(h("p", mine ? "Sua vez! Toque numa peça." : "Vez de " + nm(pl, S.tn) + "."));
-    var hd = h("div");
+    box.appendChild(h("p", mine ? "Sua vez! Toque numa peça ou arraste até a mesa." : "Vez de " + nm(pl, S.tn) + ".", mine ? "exgood" : "exinfo"));
+    var hd = h("div", null, "dthand");
     hand.forEach(function (x, i) {
-      var ok = mine && canPlay(x, e);
-      hd.appendChild(tileEl(x[0], x[1], function () {
-        var l = e && (x[0] === e[0] || x[1] === e[0]), r = e && (x[0] === e[1] || x[1] === e[1]);
-        if (e && l && r && e[0] !== e[1]) { dsx = i; EX.paint(); }
-        else { dsx = null; c.act({ a: "joga", i: i, s: r || !e ? "R" : "L" }); }
-      }, !ok));
+      var ok = mine && (!e || fits(x, "L") || fits(x, "R"));
+      var t = h("div", null, "dtile" + (ok ? " ok" : " off") + (DS.sel === i ? " sel" : ""));
+      t.appendChild(tileSvg(x[0], x[1], true, num, 1.05));
+      if (ok) attachDrag(t, i, x);
+      hd.appendChild(t);
     });
     box.appendChild(hd);
-    if (dsx !== null && hand[dsx]) {
-      box.appendChild(h("p", "Em qual ponta?"));
-      box.appendChild(btn("Esquerda (" + e[0] + ")", function () { var i = dsx; dsx = null; c.act({ a: "joga", i: i, s: "L" }); }));
-      box.appendChild(btn("Direita (" + e[1] + ")", function () { var i = dsx; dsx = null; c.act({ a: "joga", i: i, s: "R" }); }));
+    if (mine && !hand.some(function (x) { return !e || fits(x, "L") || fits(x, "R"); }) && S.sk > 0)
+      box.appendChild(btn("Comprar do monte (" + S.sk + ")", function () { c.act({ a: "compra" }); }, "pri"));
+
+    function tap(i, x) {
+      if (!e) { place(i, "R"); return; }
+      var l = fits(x, "L"), r = fits(x, "R");
+      if (l && !r) place(i, "L"); else if (r && !l) place(i, "R"); else { DS.sel = DS.sel === i ? null : i; EX.paint(); }
     }
-    if (mine && !playable(hand, S.b).length && S.sk > 0) box.appendChild(btn("Comprar do monte (" + S.sk + ")", function () { c.act({ a: "compra" }); }));
+    function attachDrag(el, i, x) { // toque = escolhe/joga; arrastar e soltar na mesa tambem funciona
+      el.onpointerdown = function (ev) {
+        var sx = ev.clientX, sy = ev.clientY, ghost = null, moved = false;
+        try { el.setPointerCapture(ev.pointerId); } catch (err) {}
+        el.onpointermove = function (m) {
+          if (!moved && Math.abs(m.clientX - sx) + Math.abs(m.clientY - sy) < 10) return;
+          if (!moved) {
+            moved = true; EX.busy = true;
+            ghost = el.cloneNode(true);
+            ghost.style.cssText = "position:fixed;z-index:10001;pointer-events:none;opacity:.92;transform:scale(1.2) rotate(8deg)";
+            document.body.appendChild(ghost);
+          }
+          ghost.style.left = (m.clientX - 20) + "px"; ghost.style.top = (m.clientY - 50) + "px";
+        };
+        function done(m, cancel) {
+          el.onpointermove = el.onpointerup = el.onpointercancel = null;
+          if (!moved) { if (!cancel) tap(i, x); return; }
+          ghost.remove(); EX.busy = false;
+          var tgt = cancel ? null : document.elementFromPoint(m.clientX, m.clientY), side = null;
+          var z = tgt && tgt.closest ? tgt.closest("[data-side]") : null;
+          if (z) side = z.dataset.side;
+          else if (tgt && tgt.closest && tgt.closest(".dmtable")) {
+            var rc = tgt.closest(".dmtable").getBoundingClientRect();
+            side = m.clientX < rc.left + rc.width / 2 ? "L" : "R";
+            if (!fits(x, side)) side = side === "L" ? "R" : "L";
+          }
+          if (side && fits(x, side)) place(i, side); else EX.paint();
+        }
+        el.onpointerup = function (m) { done(m, false); };
+        el.onpointercancel = function (m) { done(m, true); };
+      };
+    }
   }
 
   // =========================== CIDADE DORME ===========================
@@ -526,46 +641,61 @@
     },
     draw: function (box, S, c) { drawCidade(box, S, c); }
   };
-  var TK = { n: -1, type: 0, cnt: 0, a: 0, b: 0, sent: false, ok: false };
+  var TK = { n: -1, type: 0, cnt: 0, a: 0, b: 0, sent: false };
+  var ICON = { A: "🔪", M: "💉", D: "🔎", C: "🏠" };
+  function playerGrid(parent, pl, alive, onPick, skip) {
+    var g = EX.h("div", null, "cdgrid");
+    pl.forEach(function (p) {
+      var on = alive.indexOf(p.id) >= 0, t = EX.h("div", null, "cdt" + (on ? "" : " dead"));
+      t.appendChild(EX.h("div", on ? p.n.charAt(0).toUpperCase() : "✝", "av"));
+      t.appendChild(EX.h("div", p.n));
+      if (on && onPick && p.id !== skip) { t.style.cursor = "pointer"; t.onclick = function () { onPick(p.id); }; }
+      g.appendChild(t);
+    });
+    parent.appendChild(g);
+  }
   function drawCidade(box, S, c) {
     var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, al = S.al ? S.al.split(",") : [], alive = al.indexOf(I) >= 0, pv = c.pv;
-    box.appendChild(h("p", S.ev));
-    box.appendChild(h("p", "Vivos: " + al.map(function (id) { return nm(pl, id); }).join(", "), "exinfo"));
+    var night = S.ph === "noite", wrap = h("div", null, night ? "cdn" : S.ph === "fim" ? "excard" : "cdd");
+    box.appendChild(wrap);
+    wrap.appendChild(h("h3", night ? "🌙 Noite " + S.n : S.ph === "dia" ? "☀️ Dia " + S.n : S.ph === "voto" ? "🗳️ Votação" : "Fim de jogo"));
+    wrap.appendChild(h("p", S.ev, night ? "exinfo" : ""));
     if (S.ph === "fim") {
-      box.appendChild(h("p", S.w === "C" ? "A cidade venceu! 🎉" : "Os assassinos venceram! 🔪", "exbig"));
-      pl.forEach(function (p) { box.appendChild(h("p", p.n + ": " + ROLE[S.rv[p.id]] + (al.indexOf(p.id) >= 0 ? "" : " (morto)"))); });
+      wrap.appendChild(h("p", S.w === "C" ? "A cidade venceu! 🎉" : "Os assassinos venceram! 🔪", "exbig"));
+      pl.forEach(function (p) { wrap.appendChild(h("p", ICON[S.rv[p.id]] + " " + p.n + ": " + ROLE[S.rv[p.id]] + (al.indexOf(p.id) >= 0 ? "" : " (morto)"))); });
       return;
     }
+    playerGrid(wrap, pl, al, null);
     if (!c.isP) return;
-    if (!pv) { c.needPv(); box.appendChild(h("p", "Carregando seu papel...")); return; }
-    box.appendChild(h("p", "Seu papel: " + ROLE[pv.r] + (alive ? "" : " (você morreu: assista)"), "exbig"));
-    if (pv.r === "D" && pv.d.length) box.appendChild(h("p", "Suas investigações: " + pv.d.map(function (x) { return x[0] + (x[1] ? " = ASSASSINO" : " = inocente"); }).join("; ")));
+    if (!pv) { c.needPv(); wrap.appendChild(h("p", "Carregando seu papel...")); return; }
+    var rc = h("div", ICON[pv.r], "cdrole"); rc.appendChild(h("small", ROLE[pv.r] + (alive ? "" : " (você morreu: assista)")));
+    wrap.appendChild(rc);
+    if (pv.r === "D" && pv.d.length) wrap.appendChild(h("p", "🔎 " + pv.d.map(function (x) { return x[0] + (x[1] ? " = ASSASSINO" : " = inocente"); }).join("; ")));
     if (!alive) return;
-    if (S.ph === "noite") {
-      box.appendChild(h("h3", "Noite " + S.n + " (" + S.na + "/" + al.length + " prontos)"));
-      if (TK.n !== S.n) { TK = { n: S.n, type: Math.floor(Math.random() * 2), cnt: 0, a: 2 + Math.floor(Math.random() * 8), b: 2 + Math.floor(Math.random() * 8), sent: false, ok: false }; }
-      if (TK.sent) { box.appendChild(h("p", "Pronto. Aguarde os outros...")); return; }
+    if (night) {
+      wrap.appendChild(h("span", S.na + "/" + al.length + " prontos", "pill hot"));
+      if (TK.n !== S.n) TK = { n: S.n, type: Math.floor(Math.random() * 2), cnt: 0, a: 2 + Math.floor(Math.random() * 8), b: 2 + Math.floor(Math.random() * 8), sent: false };
+      if (TK.sent) { wrap.appendChild(h("p", "Pronto. Aguarde os outros...", "exinfo")); return; }
       var done = function (v) { TK.sent = true; c.act({ a: "noite", v: v }); };
       if (pv.r === "A" || pv.r === "M" || pv.r === "D") {
-        box.appendChild(h("p", pv.r === "A" ? "Escolha quem matar:" : pv.r === "M" ? "Escolha quem salvar:" : "Escolha quem investigar:"));
-        al.forEach(function (id) { if (!(pv.r === "A" && id === I)) box.appendChild(btn(nm(pl, id), function () { done(id); })); });
-        box.appendChild(btn("Não fazer nada", function () { done("ok"); }));
+        wrap.appendChild(h("p", pv.r === "A" ? "Escolha quem matar:" : pv.r === "M" ? "Escolha quem salvar:" : "Escolha quem investigar:"));
+        playerGrid(wrap, pl, al, done, pv.r === "A" ? I : null);
+        wrap.appendChild(btn("Não fazer nada", function () { done("ok"); }));
       } else if (S.tk) {
-        box.appendChild(h("p", "Tarefa da noite (finja que está agindo!):"));
-        if (TK.type === 0) {
-          box.appendChild(btn("Toque 6 vezes: " + TK.cnt + "/6", function () { TK.cnt++; if (TK.cnt >= 6) done("ok"); else EX.paint(); }));
-        } else {
-          box.appendChild(h("p", "Quanto é " + TK.a + " + " + TK.b + "?"));
-          [TK.a + TK.b - 1, TK.a + TK.b, TK.a + TK.b + 2].sort().forEach(function (x) { box.appendChild(btn(String(x), function () { if (x === TK.a + TK.b) done("ok"); else { TK.n = -1; EX.paint(); } })); });
+        wrap.appendChild(h("p", "Tarefa da noite (finja que está agindo!):"));
+        if (TK.type === 0) wrap.appendChild(btn("Toque 6 vezes: " + TK.cnt + "/6", function () { TK.cnt++; if (TK.cnt >= 6) done("ok"); else EX.paint(); }, "pri"));
+        else {
+          wrap.appendChild(h("p", "Quanto é " + TK.a + " + " + TK.b + "?", "exbig"));
+          [TK.a + TK.b - 1, TK.a + TK.b, TK.a + TK.b + 2].sort().forEach(function (x) { wrap.appendChild(btn(String(x), function () { if (x === TK.a + TK.b) done("ok"); else { TK.n = -1; EX.paint(); } })); });
         }
-      } else box.appendChild(btn("Fechei os olhos", function () { done("ok"); }));
+      } else wrap.appendChild(btn("Fechei os olhos", function () { done("ok"); }, "pri"));
     } else if (S.ph === "dia") {
-      box.appendChild(h("h3", "Dia " + S.n + ": discutam!"));
-      box.appendChild(btn("Estou pronto para votar (" + S.np + "/" + al.length + ")", function () { c.act({ a: "pronto" }); }));
+      wrap.appendChild(h("p", "Discutam: quem é o assassino?"));
+      wrap.appendChild(btn("Estou pronto para votar (" + S.np + "/" + al.length + ")", function () { c.act({ a: "pronto" }); }, "pri"));
     } else if (S.ph === "voto") {
-      box.appendChild(h("h3", "Votação (" + S.nv + "/" + al.length + ")"));
-      al.forEach(function (id) { if (id !== I) box.appendChild(btn("Eliminar " + nm(pl, id), function () { c.act({ a: "voto", v: id }); })); });
-      box.appendChild(btn("Ninguém", function () { c.act({ a: "voto", v: "0" }); }));
+      wrap.appendChild(h("p", "Toque em quem você quer eliminar (" + S.nv + "/" + al.length + " votaram)"));
+      playerGrid(wrap, pl, al, function (id) { c.act({ a: "voto", v: id }); }, I);
+      wrap.appendChild(btn("Ninguém", function () { c.act({ a: "voto", v: "0" }); }));
     }
   }
 
@@ -614,35 +744,38 @@
   };
   var QS = { hide: false, v: "" };
   function drawQuem(box, S, c) {
-    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, pv = c.pv;
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, pv = c.pv, card = h("div", null, "excard");
+    box.appendChild(card);
     if (S.st === "fim") {
-      box.appendChild(h("h3", "Fim! Os personagens eram:"));
-      pl.forEach(function (p) { box.appendChild(h("p", p.n + " era " + (S.ch[p.id] || "?"))); });
+      card.appendChild(h("h3", "Fim! Os personagens eram:"));
+      pl.forEach(function (p) { var n = h("div", null, "qpost"); n.appendChild(h("b", p.n)); n.appendChild(h("span", S.ch[p.id] || "?")); card.appendChild(n); });
       return;
     }
-    if (!c.isP) { box.appendChild(h("p", S.st === "escreve" ? "Os jogadores estão escrevendo (" + S.w + "/" + pl.length + ")..." : "Partida em andamento.")); return; }
-    if (!pv || (S.st === "escreve" ? pv.w === undefined : !pv.v)) { c.needPv(); box.appendChild(h("p", "Carregando...")); return; }
+    if (!c.isP) { card.appendChild(h("p", S.st === "escreve" ? "Os jogadores estão escrevendo (" + S.w + "/" + pl.length + ")..." : "Partida em andamento.")); return; }
+    if (!pv || (S.st === "escreve" ? pv.w === undefined : !pv.v)) { c.needPv(); card.appendChild(h("p", "Carregando...")); return; }
     if (S.st === "escreve") {
-      box.appendChild(h("p", "Escreva o personagem de " + pv.w + " (ex.: Homem de Ferro):"));
-      if (pv.ok) { box.appendChild(h("p", "Enviado! Esperando os outros (" + S.w + "/" + pl.length + ")...")); return; }
+      card.appendChild(h("p", "Escreva o personagem de " + pv.w + " (ex.: Homem de Ferro):"));
+      if (pv.ok) { card.appendChild(h("p", "Enviado! Esperando os outros (" + S.w + "/" + pl.length + ")...", "exgood")); return; }
       var i = h("input"); i.value = QS.v; i.placeholder = "Personagem"; i.dataset.keep = 1; i.oninput = function () { QS.v = i.value; };
-      box.appendChild(i);
-      box.appendChild(btn("Enviar", function () { if (QS.v.trim()) { c.act({ a: "nome", v: QS.v }); QS.v = ""; } }));
+      card.appendChild(i);
+      card.appendChild(btn("Enviar", function () { if (QS.v.trim()) { c.act({ a: "nome", v: QS.v }); QS.v = ""; } }, "pri"));
       return;
     }
     var lock = btn(QS.hide ? "🔒" : "🔍", function () { QS.hide = !QS.hide; EX.paint(); });
     lock.style.cssText = "position:fixed;top:8px;right:8px;z-index:10001;font-size:20px";
     box.appendChild(lock);
-    box.appendChild(h("p", "Veja os personagens dos outros. O seu você descobre perguntando!"));
+    card.appendChild(h("p", "Veja os personagens dos outros. O seu você descobre perguntando!", "exinfo"));
     pl.forEach(function (p) {
-      if (p.id === I) { box.appendChild(h("p", p.n + ": ???")); return; }
-      var r = h("p", p.n + ": " + (pv.v[p.id] || "?") + (S.sv.indexOf(p.id) >= 0 ? " ✅" : ""));
-      if (QS.hide) r.className = "blur";
-      box.appendChild(r);
+      var n = h("div", null, "qpost" + (p.id === I ? " me" : "")), won = S.sv.indexOf(p.id) >= 0;
+      n.appendChild(h("b", p.n + (won ? " ✅" : "")));
+      var sp = h("span", p.id === I ? "❓ ???" : (pv.v[p.id] || "?"));
+      if (QS.hide && p.id !== I) sp.className = "blur";
+      n.appendChild(sp);
+      card.appendChild(n);
     });
-    if (S.sv.indexOf(I) < 0) box.appendChild(btn("Descobri quem eu sou!", function () { c.act({ a: "achei" }); }));
-    else box.appendChild(h("p", "Você já descobriu! 🎉"));
-    if (c.owner) box.appendChild(btn("Encerrar rodada", function () { c.act({ a: "fim" }); }));
+    if (S.sv.indexOf(I) < 0) card.appendChild(btn("Descobri quem eu sou!", function () { c.act({ a: "achei" }); }, "pri"));
+    else card.appendChild(h("p", "Você já descobriu! 🎉", "exgood"));
+    if (c.owner) card.appendChild(btn("Encerrar rodada", function () { c.act({ a: "fim" }); }));
   }
 
   // =========================== DESAFIO MATEMATICO ===========================
@@ -698,24 +831,36 @@
       var n = q.n;
       setTimeout(function () { if (t.m === q && q.n === n) mNext(t); }, 1500);
     },
-    draw: function (box, S, c) {
-      var h = EX.h, btn = EX.btn, pl = c.s.pl;
-      box.appendChild(h("p", "Pergunta " + Math.min(S.n, S.tot) + " de " + S.tot, "exinfo"));
-      if (S.st === "fim") box.appendChild(h("p", "Fim!", "exbig"));
-      else {
-        box.appendChild(h("div", S.q, "exbig"));
-        box.appendChild(h("p", S.op ? "Valendo!" : "Acertou: " + S.last, "exinfo"));
-        if (c.isP && S.op) {
-          var i = h("input"); i.placeholder = "Sua resposta"; i.setAttribute("inputmode", "numeric"); i.dataset.keep = 1;
-          var go = function () { if (i.value.trim()) { c.act({ a: "resp", v: i.value }); i.value = ""; } };
-          i.onkeydown = function (e) { if (e.key === "Enter") go(); };
-          box.appendChild(i); box.appendChild(btn("Responder", go));
-        }
-      }
-      box.appendChild(h("h3", "Placar"));
-      pl.slice().sort(function (a, b) { return (S.sc[b.id] || 0) - (S.sc[a.id] || 0); }).forEach(function (p) { box.appendChild(h("p", p.n + ": " + (S.sc[p.id] || 0))); });
-    }
+    draw: function (box, S, c) { drawMat(box, S, c); }
   };
+
+  function drawMat(box, S, c) {
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, card = h("div", null, "excard");
+    box.appendChild(card);
+    card.appendChild(h("span", "Pergunta " + Math.min(S.n, S.tot) + " de " + S.tot, "pill"));
+    if (S.st === "fim") card.appendChild(h("p", "Fim! 🏁", "exbig"));
+    else {
+      card.appendChild(h("div", S.q, "mtq"));
+      if (S.op) EX.timer(card, 30, c.id + "m" + S.n);
+      card.appendChild(h("p", S.op ? "Valendo! O primeiro a acertar ganha o ponto." : "✅ " + S.last + " acertou!", S.op ? "exinfo" : "exgood"));
+      if (c.isP && S.op) {
+        var i = h("input"); i.placeholder = "Sua resposta"; i.setAttribute("inputmode", "numeric"); i.dataset.keep = 1;
+        var go = function () { if (i.value.trim()) { c.act({ a: "resp", v: i.value }); i.value = ""; } };
+        i.onkeydown = function (e) { if (e.key === "Enter") go(); };
+        card.appendChild(i); card.appendChild(btn("Responder", go, "pri"));
+      }
+    }
+    var sb = h("div", null, "excard"), max = 1;
+    pl.forEach(function (p) { max = Math.max(max, S.sc[p.id] || 0); });
+    sb.appendChild(h("h3", "Placar"));
+    pl.slice().sort(function (a, b) { return (S.sc[b.id] || 0) - (S.sc[a.id] || 0); }).forEach(function (p) {
+      var r = h("div", null, "mtbar"), v = S.sc[p.id] || 0, bar = h("i");
+      bar.style.width = Math.max(4, v / max * 60) + "%";
+      r.appendChild(h("b", p.n)); r.appendChild(bar); r.appendChild(h("span", String(v)));
+      sb.appendChild(r);
+    });
+    box.appendChild(sb);
+  }
 
   // =========================== STOP / ADEDONHA ===========================
   var DEFCATS = ["Nome", "Animal", "Cidade/País", "Cor", "Fruta", "Objeto"];
@@ -809,72 +954,218 @@
     },
     draw: function (box, S, c) { drawStop(box, S, c); }
   };
-  var SA = { rn: -1, t0: 0, v: [], sent: -1, el: null, cat: "" };
-  if (typeof window !== "undefined") setInterval(function () {
-    if (SA.el && SA.el.isConnected) { var r = Math.max(0, SA.sec - Math.round((Date.now() - SA.t0) / 1000)); SA.el.textContent = "Tempo: " + r + " s"; }
-  }, 500);
+  var SA = { rn: -1, v: [], sent: -1, cat: "" };
   function drawStop(box, S, c) {
-    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me;
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, card = h("div", null, "excard");
+    box.appendChild(card);
     if (S.st === "cats") {
-      box.appendChild(h("h3", "Categorias"));
-      box.appendChild(h("p", S.cats.join(", ")));
+      card.appendChild(h("h3", "Categorias"));
+      S.cats.forEach(function (k) { card.appendChild(h("span", k, "pill")); });
       if (c.isP) {
         var i = h("input"); i.value = SA.cat; i.placeholder = "Nova categoria (opcional)"; i.dataset.keep = 1; i.oninput = function () { SA.cat = i.value; };
-        box.appendChild(i);
-        box.appendChild(btn("Adicionar categoria", function () { if (SA.cat.trim()) { c.act({ a: "cat", v: SA.cat }); SA.cat = ""; } }));
+        card.appendChild(i);
+        card.appendChild(btn("Adicionar categoria", function () { if (SA.cat.trim()) { c.act({ a: "cat", v: SA.cat }); SA.cat = ""; } }));
       }
-      if (c.owner) box.appendChild(btn("▶ Sortear letra e começar", function () { c.act({ a: "ini" }); }));
-      else box.appendChild(h("p", "Esperando o dono começar a rodada.", "exinfo"));
+      if (c.owner) card.appendChild(btn("▶ Sortear letra e começar", function () { c.act({ a: "ini" }); }, "pri"));
+      else card.appendChild(h("p", "Esperando o dono começar a rodada.", "exinfo"));
       return;
     }
     if (S.st === "joga" || S.st === "coleta") {
-      if (SA.rn !== S.rn) { SA.rn = S.rn; SA.t0 = Date.now(); SA.v = []; SA.sec = S.sec; }
-      box.appendChild(h("div", "Letra: " + S.L, "exbig"));
-      var tm = h("p", "Tempo", "exinfo"); box.appendChild(tm); SA.el = tm;
+      if (SA.rn !== S.rn) { SA.rn = S.rn; SA.v = []; }
+      card.appendChild(h("div", S.L, "spl"));
+      if (S.st === "joga") EX.timer(card, S.sec, c.id + "s" + S.rn);
       if (!c.isP) return;
       if (S.st === "coleta") {
-        box.appendChild(h("p", "Tempo! Enviando suas respostas..."));
+        card.appendChild(h("p", "Tempo! Enviando suas respostas..."));
         if (SA.sent !== S.rn) { SA.sent = S.rn; c.act({ a: "resp", v: SA.v.slice() }); }
         return;
       }
+      var sheet = h("div", null, "spsheet");
       S.cats.forEach(function (cat, k) {
-        var inp = h("input"); inp.placeholder = cat; inp.value = SA.v[k] || ""; inp.dataset.keep = 1;
+        sheet.appendChild(h("label", cat));
+        var inp = h("input"); inp.placeholder = "Começa com " + S.L; inp.value = SA.v[k] || ""; inp.dataset.keep = 1;
         inp.oninput = function () { SA.v[k] = inp.value; };
-        box.appendChild(h("p", cat + ":")); box.appendChild(inp);
+        sheet.appendChild(inp);
       });
-      box.appendChild(btn("STOP!", function () { c.act({ a: "stop" }); }));
+      card.appendChild(sheet);
+      card.appendChild(btn("STOP!", function () { c.act({ a: "stop" }); }, "pri"));
       return;
     }
     if (S.st === "valida") {
-      box.appendChild(h("div", "Letra " + S.L, "exbig"));
-      box.appendChild(h("p", "Toque numa resposta que você acha errada (a maioria invalida). Respostas dos jogadores: " + S.ok, "exinfo"));
+      card.appendChild(h("div", S.L, "spl"));
+      card.appendChild(h("p", "Toque numa resposta que você acha errada (a maioria invalida). Já responderam: " + S.ok, "exinfo"));
       S.cats.forEach(function (cat, k) {
-        box.appendChild(h("h3", cat));
+        var cc = h("div", null, "excard");
+        cc.appendChild(h("h3", cat));
         pl.forEach(function (p) {
           var a = (c.dat[p.id] || [])[k] || "", bad = S.bad.indexOf(p.id + "." + k) >= 0;
-          var b = btn(p.n + ": " + (a || "—") + (bad ? "  ✗" : ""), function () { if (p.id !== I && a) c.act({ a: "inv", p: p.id, c: k }); });
+          var b = btn(p.n + ": " + (a || "—") + (bad ? "  ✗" : ""), function () { if (p.id !== I && a) c.act({ a: "inv", p: p.id, c: k }); }, bad ? "kno" : "");
           if (bad) b.style.textDecoration = "line-through";
-          box.appendChild(b);
+          cc.appendChild(b);
         });
+        box.appendChild(cc);
       });
-      if (c.owner) box.appendChild(btn("Encerrar validação e contar pontos", function () { c.act({ a: "fimv" }); }));
+      if (c.owner) box.appendChild(btn("Encerrar validação e contar pontos", function () { c.act({ a: "fimv" }); }, "pri"));
       return;
     }
-    box.appendChild(h("h3", S.st === "fim" ? "Fim de jogo! Total:" : "Pontos da rodada (total)"));
+    card.appendChild(h("h3", S.st === "fim" ? "Fim de jogo! Total:" : "Pontos da rodada (total)"));
     pl.slice().sort(function (a, b) { return (S.sc[b.id] || 0) - (S.sc[a.id] || 0); }).forEach(function (p) {
-      box.appendChild(h("p", p.n + ": +" + (S.rs[p.id] || 0) + "  (total " + (S.sc[p.id] || 0) + ")"));
+      card.appendChild(h("p", p.n + ": +" + (S.rs[p.id] || 0) + "  (total " + (S.sc[p.id] || 0) + ")"));
     });
     if (S.st === "res" && c.owner) {
-      box.appendChild(btn("Próxima rodada", function () { c.act({ a: "ini" }); }));
-      box.appendChild(btn("Encerrar jogo", function () { c.act({ a: "fim" }); }));
+      card.appendChild(btn("Próxima rodada", function () { c.act({ a: "ini" }); }, "pri"));
+      card.appendChild(btn("Encerrar jogo", function () { c.act({ a: "fim" }); }));
     }
+  }
+
+  // =========================== QUIZ DO CARTAO SD ===========================
+  // Le arquivos questoes*.txt da raiz do cartao SD do Cardputer (so aparece quando o admin liga).
+  // Formato dos arquivos: igual ao do Trivia -- "Pack: Tema", e blocos Q:/A:/B:/C:/D:/Answer: separados por ---
+  function parseQs(text) {
+    var out = [], theme = "";
+    String(text).replace(/\r\n/g, "\n").split(/^---\s*$/m).forEach(function (blk) {
+      var q = null, o = {}, ans = "";
+      blk.split("\n").forEach(function (ln) {
+        var m = /^\s*(Pack|Tema|Q|A|B|C|D|Answer|Resposta)\s*:\s*(.*)$/i.exec(ln);
+        if (!m) return;
+        var k = m[1].toUpperCase(), v = m[2].trim();
+        if (k === "PACK" || k === "TEMA") theme = v.slice(0, 30);
+        else if (k === "Q") q = v;
+        else if (k === "ANSWER" || k === "RESPOSTA") ans = v.toUpperCase().charAt(0);
+        else o[k] = v;
+      });
+      if (q && o.A && o.B && o.C && o.D && /^[ABCD]$/.test(ans))
+        out.push({ q: q.slice(0, 160), o: [o.A, o.B, o.C, o.D].map(function (x) { return x.slice(0, 60); }), a: "ABCD".indexOf(ans), t: theme });
+    });
+    return out;
+  }
+  var SDL = { files: null, err: "", loading: false };
+  function zReveal(t) {
+    var z = t.z;
+    if (!z.open) return;
+    z.open = false; z.pk = {};
+    t.pl.forEach(function (p) {
+      var a = z.ans[p.id];
+      if (a !== undefined) z.pk[p.id] = a;
+      if (a === z.cur.a) { z.sc[p.id] = (z.sc[p.id] || 0) + 1; EX.score(p.n, 1); }
+    });
+    EX.announce(t);
+    var n = z.n;
+    setTimeout(function () { if (t.z === z && z.n === n) zNext(t); }, 3500);
+  }
+  function zNext(t) {
+    var z = t.z;
+    if (z.n >= z.qs.length) { z.st = "fim"; z.cur = null; t.ph = "fim"; EX.announce(t); return; }
+    z.cur = z.qs[z.n]; z.n++; z.ans = {}; z.pk = {}; z.open = true; z.st = "q";
+    EX.announce(t);
+    var n = z.n, secs = t.opt.s;
+    if (secs > 0) setTimeout(function () { if (t.z === z && z.n === n && z.open) zReveal(t); }, secs * 1000);
+  }
+  var sdquiz = {
+    nome: "Quiz do Cartão SD", needSd: true, desc: "Perguntas lidas dos arquivos questoes*.txt do cartão SD.", min: 1, max: 99,
+    opts: [
+      { k: "n", label: "Perguntas", vals: [[5, "5"], [10, "10"], [20, "20"], [30, "30"], [50, "50"]], def: 10 },
+      { k: "s", label: "Tempo por pergunta", vals: [[10, "10 s"], [20, "20 s"], [30, "30 s"], [0, "Sem limite"]], def: 20 }
+    ],
+    lobby: function (box, t) {
+      var h = EX.h, btn = EX.btn;
+      t.sel = t.sel || {};
+      box.appendChild(h("h3", "Temas do cartão SD"));
+      if (!SDL.files && !SDL.loading) {
+        SDL.loading = true;
+        EX.fetchSd("lista", function (txt) {
+          SDL.loading = false;
+          try { var j = JSON.parse(txt); SDL.files = j.ok ? j.f : []; SDL.err = j.ok ? "" : "Cartão SD não encontrado no Cardputer."; }
+          catch (e) { SDL.files = []; SDL.err = "Não consegui ler a lista do cartão SD."; }
+          EX.paint();
+        });
+      }
+      if (SDL.loading) { box.appendChild(h("p", "Lendo o cartão SD...", "exinfo")); return; }
+      if (SDL.err) box.appendChild(h("p", SDL.err, "exred"));
+      else if (!SDL.files || !SDL.files.length) box.appendChild(h("p", "Nenhum arquivo questoes*.txt na raiz do cartão SD.", "exred"));
+      else {
+        box.appendChild(h("p", "Toque para escolher (sem escolher nada, usa todos).", "exinfo"));
+        SDL.files.forEach(function (f) {
+          box.appendChild(btn((t.sel[f] ? "☑ " : "☐ ") + f.replace(/^questoes_?/, "").replace(/\.txt$/, "") , function () { t.sel[f] = !t.sel[f]; EX.paint(); }, t.sel[f] ? "on" : ""));
+        });
+      }
+      box.appendChild(btn("↻ Reler o cartão", function () { SDL.files = null; EX.paint(); }));
+    },
+    start: function (t) {
+      var names = Object.keys(t.sel || {}).filter(function (k) { return t.sel[k]; });
+      if (!names.length && SDL.files) names = SDL.files.slice();
+      if (!names.length) return "Nenhum arquivo de questões encontrado no cartão SD.";
+      var z = t.z = { st: "carrega", n: 0, tot: t.opt.n, qs: [], cur: null, ans: {}, pk: {}, sc: {}, open: false }, left = names.length, all = [];
+      names.forEach(function (nmf) {
+        EX.fetchSd(nmf, function (txt) {
+          if (txt) all = all.concat(parseQs(txt));
+          if (--left > 0) return;
+          if (!all.length) { z.st = "erro"; EX.announce(t); return; }
+          z.qs = shuffle(all).slice(0, z.tot);
+          zNext(t);
+        });
+      });
+    },
+    pub: function (t) {
+      var z = t.z;
+      if (!z) return {};
+      var c = z.cur;
+      return { st: z.st, n: z.n, tot: Math.min(z.tot, z.qs.length || z.tot), q: c ? c.q : "", o: c ? c.o : [], th: c ? c.t : "", na: keys(z.ans).length,
+        op: z.open ? 1 : 0, c: c && !z.open ? c.a : -1, pk: z.open ? 0 : z.pk, sc: z.sc, s: t.opt.s };
+    },
+    msg: function (t, m) {
+      var z = t.z;
+      if (!z || m.a !== "resp" || !z.open || z.ans[m.f] !== undefined) return;
+      var v = parseInt(m.v, 10);
+      if (!(v >= 0 && v <= 3)) return;
+      z.ans[m.f] = v;
+      if (keys(z.ans).length >= t.pl.length) { zReveal(t); return; }
+      EX.announce(t);
+    },
+    draw: function (box, S, c) { drawQuizSd(box, S, c); }
+  };
+  var QZ = { n: -1, v: -1 };
+  function drawQuizSd(box, S, c) {
+    var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, card = h("div", null, "excard");
+    box.appendChild(card);
+    if (S.st === "carrega") { card.appendChild(h("p", "Carregando as perguntas do cartão SD...", "exinfo")); return; }
+    if (S.st === "erro") { card.appendChild(h("p", "Não consegui ler perguntas válidas dos arquivos do cartão SD.", "exred")); return; }
+    if (S.st === "fim") card.appendChild(h("p", "Fim do quiz! 🏁", "exbig"));
+    else {
+      card.appendChild(h("span", "Pergunta " + S.n + " de " + S.tot, "pill"));
+      if (S.th) card.appendChild(h("span", S.th, "pill hot"));
+      card.appendChild(h("div", S.q, "mtq"));
+      if (S.op && S.s > 0) EX.timer(card, S.s, c.id + "z" + S.n);
+      if (QZ.n !== S.n) { QZ.n = S.n; QZ.v = -1; }
+      var mine = S.op ? QZ.v : (S.pk && S.pk[I] !== undefined ? S.pk[I] : -1);
+      S.o.forEach(function (txt, k) {
+        var cls = "";
+        if (!S.op) cls = k === S.c ? "kok" : (k === mine ? "kno" : "");
+        else if (k === mine) cls = "on";
+        var b = btn("ABCD".charAt(k) + ") " + txt, function () { if (c.isP && S.op && QZ.v < 0) { QZ.v = k; c.act({ a: "resp", v: k }); EX.paint(); } }, cls);
+        b.style.display = "block"; b.style.width = "100%"; b.style.textAlign = "left";
+        if (!S.op && k !== S.c && k !== mine) b.style.opacity = ".45";
+        card.appendChild(b);
+      });
+      card.appendChild(h("p", S.op ? "Responderam: " + S.na + "/" + pl.length : (mine === S.c ? "✅ Você acertou!" : mine < 0 ? "Você não respondeu." : "❌ Resposta certa: " + "ABCD".charAt(S.c)), S.op ? "exinfo" : (mine === S.c ? "exgood" : "exred")));
+    }
+    var sb = h("div", null, "excard"), max = 1;
+    pl.forEach(function (p) { max = Math.max(max, S.sc[p.id] || 0); });
+    sb.appendChild(h("h3", "Placar"));
+    pl.slice().sort(function (a, b) { return (S.sc[b.id] || 0) - (S.sc[a.id] || 0); }).forEach(function (p) {
+      var r = h("div", null, "mtbar"), v = S.sc[p.id] || 0, bar = h("i");
+      bar.style.width = Math.max(4, v / max * 60) + "%";
+      r.appendChild(h("b", p.n)); r.appendChild(bar); r.appendChild(h("span", String(v)));
+      sb.appendChild(r);
+    });
+    box.appendChild(sb);
   }
 
   // ---------------------------------------------------------------------
   if (typeof module !== "undefined" && module.exports) {
     module.exports = { norm: norm, mask: mask, newBoard: newBoard, legalMoves: legalMoves, applyMove: applyMove, enc: enc, dec: dec,
       mgen: mgen, domDeal: domDeal, domPlay: domPlay, domBuy: domBuy, domEnd: domEnd, domAuto: domAuto, playable: playable, derange: derange,
-      cdNight: cdNight, cdVote: cdVote, cdWin: cdWin, stopScore: stopScore, stopFlags: stopFlags };
+      cdNight: cdNight, cdVote: cdVote, cdWin: cdWin, stopScore: stopScore, stopFlags: stopFlags, parseQs: parseQs };
     return;
   }
   if (!EX) return;
@@ -885,5 +1176,6 @@
   EX.reg("quem", quem);
   EX.reg("mat", mat);
   EX.reg("stop", stop);
+  EX.reg("sdquiz", sdquiz);
   EX.paint();
 })();

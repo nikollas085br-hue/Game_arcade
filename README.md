@@ -40,6 +40,9 @@ Dicas:
 | `T` | girar a tela 180° (se o texto aparecer de cabeça para baixo) |
 | `Esc` | voltar |
 
+No canto direito do rodapé da tela do Cardputer aparece `[x]`: é a última tecla que ele recebeu
+(serve para ver se o teclado está respondendo).
+
 **Configurações (`S`)**: *Nome* da rede, *Senha*, Som, Idioma, Wi-Fi ligado/desligado, Eventos.
 Use `;` `.` para subir/descer, `Enter` para editar, `,` `/` para mudar valores.
 A senha precisa ter de 8 a 63 letras; vazia = rede aberta. Mudar nome ou senha reinicia a rede.
@@ -108,13 +111,36 @@ Trivia, Desenho, Lobisomem...), o botão laranja **🎲 Jogos** abre:
 | Jogo | Resumo |
 | --- | --- |
 | **Forca** | Um jogador toca em *Ser o criador*; se os outros concordarem, ele digita a palavra e a dica (escrita, categoria pronta ou *sem dica*). Os outros chutam no teclado da tela. Quando a letra erra, o criador decide se *conta como erro*. |
-| **Dama** | Regras brasileiras: captura obrigatória, lei da maioria, dama voadora. 2 jogadores. |
-| **Dominó** | 2 a 4 jogadores. Escolha quantas peças cada um recebe, com ou sem monte para comprar, e jogar até 50/100 pontos ou uma rodada. Pontos contados sozinhos. |
+| **Dama** | Regras brasileiras: captura obrigatória, lei da maioria, dama voadora. Tabuleiro de madeira, última jogada destacada e botão para mostrar a numeração das casas. |
+| **Dominó** | 2 a 4 jogadores, peças desenhadas como no jogo de verdade (bolinhas) e botão **🔢 Ver números** para trocar entre bolinhas e números. Toque na peça ou arraste até a mesa. Escolha quantas peças cada um recebe, com ou sem monte, e jogar até 50/100 pontos ou uma rodada. |
 | **Cidade Dorme** | O dono define quantos assassinos, médicos e detetives. Papéis secretos. De noite quem não tem papel faz uma tarefa na tela (pode desligar), para ninguém saber quem está agindo. |
 | **Quem Eu Sou?** | O sistema sorteia quem escreve o personagem de quem. Você vê o personagem de todos, menos o seu. Botão 🔒/🔍 esconde a tela rápido. |
 | **Desafio Matemático** | De 1 jogador até quantos couberem na rede (o Wi-Fi do Cardputer aceita no máximo 10 aparelhos ao mesmo tempo). Fácil, Médio, Difícil e Impossível (expressões e equações do 1º grau). O primeiro a acertar ganha o ponto. |
 | **Stop (Adedonha)** | Letra sorteada, tempo configurável, categorias padrão e criadas pelos jogadores, validação das respostas entre todos. |
 | **Chat** | Texto, foto da galeria, foto na hora pela câmera e áudio. |
+| **Quiz do Cartão SD** | Perguntas lidas do cartão SD do Cardputer (veja abaixo). Só aparece quando o administrador liga. |
+
+**Questões do cartão SD:** coloque na **raiz** do cartão SD do Cardputer arquivos com nome
+`questoes*.txt` (por exemplo `questoes_geografia.txt`). Você pode trocar, apagar e criar arquivos
+quando quiser: o sistema lê tudo sozinho, sem precisar gerar nada de novo. O administrador liga em
+**Admin → Questões do cartão SD → Ligado**; aí o jogo **Quiz do Cartão SD** aparece em *Criar*.
+O dono da mesa escolhe os temas (ou usa todos), quantas perguntas e o tempo de cada uma.
+Formato do arquivo (igual ao do Trivia):
+
+```
+Pack: Meu Tema
+Q: Qual é a capital do Brasil?
+A: Rio de Janeiro
+B: São Paulo
+C: Brasília
+D: Salvador
+Answer: C
+---
+Q: Próxima pergunta...
+```
+
+Cada arquivo pode ter até uns 16 mil caracteres (umas 50 perguntas). Perguntas com algo faltando
+são ignoradas. O pacote `questoes-para-o-sd.zip` já traz 14 áreas prontas (350 perguntas).
 
 **Mesas e convites:** em *Criar*, escolha o jogo e marque quem vai jogar (ou *Selecionar todos*).
 Os chamados recebem um aviso e tocam em *Entrar*. Quem não foi chamado fica livre: navega, joga em
@@ -157,7 +183,7 @@ em `index.html` (JavaScript) — o xadrez, por exemplo, já está pronto lá den
 | `ha_games.h`, `ha_json.h`, `ha_proto.h` | motor dos jogos (do projeto original) |
 | `index.html` | site dos jogos |
 | `extras.js` | mesas, convites, administrador, ranking e chat (rodam no celular) |
-| `extras-jogos.js` | Forca, Dama, Dominó, Cidade Dorme, Quem Eu Sou, Matemática e Stop |
+| `extras-jogos.js` | Forca, Dama, Dominó, Cidade Dorme, Quem Eu Sou, Matemática, Stop e Quiz do SD |
 | `jogos/*.txt` | conteúdo dos jogos |
 | `gerar-assets.mjs` | usado pelo GitHub para embutir site e jogos no firmware |
 

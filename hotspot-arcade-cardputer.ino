@@ -454,6 +454,81 @@ static const HaBakedFile* haFindFile(const char* path) {
     return nullptr;
 }
 
+// ===================== QUESTOES DO CARTAO SD =====================
+// Arquivos "questoes*.txt" na RAIZ do cartao SD. Quando o administrador liga "Questoes do SD" no site,
+// o jogo "Quiz do Cartao SD" pede a lista e os arquivos por aqui. A leitura do SD acontece na
+// tarefa principal (loop), igual ao resto do firmware: o servidor web so deixa um pedido na fila
+// e o celular consulta ate o arquivo ficar pronto.
+static volatile uint8_t haSdqReq = 0;   // 0 nada, 1 pedir a lista, 2 pedir um arquivo
+static volatile uint8_t haSdqState = 0; // 0 livre, 1 lendo, 2 pronto
+static char haSdqName[48] = "";         // "lista" ou o nome do arquivo pedido
+static String haSdqData;                // conteudo pronto (lista em JSON ou texto do arquivo)
+static uint32_t haSdqReadyAt = 0;
+#define HA_SDQ_MAX 16000                // maximo lido por arquivo (bytes)
+
+static bool haSdqNameOk(const String& n) {
+    size_t l = n.length();
+    if(l < 10 || l > 46 || !n.startsWith("questoes") || !n.endsWith(".txt")) return false;
+    for(size_t i = 0; i < l; i++) {
+        char c = n[i];
+        if(!(isalnum((unsigned char)c) || c == '_' || c == '-' || c == '.')) return false;
+    }
+    return n.indexOf("..") < 0;
+}
+
+static void haSdqService() { // chamado no loop()
+    if(haSdqState == 2 && millis() - haSdqReadyAt > 15000) { haSdqData = ""; haSdqState = 0; haSdqName[0] = 0; }
+    if(!haSdqReq) return;
+    uint8_t r = haSdqReq;
+    haSdqReq = 0;
+    haSdqData = "";
+    if(r == 1) { // lista de arquivos
+        haSdqData = haSdOk ? "{\"ok\":1,\"f\":[" : "{\"ok\":0}";
+        if(haSdOk) {
+            bool first = true;
+            File root = SD.open("/");
+            if(root) {
+                File e = root.openNextFile();
+                while(e) {
+                    String n = e.name();
+                    if(n.startsWith("/")) n.remove(0, 1);
+                    String low = n;
+                    low.toLowerCase();
+                    if(!e.isDirectory() && haSdqNameOk(low)) {
+                        if(!first) haSdqData += ",";
+                        haSdqData += "\"" + low + "\"";
+                        first = false;
+                    }
+                    e.close();
+                    e = root.openNextFile();
+                }
+                root.close();
+            }
+            haSdqData += "]}";
+        }
+    } else if(haSdOk) { // um arquivo
+        File f = SD.open(String("/") + haSdqName, FILE_READ);
+        if(f) {
+            size_t fileSize = f.size();
+            size_t total = fileSize > HA_SDQ_MAX ? HA_SDQ_MAX : fileSize;
+            haSdqData.reserve(total + 1);
+            uint8_t b[256];
+            while(f.available() && haSdqData.length() < total) {
+                int got = f.read(b, sizeof(b));
+                if(got <= 0) break;
+                haSdqData.concat((const char*)b, (unsigned int)got);
+            }
+            f.close();
+            if(fileSize > HA_SDQ_MAX) { // cortado: volta ate o ultimo "---" inteiro
+                int cut = haSdqData.lastIndexOf("---");
+                if(cut > 0) haSdqData.remove(cut);
+            }
+        }
+    }
+    haSdqReadyAt = millis();
+    haSdqState = 2;
+}
+
 class ArcadeHandler : public AsyncWebHandler {
 public:
     bool canHandle(AsyncWebServerRequest* request) const override {
@@ -503,6 +578,29 @@ public:
             }
         }
 #endif
+        if(request->url() == "/sdq") { // questoes do cartao SD (ver acima)
+            String f = request->hasParam("f") ? request->getParam("f")->value() : String("");
+            bool wantList = f == "lista";
+            if(!wantList && !haSdqNameOk(f)) {
+                request->send(400, "text/plain", "erro");
+                return;
+            }
+            if(haSdqState == 2 && f == haSdqName) { // pronto: entrega e libera a memoria
+                String out = haSdqData;
+                haSdqData = "";
+                haSdqState = 0;
+                haSdqName[0] = 0;
+                request->send(200, "text/plain; charset=utf-8", out);
+                return;
+            }
+            if(haSdqState == 0 && !haSdqReq) {
+                strlcpy(haSdqName, f.c_str(), sizeof(haSdqName));
+                haSdqState = 1;
+                haSdqReq = wantList ? 1 : 2;
+            }
+            request->send(202, "text/plain", "espere");
+            return;
+        }
         const HaBakedFile* a = haFindFile(request->url().c_str());
         if(!a && HA_BAKED_FILE_COUNT) a = &HA_BAKED_FILES[0]; // qualquer outro endereco -> o site dos jogos
         if(!a) {
@@ -847,6 +945,7 @@ void setup() {
 void loop() {
     M5Cardputer.update();
     haUiPumpKeys();
+    haSdqService();
 
     if(haLangDirty) { // Settings changed the language -> re-stream that language's packs
         haLangDirty = false;
