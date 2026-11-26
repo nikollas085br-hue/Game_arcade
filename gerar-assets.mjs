@@ -51,7 +51,7 @@ const TRIVIA_MAX_QS = 15; // limite do engine: 15 perguntas por pack de trivia
 if (!existsSync(join(root, 'index.html'))) fail('index.html nao encontrado na raiz do projeto.');
 // extras.js e extras-jogos.js (Forca, Dama, Domino...) sao colados no fim do site, dentro de uma tag <script>.
 let html = readFileSync(join(root, 'index.html'), 'utf8');
-for (const f of ['extras.js', 'extras-jogos.js']) { // nucleo primeiro, depois os jogos
+for (const f of ['extras.js', 'extras-jogos.js', 'extras-app.js']) { // nucleo, jogos, e por ultimo o gerenciador de perguntas
   if (existsSync(join(root, f))) html += '\n<script>' + readFileSync(join(root, f), 'utf8') + '</script>\n';
 }
 const webBytes = gzipSync(Buffer.from(html, 'utf8'), { level: 9 });

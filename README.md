@@ -118,14 +118,54 @@ Trivia, Desenho, Lobisomem...), o botão laranja **🎲 Jogos** abre:
 | **Desafio Matemático** | De 1 jogador até quantos couberem na rede (o Wi-Fi do Cardputer aceita no máximo 10 aparelhos ao mesmo tempo). Fácil, Médio, Difícil e Impossível (expressões e equações do 1º grau). O primeiro a acertar ganha o ponto. |
 | **Stop (Adedonha)** | Letra sorteada, tempo configurável, categorias padrão e criadas pelos jogadores, validação das respostas entre todos. |
 | **Chat** | Texto, foto da galeria, foto na hora pela câmera e áudio. |
-| **Quiz do Cartão SD** | Perguntas lidas do cartão SD do Cardputer (veja abaixo). Só aparece quando o administrador liga. |
+| **Quiz do Cartão SD** | Perguntas lidas do cartão SD do Cardputer, com modo Geral (todas as áreas) ou áreas escolhidas (veja abaixo). Só aparece quando o administrador liga. |
 
-**Questões do cartão SD:** coloque na **raiz** do cartão SD do Cardputer arquivos com nome
-`questoes*.txt` (por exemplo `questoes_geografia.txt`). Você pode trocar, apagar e criar arquivos
-quando quiser: o sistema lê tudo sozinho, sem precisar gerar nada de novo. O administrador liga em
-**Admin → Questões do cartão SD → Ligado**; aí o jogo **Quiz do Cartão SD** aparece em *Criar*.
-O dono da mesa escolhe os temas (ou usa todos), quantas perguntas e o tempo de cada uma.
-Formato do arquivo (igual ao do Trivia):
+**Questões do cartão SD (passo a passo):**
+
+1. No computador, formate o cartão microSD em **FAT32** (até 32 GB funciona melhor).
+2. Copie os arquivos `questoes_*.txt` da pasta `questoes-para-o-sd/` para a **raiz** do cartão
+   (soltos, **não** dentro de uma pasta). Dá para trocar, apagar ou criar outros depois, direto pelo celular
+   (veja "Aba Perguntas" abaixo).
+3. Coloque o cartão no Cardputer e ligue. (Se esqueceu o cartão, coloque e abra a lista no celular:
+   o Cardputer tenta montar o cartão de novo sozinho.)
+4. No celular, abra o site, toque em **Admin → Questões do cartão SD → Ligado**
+   (senha padrão: **nikollas**; para trocar, edite `ADMIN_SENHA` no começo de `extras.js`).
+5. Em **Mesas → Criar**, escolha **Quiz do Cartão SD**. A sala mostra as áreas encontradas e as opções:
+   - **Áreas**: **🎲 Geral** (todas as áreas) ou só as que você tocar. Cada arquivo é uma "pasta" de perguntas.
+   - **Ordem**: *Misturar as áreas* (uma pergunta de cada área por vez), *Tudo aleatório* ou
+     *Na ordem dos arquivos* (alfabética; use `questoes_01_...`, `questoes_02_...` para escolher a ordem).
+   - **Perguntas**: 5, 10, 20, 30, 50, 100 ou **Todas**.
+6. Convide os jogadores e comece.
+
+Se aparecer "Cartão SD não encontrado" ou "Nenhum arquivo questoes*.txt": confira o FAT32, se os
+arquivos estão na raiz e se o nome começa com `questoes` e termina com `.txt` (sem acento, sem espaço).
+Toque em **↻ Reler o cartão** depois de trocar arquivos.
+
+**Aba "Perguntas" (só para o administrador, na janela 🎲 Jogos):**
+- **📁 Arquivos**: lista os arquivos do cartão; **Editar** (adicionar, alterar, apagar, mudar a ordem com ↑ ↓),
+  **Apagar** arquivo ou **criar** um novo. Tudo é gravado direto no cartão SD do Cardputer.
+- **🤖 IA e importar**: você escolhe assunto, quantidade e nível; o app monta o *prompt* certo; você leva o
+  prompt para a IA (Gemini, ChatGPT ou Claude), copia a resposta e importa. **Não usa API nem chave.**
+  O leitor aceita o formato do jogo e também respostas "bagunçadas" (negrito, `1.`, `a)`, `Resposta: B`...),
+  mostra uma prévia para você desmarcar as que não quiser, e salva num arquivo existente ou novo
+  (se passar de 15 mil bytes, divide em `..._2.txt`, `..._3.txt`...). Também serve para importar qualquer lista
+  de perguntas que você tenha em texto.
+- **⚙ Padrão do quiz**: guarda no cartão (`questoes_config.txt`) quais áreas, qual ordem e quantas perguntas
+  toda mesa nova do Quiz usa como ponto de partida (dá para mudar na sala).
+Observação: qualquer pessoa na rede do Cardputer consegue abrir a página; só quem tem a senha de admin vê a aba,
+mas o cartão em si não pede senha. Use uma rede/senha de Wi-Fi que só os amigos conhecem.
+
+**App Android "Arcade M5" (pasta `android/`)**: um app simples que abre o site do Cardputer e deixa tudo mais fácil:
+- **Conectar**: entra na rede do Cardputer só para o app (Android 10+). O resto do celular continua com a
+  internet 4G/Wi-Fi, então o Gemini/ChatGPT/Claude funcionam ao mesmo tempo, sem desligar dados móveis.
+- Na aba *Perguntas → IA e importar*, os botões **Abrir Gemini / ChatGPT / Claude** copiam o prompt e abrem o app
+  da IA com o texto pronto. Depois de copiar a resposta e voltar ao Arcade M5, as perguntas aparecem sozinhas na prévia.
+- **Config.**: nome da rede, senha e endereço do Cardputer (padrão `Arcade-M5` / `jogar1234` / `192.168.4.1`).
+- Como gerar: o GitHub Actions (aba *Actions*) já compila o APK junto com o firmware; baixe o artefato
+  **arcade-m5-apk** (`ArcadeM5.apk`) e instale no celular (permita "instalar apps desconhecidos").
+  *O app não foi compilado por quem escreveu: se o Actions mostrar erro no job `apk`, mande o log.*
+
+Formato dos arquivos (igual ao do Trivia):
 
 ```
 Pack: Meu Tema
@@ -139,8 +179,10 @@ Answer: C
 Q: Próxima pergunta...
 ```
 
-Cada arquivo pode ter até uns 16 mil caracteres (umas 50 perguntas). Perguntas com algo faltando
-são ignoradas. O pacote `questoes-para-o-sd.zip` já traz 14 áreas prontas (350 perguntas).
+Cada arquivo pode ter até uns 15 mil bytes (umas 60 a 90 perguntas; o excedente é ignorado). Pergunta com até
+160 letras e alternativas com até 60. Perguntas com algo faltando são ignoradas. A pasta `questoes-para-o-sd/`
+traz 12 áreas de conhecimentos gerais de nível escolar (503 perguntas): matemática, ciências, geografia, história,
+português, inglês básico, esportes, artes e música, tecnologia, animais e natureza, corpo humano e saúde, curiosidades.
 
 **Mesas e convites:** em *Criar*, escolha o jogo e marque quem vai jogar (ou *Selecionar todos*).
 Os chamados recebem um aviso e tocam em *Entrar*. Quem não foi chamado fica livre: navega, joga em

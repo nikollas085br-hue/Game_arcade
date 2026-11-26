@@ -18,6 +18,7 @@
   var tb = {}, own = {}, pv = {}, dat = {}, cur = null, tab = "mesas", ovOpen = false, asked = false;
   var unread = 0, chat = [], parts = {}, notified = {}, draft = null;
   EX.me = me;
+  EX.tabs = []; // abas extras registradas por outros arquivos (ex.: extras-app.js): {id, label, admin, paint(ov)}
 
   // ------------------------------- transporte -------------------------------
   function send(o) {
@@ -86,7 +87,7 @@
     tries = tries || 0;
     fetch("/sdq?f=" + encodeURIComponent(name)).then(function (r) {
       if (r.status === 200) return r.text().then(function (t) { cb(t); });
-      if (r.status === 202 && tries < 40) setTimeout(function () { EX.fetchSd(name, cb, tries + 1); }, 250);
+      if (r.status === 202 && tries < 100) setTimeout(function () { EX.fetchSd(name, cb, tries + 1); }, 150);
       else cb(null);
     }).catch(function () { cb(null); });
   };
@@ -365,7 +366,7 @@
     openBtn.textContent = "🎲 Jogos" + (unread ? " (" + unread + ")" : "");
     if (!ovOpen || EX.busy) return;
     var ae = document.activeElement;
-    if (ae && ae.tagName === "INPUT" && ae.dataset.keep && ov.contains(ae)) return; // nao atrapalha quem esta digitando
+    if (ae && (ae.tagName === "INPUT" || ae.tagName === "TEXTAREA") && ae.dataset.keep && ov.contains(ae)) return; // nao atrapalha quem esta digitando
     var now = Date.now();
     for (var k in tb) if (!own[k] && now - tb[k].seen > 40000) delete tb[k];
     var keep = ov.scrollTop;
@@ -375,6 +376,7 @@
     var tabs = [["mesas", "Mesas"], ["criar", "Criar"], ["chat", "Chat" + (unread ? " (" + unread + ")" : "")]];
     if (mode === "comp") tabs.push(["rank", "Ranking"]);
     if (me.admin) tabs.push(["admin", "Admin"]);
+    EX.tabs.forEach(function (x) { if (!x.admin || me.admin) tabs.push([x.id, x.label]); });
     tabs.forEach(function (x) { ov.appendChild(btn(x[1], function () { tab = x[0]; if (tab === "chat") unread = 0; if (tab !== "mesas") cur = null; paint(); }, tab === x[0] ? "on" : "")); });
     ov.appendChild(h("p", "Você: " + me.nick + (me.admin ? " (admin)" : "") + "  |  Modo: " + (mode === "comp" ? "Competitivo" : "Entretenimento"), "exinfo"));
     if (tab === "mesas") { if (cur && tb[cur]) paintTable(tb[cur]); else paintMesas(); }
@@ -382,6 +384,7 @@
     else if (tab === "chat") paintChat();
     else if (tab === "rank") paintRank();
     else if (tab === "admin") paintAdmin();
+    else EX.tabs.forEach(function (x) { if (x.id === tab && (!x.admin || me.admin)) x.paint(ov); });
     ov.scrollTop = keep;
   }
   EX.paint = paint;

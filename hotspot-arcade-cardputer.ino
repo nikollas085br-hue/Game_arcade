@@ -455,16 +455,24 @@ static const HaBakedFile* haFindFile(const char* path) {
 }
 
 // ===================== QUESTOES DO CARTAO SD =====================
-// Arquivos "questoes*.txt" na RAIZ do cartao SD. Quando o administrador liga "Questoes do SD" no site,
-// o jogo "Quiz do Cartao SD" pede a lista e os arquivos por aqui. A leitura do SD acontece na
-// tarefa principal (loop), igual ao resto do firmware: o servidor web so deixa um pedido na fila
-// e o celular consulta ate o arquivo ficar pronto.
-static volatile uint8_t haSdqReq = 0;   // 0 nada, 1 pedir a lista, 2 pedir um arquivo
-static volatile uint8_t haSdqState = 0; // 0 livre, 1 lendo, 2 pronto
-static char haSdqName[48] = "";         // "lista" ou o nome do arquivo pedido
-static String haSdqData;                // conteudo pronto (lista em JSON ou texto do arquivo)
+// Arquivos "questoes*.txt" na RAIZ do cartao SD. O site (celular) pede por aqui, sempre pelo
+// endereco /sdq:
+//   /sdq?f=lista                       lista os arquivos (nomes e tamanhos)
+//   /sdq?f=NOME                        le um arquivo
+//   /sdq?f=NOME&w=N&d=TEXTO            grava o pedaco N (N=0 recomeca o arquivo do zero)
+//   /sdq?f=NOME&x=1                    apaga o arquivo
+// A leitura/gravacao do SD acontece na tarefa principal (loop), igual ao resto do firmware: o
+// servidor web so deixa um pedido na fila e o celular consulta ate ficar pronto (202 = espere).
+static volatile uint8_t haSdqReq = 0;   // 0 nada, 1 lista, 2 ler, 3 gravar pedaco, 4 apagar
+static volatile uint8_t haSdqState = 0; // 0 livre, 1 trabalhando, 2 pronto
+static char haSdqKey[72] = "";          // identifica o pedido (o celular reconhece a resposta por ela)
+static char haSdqFile[48] = "";         // nome do arquivo pedido
+static String haSdqData;                // resultado (lista, texto, "ok"/"erro") ou o pedaco a gravar
+static uint32_t haSdqIdx = 0;           // numero do pedaco (gravacao)
+static uint32_t haSdqWNext = 0;         // proximo pedaco esperado do arquivo que esta sendo gravado
+static char haSdqWFile[48] = "";
 static uint32_t haSdqReadyAt = 0;
-#define HA_SDQ_MAX 16000                // maximo lido por arquivo (bytes)
+#define HA_SDQ_MAX 16000                // maximo lido/gravado por arquivo (bytes)
 
 static bool haSdqNameOk(const String& n) {
     size_t l = n.length();
@@ -476,15 +484,21 @@ static bool haSdqNameOk(const String& n) {
     return n.indexOf("..") < 0;
 }
 
+static void haSdBegin(); // definida mais abaixo (monta o cartao SD)
+
 static void haSdqService() { // chamado no loop()
-    if(haSdqState == 2 && millis() - haSdqReadyAt > 15000) { haSdqData = ""; haSdqState = 0; haSdqName[0] = 0; }
+    if(haSdqState == 2 && millis() - haSdqReadyAt > 15000) { haSdqData = ""; haSdqState = 0; haSdqKey[0] = 0; }
     if(!haSdqReq) return;
     uint8_t r = haSdqReq;
     haSdqReq = 0;
+    String pedaco;
+    if(r == 3) { pedaco = haSdqData; } // o pedaco a gravar veio no mesmo lugar do resultado
     haSdqData = "";
+    if(r == 1 && !haSdOk) haSdBegin(); // cartao colocado depois de ligar (ou que falhou no boot): tenta montar de novo
     if(r == 1) { // lista de arquivos
         haSdqData = haSdOk ? "{\"ok\":1,\"f\":[" : "{\"ok\":0}";
         if(haSdOk) {
+            String sizes;
             bool first = true;
             File root = SD.open("/");
             if(root) {
@@ -495,8 +509,9 @@ static void haSdqService() { // chamado no loop()
                     String low = n;
                     low.toLowerCase();
                     if(!e.isDirectory() && haSdqNameOk(low)) {
-                        if(!first) haSdqData += ",";
+                        if(!first) { haSdqData += ","; sizes += ","; }
                         haSdqData += "\"" + low + "\"";
+                        sizes += String((unsigned long)e.size());
                         first = false;
                     }
                     e.close();
@@ -504,26 +519,54 @@ static void haSdqService() { // chamado no loop()
                 }
                 root.close();
             }
-            haSdqData += "]}";
+            haSdqData += "],\"z\":[" + sizes + "]}";
         }
-    } else if(haSdOk) { // um arquivo
-        File f = SD.open(String("/") + haSdqName, FILE_READ);
-        if(f) {
-            size_t fileSize = f.size();
-            size_t total = fileSize > HA_SDQ_MAX ? HA_SDQ_MAX : fileSize;
-            haSdqData.reserve(total + 1);
-            uint8_t b[256];
-            while(f.available() && haSdqData.length() < total) {
-                int got = f.read(b, sizeof(b));
-                if(got <= 0) break;
-                haSdqData.concat((const char*)b, (unsigned int)got);
-            }
-            f.close();
-            if(fileSize > HA_SDQ_MAX) { // cortado: volta ate o ultimo "---" inteiro
-                int cut = haSdqData.lastIndexOf("---");
-                if(cut > 0) haSdqData.remove(cut);
+    } else if(r == 2) { // ler um arquivo
+        if(haSdOk) {
+            File f = SD.open(String("/") + haSdqFile, FILE_READ);
+            if(f) {
+                size_t fileSize = f.size();
+                size_t total = fileSize > HA_SDQ_MAX ? HA_SDQ_MAX : fileSize;
+                haSdqData.reserve(total + 1);
+                uint8_t b[256];
+                while(f.available() && haSdqData.length() < total) {
+                    int got = f.read(b, sizeof(b));
+                    if(got <= 0) break;
+                    haSdqData.concat((const char*)b, (unsigned int)got);
+                }
+                f.close();
+                if(fileSize > HA_SDQ_MAX) { // cortado: volta ate o ultimo "---" inteiro
+                    int cut = haSdqData.lastIndexOf("---");
+                    if(cut > 0) haSdqData.remove(cut);
+                }
             }
         }
+    } else if(r == 3) { // gravar um pedaco (0 = recomeca o arquivo; depois, so o pedaco esperado ou um repetido)
+        haSdqData = "erro";
+        if(haSdOk) {
+            String path = String("/") + haSdqFile;
+            bool mesmo = strcmp(haSdqWFile, haSdqFile) == 0;
+            if(haSdqIdx == 0) {
+                SD.remove(path);
+                strlcpy(haSdqWFile, haSdqFile, sizeof(haSdqWFile));
+                haSdqWNext = 0;
+                mesmo = true;
+            }
+            if(mesmo && haSdqIdx < haSdqWNext) {
+                haSdqData = "ok"; // pedaco repetido (o celular tentou de novo): ja esta gravado
+            } else if(mesmo && haSdqIdx == haSdqWNext) {
+                File f = SD.open(path, FILE_APPEND);
+                if(f) {
+                    if(f.size() + pedaco.length() <= HA_SDQ_MAX) {
+                        size_t w = f.write((const uint8_t*)pedaco.c_str(), pedaco.length());
+                        if(w == pedaco.length()) { haSdqWNext = haSdqIdx + 1; haSdqData = "ok"; }
+                    }
+                    f.close();
+                }
+            }
+        }
+    } else if(r == 4) { // apagar
+        haSdqData = (haSdOk && SD.remove(String("/") + haSdqFile)) ? "ok" : "erro";
     }
     haSdqReadyAt = millis();
     haSdqState = 2;
@@ -581,22 +624,39 @@ public:
         if(request->url() == "/sdq") { // questoes do cartao SD (ver acima)
             String f = request->hasParam("f") ? request->getParam("f")->value() : String("");
             bool wantList = f == "lista";
+            bool wantPut = request->hasParam("w");
+            bool wantDel = request->hasParam("x");
             if(!wantList && !haSdqNameOk(f)) {
                 request->send(400, "text/plain", "erro");
                 return;
             }
-            if(haSdqState == 2 && f == haSdqName) { // pronto: entrega e libera a memoria
+            String wv = wantPut ? request->getParam("w")->value() : String("");
+            String key = f;
+            if(wantPut) key += "#w" + wv;
+            if(wantDel) key += "#x";
+            if(key.length() >= sizeof(haSdqKey)) {
+                request->send(400, "text/plain", "erro");
+                return;
+            }
+            if(haSdqState == 2 && key == haSdqKey) { // pronto: entrega e libera a memoria
                 String out = haSdqData;
                 haSdqData = "";
                 haSdqState = 0;
-                haSdqName[0] = 0;
+                haSdqKey[0] = 0;
                 request->send(200, "text/plain; charset=utf-8", out);
                 return;
             }
             if(haSdqState == 0 && !haSdqReq) {
-                strlcpy(haSdqName, f.c_str(), sizeof(haSdqName));
+                strlcpy(haSdqKey, key.c_str(), sizeof(haSdqKey));
+                strlcpy(haSdqFile, f.c_str(), sizeof(haSdqFile));
+                haSdqData = "";
+                uint8_t op = wantList ? 1 : (wantDel ? 4 : (wantPut ? 3 : 2));
+                if(op == 3) {
+                    haSdqIdx = (uint32_t)wv.toInt();
+                    if(request->hasParam("d")) haSdqData = request->getParam("d")->value();
+                }
                 haSdqState = 1;
-                haSdqReq = wantList ? 1 : 2;
+                haSdqReq = op;
             }
             request->send(202, "text/plain", "espere");
             return;
@@ -802,8 +862,12 @@ void haHostSnapshot(HaHost& dst) {
 static SPIClass haSdSpi(FSPI);
 bool haSdOk = false; // non-static: ha_history.h reads it via `extern`
 static void haSdBegin() {
-    haSdSpi.begin(40, 39, 14, 12);
+    haSdSpi.begin(40, 39, 14, 12); // mesmos pinos no Cardputer v1 e no ADV
     haSdOk = SD.begin(12, haSdSpi, 20000000);
+    if(!haSdOk) { // alguns cartoes nao aguentam 20 MHz: tenta mais devagar
+        SD.end();
+        haSdOk = SD.begin(12, haSdSpi, 4000000);
+    }
     if(haSdOk)
         Serial.printf(
             "[ha] SD ok: %lluMB, type %d\n",
