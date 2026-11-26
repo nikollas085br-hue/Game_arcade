@@ -1039,7 +1039,39 @@
     });
     return out;
   }
-  var SDL = { files: null, err: "", loading: false };
+  var SDL = { files: null, err: "", loading: false, cache: {} }; // cache: perguntas ja lidas de cada arquivo (nao le o cartao de novo)
+  var SDN = { matematica: "Matemática", ciencias: "Ciências", geografia: "Geografia", historia: "História", portugues: "Português",
+    ingles: "Inglês básico", esportes: "Esportes", artes: "Artes e Música", tecnologia: "Tecnologia", animais: "Animais e Natureza",
+    corpo: "Corpo e Saúde", curiosidades: "Curiosidades" };
+  function sdNome(f) { // "questoes_matematica_2.txt" -> "Matemática 2"
+    var s = f.replace(/^questoes_?/, "").replace(/\.txt$/, ""), m = /^(.*?)(?:_(\d+))?$/.exec(s), base = m[1];
+    var nome = SDN[base] || base.replace(/_/g, " ").replace(/^./, function (c) { return c.toUpperCase(); });
+    return (nome || f) + (m[2] ? " " + m[2] : "");
+  }
+  // Modo Geral: pega uma pergunta de cada area por vez (em ordem sorteada), assim todas as areas aparecem.
+  function lerCfg(txt) {
+    var c = {};
+    String(txt || "").split(/\r?\n/).forEach(function (l) { var m = /^\s*(\w+)\s*=\s*(.*?)\s*$/.exec(l); if (m) c[m[1]] = m[2]; });
+    return c;
+  }
+  EX.sdNome = sdNome;
+  function semRepetir(lista, tot) { // tira perguntas iguais e corta em tot
+    var out = [], visto = {};
+    lista.forEach(function (q) { if (out.length < tot && !visto[q.q]) { visto[q.q] = 1; out.push(q); } });
+    return out;
+  }
+  function juntar(listas) { return listas.reduce(function (a, l) { return a.concat(l); }, []); }
+  function misturar(listas, tot) {
+    var fila = listas.filter(function (l) { return l.length; }).map(function (l) { return shuffle(l.slice()); });
+    var out = [], visto = {}, k = 0;
+    shuffle(fila);
+    while (out.length < tot && fila.length) {
+      var idx = k % fila.length, l = fila[idx], q = l.shift();
+      if (q && !visto[q.q]) { visto[q.q] = 1; out.push(q); }
+      if (!l.length) { fila.splice(idx, 1); k = idx; } else k = idx + 1;
+    }
+    return shuffle(out);
+  }
   function zReveal(t) {
     var z = t.z;
     if (!z.open) return;
@@ -1064,7 +1096,8 @@
   var sdquiz = {
     nome: "Quiz do Cartão SD", needSd: true, desc: "Perguntas lidas dos arquivos questoes*.txt do cartão SD.", min: 1, max: 99,
     opts: [
-      { k: "n", label: "Perguntas", vals: [[5, "5"], [10, "10"], [20, "20"], [30, "30"], [50, "50"]], def: 10 },
+      { k: "n", label: "Perguntas", vals: [[5, "5"], [10, "10"], [20, "20"], [30, "30"], [50, "50"], [100, "100"], [0, "Todas"]], def: 10 },
+      { k: "o", label: "Ordem", vals: [["eq", "Misturar as áreas"], ["al", "Tudo aleatório"], ["seq", "Na ordem dos arquivos"]], def: "eq" },
       { k: "s", label: "Tempo por pergunta", vals: [[10, "10 s"], [20, "20 s"], [30, "30 s"], [0, "Sem limite"]], def: 20 }
     ],
     lobby: function (box, t) {
@@ -1075,7 +1108,7 @@
         SDL.loading = true;
         EX.fetchSd("lista", function (txt) {
           SDL.loading = false;
-          try { var j = JSON.parse(txt); SDL.files = j.ok ? j.f : []; SDL.err = j.ok ? "" : "Cartão SD não encontrado no Cardputer."; }
+          try { var j = JSON.parse(txt); SDL.files = j.ok ? j.f.filter(function (f) { return f !== "questoes_config.txt"; }).sort() : []; SDL.err = j.ok ? "" : "Cartão SD não encontrado no Cardputer."; }
           catch (e) { SDL.files = []; SDL.err = "Não consegui ler a lista do cartão SD."; }
           EX.paint();
         });
@@ -1084,34 +1117,67 @@
       if (SDL.err) box.appendChild(h("p", SDL.err, "exred"));
       else if (!SDL.files || !SDL.files.length) box.appendChild(h("p", "Nenhum arquivo questoes*.txt na raiz do cartão SD.", "exred"));
       else {
-        box.appendChild(h("p", "Toque para escolher (sem escolher nada, usa todos).", "exinfo"));
+        // Padrao do quiz guardado no cartao (questoes_config.txt, feito na aba Perguntas): areas, ordem e quantidade.
+        if (SDL.cfg === undefined) {
+          SDL.cfg = null; // carregando
+          EX.fetchSd("questoes_config.txt", function (txt) { SDL.cfg = lerCfg(txt); EX.paint(); });
+        } else if (SDL.cfg && !t.cfgOk) {
+          t.cfgOk = true;
+          var cf = SDL.cfg;
+          if (cf.areas) { t.sel = {}; cf.areas.split(",").forEach(function (a) { a = a.trim(); if (SDL.files.indexOf(a) >= 0) t.sel[a] = true; }); }
+          if (/^(eq|al|seq)$/.test(cf.ordem || "")) t.opt.o = cf.ordem;
+          if (cf.qtd !== undefined && cf.qtd !== "" && !isNaN(cf.qtd)) t.opt.n = Number(cf.qtd);
+          setTimeout(function () { EX.announce(t); }, 0); // redesenha as opcoes com o padrao
+        }
+        var qtd = Object.keys(t.sel).filter(function (k) { return t.sel[k]; }).length;
+        box.appendChild(h("p", SDL.files.length + " arquivo(s) de perguntas no cartão.", "exinfo"));
+        box.appendChild(btn((qtd ? "☐ " : "☑ ") + "🎲 Geral: mistura de todas as áreas", function () { t.sel = {}; EX.paint(); }, qtd ? "" : "on"));
+        box.appendChild(h("p", "Ou toque para escolher só algumas áreas:", "exinfo"));
         SDL.files.forEach(function (f) {
-          box.appendChild(btn((t.sel[f] ? "☑ " : "☐ ") + f.replace(/^questoes_?/, "").replace(/\.txt$/, "") , function () { t.sel[f] = !t.sel[f]; EX.paint(); }, t.sel[f] ? "on" : ""));
+          box.appendChild(btn((t.sel[f] ? "☑ " : "☐ ") + sdNome(f), function () { t.sel[f] = !t.sel[f]; EX.paint(); }, t.sel[f] ? "on" : ""));
         });
       }
-      box.appendChild(btn("↻ Reler o cartão", function () { SDL.files = null; EX.paint(); }));
+      box.appendChild(btn("↻ Reler o cartão", function () { SDL.files = null; SDL.cache = {}; SDL.cfg = undefined; EX.paint(); }));
     },
     start: function (t) {
       var names = Object.keys(t.sel || {}).filter(function (k) { return t.sel[k]; });
-      if (!names.length && SDL.files) names = SDL.files.slice();
+      if (!names.length && SDL.files) names = SDL.files.slice(); // nada escolhido = modo Geral (todas as areas)
       if (!names.length) return "Nenhum arquivo de questões encontrado no cartão SD.";
-      var z = t.z = { st: "carrega", n: 0, tot: t.opt.n, qs: [], cur: null, ans: {}, pk: {}, sc: {}, open: false }, left = names.length, all = [];
-      names.forEach(function (nmf) {
+      names.sort(); // ordem alfabetica dos arquivos (dica: questoes_01_..., questoes_02_... para escolher a ordem)
+      var tot = t.opt.n > 0 ? t.opt.n : 100000; // 0 = todas as perguntas
+      var z = t.z = { st: "carrega", n: 0, tot: tot, qs: [], cur: null, ans: {}, pk: {}, sc: {}, open: false, ld: 0, ldt: names.length };
+      var all = [], i = 0;
+      function fim() {
+        var pool = t.opt.o === "seq" ? semRepetir(juntar(all), z.tot)          // na ordem dos arquivos
+          : t.opt.o === "al" ? semRepetir(shuffle(juntar(all)), z.tot)          // tudo aleatorio
+          : misturar(all, z.tot);                                              // equilibrado entre as areas
+        if (!pool.length) { z.st = "erro"; EX.announce(t); return; }
+        z.qs = pool;
+        zNext(t);
+      }
+      // Le um arquivo por vez (o Cardputer atende um pedido de cada vez) e guarda no cache do celular.
+      function prox() {
+        if (t.z !== z) return;
+        if (i >= names.length) { fim(); return; }
+        var nmf = names[i++];
+        if (SDL.cache[nmf]) { all.push(SDL.cache[nmf]); z.ld = i; prox(); return; }
         EX.fetchSd(nmf, function (txt) {
-          if (txt) all = all.concat(parseQs(txt));
-          if (--left > 0) return;
-          if (!all.length) { z.st = "erro"; EX.announce(t); return; }
-          z.qs = shuffle(all).slice(0, z.tot);
-          zNext(t);
+          var qs = txt ? parseQs(txt) : [];
+          if (qs.length) SDL.cache[nmf] = qs;
+          all.push(qs);
+          z.ld = i;
+          if (t.z === z && i < names.length) EX.announce(t);
+          prox();
         });
-      });
+      }
+      prox();
     },
     pub: function (t) {
       var z = t.z;
       if (!z) return {};
       var c = z.cur;
       return { st: z.st, n: z.n, tot: Math.min(z.tot, z.qs.length || z.tot), q: c ? c.q : "", o: c ? c.o : [], th: c ? c.t : "", na: keys(z.ans).length,
-        op: z.open ? 1 : 0, c: c && !z.open ? c.a : -1, pk: z.open ? 0 : z.pk, sc: z.sc, s: t.opt.s };
+        op: z.open ? 1 : 0, c: c && !z.open ? c.a : -1, pk: z.open ? 0 : z.pk, sc: z.sc, s: t.opt.s, ld: z.ld || 0, ldt: z.ldt || 0 };
     },
     msg: function (t, m) {
       var z = t.z;
@@ -1128,7 +1194,7 @@
   function drawQuizSd(box, S, c) {
     var h = EX.h, btn = EX.btn, pl = c.s.pl, I = c.me, card = h("div", null, "excard");
     box.appendChild(card);
-    if (S.st === "carrega") { card.appendChild(h("p", "Carregando as perguntas do cartão SD...", "exinfo")); return; }
+    if (S.st === "carrega") { card.appendChild(h("p", "Carregando as perguntas do cartão SD..." + (S.ldt ? " (" + S.ld + "/" + S.ldt + ")" : ""), "exinfo")); return; }
     if (S.st === "erro") { card.appendChild(h("p", "Não consegui ler perguntas válidas dos arquivos do cartão SD.", "exred")); return; }
     if (S.st === "fim") card.appendChild(h("p", "Fim do quiz! 🏁", "exbig"));
     else {
@@ -1165,7 +1231,7 @@
   if (typeof module !== "undefined" && module.exports) {
     module.exports = { norm: norm, mask: mask, newBoard: newBoard, legalMoves: legalMoves, applyMove: applyMove, enc: enc, dec: dec,
       mgen: mgen, domDeal: domDeal, domPlay: domPlay, domBuy: domBuy, domEnd: domEnd, domAuto: domAuto, playable: playable, derange: derange,
-      cdNight: cdNight, cdVote: cdVote, cdWin: cdWin, stopScore: stopScore, stopFlags: stopFlags, parseQs: parseQs };
+      cdNight: cdNight, cdVote: cdVote, cdWin: cdWin, stopScore: stopScore, stopFlags: stopFlags, parseQs: parseQs, misturar: misturar, sdNome: sdNome };
     return;
   }
   if (!EX) return;
@@ -1177,5 +1243,6 @@
   EX.reg("mat", mat);
   EX.reg("stop", stop);
   EX.reg("sdquiz", sdquiz);
+  EX.sdReset = function () { SDL.files = null; SDL.cache = {}; SDL.cfg = undefined; }; // o gerenciador (extras-app.js) chama depois de salvar
   EX.paint();
 })();

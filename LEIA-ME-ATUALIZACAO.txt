@@ -1,0 +1,25 @@
+ATUALIZACAO DO ARCADE M5  (so os arquivos alterados ou novos)
+==============================================================
+Extraia este zip POR CIMA do projeto no GitHub (as pastas ja estao nos lugares certos).
+Depois rode o Actions: ele gera o firmware (.bin) e tambem o app (ArcadeM5.apk).
+
+ALTERADOS
+  hotspot-arcade-cardputer.ino   Cartao SD: ler, GRAVAR, apagar e listar (com tamanho) arquivos de perguntas;
+                                 remonta o cartao se ele for colocado depois de ligar; tenta de novo mais devagar.
+  extras.js                      Ponto de encaixe para abas novas (EX.tabs) + leitura mais robusta do cartao.
+  extras-jogos.js                Quiz do Cartao SD: modo Geral, ordem (equilibrado / aleatorio / na ordem dos
+                                 arquivos), quantidade ate 100 ou Todas, padrao vindo do cartao, carregamento
+                                 um arquivo por vez com contador.
+  gerar-assets.mjs               Inclui o extras-app.js no site.
+  README.md                      Passo a passo atualizado.
+  .github/workflows/build.yml    Novo job "apk" (gera o ArcadeM5.apk).
+  .gitignore                     Ignora pastas de build do Android.
+
+NOVOS
+  extras-app.js                  Aba "Perguntas" (editor, importar da IA sem API, padrao do quiz).
+  android/                       App Android "Arcade M5" (abre o site, entra na rede do Cardputer, abre Gemini/
+                                 ChatGPT/Claude com o prompt e importa a resposta copiada).
+  questoes-para-o-sd/            12 arquivos questoes_*.txt (503 perguntas) para copiar na RAIZ do cartao SD.
+
+NAO MEXA em jogos/, index.html e nos arquivos ha_*.h.
+Nao foi compilado no GitHub por mim (so testado em navegador simulado): se o Actions mostrar erro, mande o log.
