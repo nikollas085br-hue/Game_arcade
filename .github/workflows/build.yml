@@ -57,3 +57,34 @@ jobs:
         with:
           name: arcade-m5
           path: saida/
+
+  # App Android "Arcade M5": abre o site do Cardputer, entra na rede dele e abre a IA (sem API).
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.9"
+
+      - name: Aceitar licencas do Android SDK
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+
+      - name: Compilar o APK
+        run: gradle -p android assembleDebug --no-daemon
+
+      - name: Separar o APK
+        run: |
+          mkdir -p saida-apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk saida-apk/ArcadeM5.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arcade-m5-apk
+          path: saida-apk/
