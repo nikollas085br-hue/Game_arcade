@@ -1,0 +1,295 @@
+Pack: Português
+Q: Qual é o plural de "pão"?
+A: pãos
+B: pães
+C: pãe
+D: pões
+Answer: B
+---
+Q: Qual é o plural de "cidadão"?
+A: cidadães
+B: cidadãs
+C: cidadões
+D: cidadãos
+Answer: D
+---
+Q: Qual é o feminino de "ator"?
+A: atora
+B: atriza
+C: atriz
+D: atris
+Answer: C
+---
+Q: Qual é o antônimo de "alto"?
+A: largo
+B: baixo
+C: grande
+D: forte
+Answer: B
+---
+Q: Qual é um sinônimo de "feliz"?
+A: bravo
+B: alegre
+C: triste
+D: cansado
+Answer: B
+---
+Q: Qual palavra está escrita corretamente?
+A: exceção
+B: excessão
+C: exceçao
+D: esceção
+Answer: A
+---
+Q: Qual forma está escrita corretamente?
+A: com serteza
+B: concerteza
+C: conserteza
+D: com certeza
+Answer: D
+---
+Q: Quantas letras tem o alfabeto português atualmente?
+A: 23
+B: 26
+C: 24
+D: 28
+Answer: B
+---
+Q: Qual é a classe gramatical da palavra "correr"?
+A: Adjetivo
+B: Verbo
+C: Substantivo
+D: Advérbio
+Answer: B
+---
+Q: Em "casa bonita", qual é a classe gramatical de "bonita"?
+A: Substantivo
+B: Adjetivo
+C: Verbo
+D: Pronome
+Answer: B
+---
+Q: Qual sinal de pontuação termina uma pergunta?
+A: Dois-pontos
+B: Ponto final
+C: Ponto de interrogação
+D: Vírgula
+Answer: C
+---
+Q: Quem escreveu "O Pequeno Príncipe"?
+A: Antoine de Saint-Exupéry
+B: Ziraldo
+C: Monteiro Lobato
+D: Machado de Assis
+Answer: A
+---
+Q: Quem criou o Sítio do Picapau Amarelo?
+A: Maurício de Sousa
+B: Ziraldo
+C: Machado de Assis
+D: Monteiro Lobato
+Answer: D
+---
+Q: Quem criou a Turma da Mônica?
+A: Walt Disney
+B: Maurício de Sousa
+C: Ziraldo
+D: Monteiro Lobato
+Answer: B
+---
+Q: Quem escreveu "O Menino Maluquinho"?
+A: Ruth Rocha
+B: Monteiro Lobato
+C: Ziraldo
+D: Maurício de Sousa
+Answer: C
+---
+Q: Quem escreveu "Iracema"?
+A: José de Alencar
+B: Castro Alves
+C: Machado de Assis
+D: Graciliano Ramos
+Answer: A
+---
+Q: Quem escreveu "Vidas Secas"?
+A: Machado de Assis
+B: Jorge Amado
+C: Érico Veríssimo
+D: Graciliano Ramos
+Answer: D
+---
+Q: Quem escreveu "Capitães da Areia"?
+A: Jorge Amado
+B: José de Alencar
+C: Clarice Lispector
+D: Graciliano Ramos
+Answer: A
+---
+Q: Quem escreveu "Os Lusíadas"?
+A: Fernando Pessoa
+B: Eça de Queirós
+C: Luís de Camões
+D: Machado de Assis
+Answer: C
+---
+Q: Quem escreveu "Dom Quixote"?
+A: Luís de Camões
+B: Miguel de Cervantes
+C: William Shakespeare
+D: Victor Hugo
+Answer: B
+---
+Q: Quem escreveu "Romeu e Julieta"?
+A: Homero
+B: William Shakespeare
+C: Cervantes
+D: Charles Dickens
+Answer: B
+---
+Q: Quem é a autora da série "Harry Potter"?
+A: J. K. Rowling
+B: Agatha Christie
+C: Stephenie Meyer
+D: Suzanne Collins
+Answer: A
+---
+Q: Qual é o aumentativo de "casa"?
+A: casinha
+B: casal
+C: casarão
+D: casebre
+Answer: C
+---
+Q: Qual é o diminutivo de "livro"?
+A: livrinho
+B: livraço
+C: livreiro
+D: livrão
+Answer: A
+---
+Q: Qual é o coletivo de "peixes"?
+A: revoada
+B: cardume
+C: manada
+D: alcateia
+Answer: B
+---
+Q: Qual é o coletivo de "lobos"?
+A: rebanho
+B: enxame
+C: cardume
+D: alcateia
+Answer: D
+---
+Q: Qual é o coletivo de "abelhas"?
+A: enxame
+B: cardume
+C: alcateia
+D: manada
+Answer: A
+---
+Q: Qual é o coletivo de "aves" que voam juntas?
+A: rebanho
+B: cardume
+C: alcateia
+D: bando
+Answer: D
+---
+Q: Quantas sílabas tem a palavra "borboleta"?
+A: 4
+B: 3
+C: 5
+D: 2
+Answer: A
+---
+Q: Quantas vogais tem o alfabeto?
+A: 6
+B: 4
+C: 5
+D: 7
+Answer: C
+---
+Q: Em "eu comi", qual é o tempo verbal?
+A: Pretérito (passado)
+B: Imperativo
+C: Presente
+D: Futuro
+Answer: A
+---
+Q: Qual palavra é um substantivo próprio?
+A: menina
+B: cidade
+C: Brasil
+D: rio
+Answer: C
+---
+Q: Qual palavra é um advérbio?
+A: rápido
+B: rapaz
+C: rapidez
+D: rapidamente
+Answer: D
+---
+Q: Em "Ele chegou cedo", qual é a classe de "cedo"?
+A: Substantivo
+B: Adjetivo
+C: Verbo
+D: Advérbio
+Answer: D
+---
+Q: Qual é um sinônimo de "veloz"?
+A: pesado
+B: calmo
+C: rápido
+D: lento
+Answer: C
+---
+Q: Qual é o antônimo de "começo"?
+A: origem
+B: fim
+C: princípio
+D: início
+Answer: B
+---
+Q: O que é um sinônimo?
+A: Palavra com significado parecido
+B: Palavra estrangeira
+C: Palavra com significado oposto
+D: Palavra escrita igual
+Answer: A
+---
+Q: O que é um antônimo?
+A: Palavra de outro idioma
+B: Palavra com significado parecido
+C: Palavra escrita igual
+D: Palavra com significado oposto
+Answer: D
+---
+Q: Qual é a sílaba tônica da palavra "janela"?
+A: la
+B: jane
+C: ne
+D: ja
+Answer: C
+---
+Q: Qual é o feminino de "rei"?
+A: rainha
+B: reina
+C: regente
+D: reia
+Answer: A
+---
+Q: Qual é o feminino de "galo"?
+A: galona
+B: gala
+C: galha
+D: galinha
+Answer: D
+---
+Q: Qual é o plural de "animal"?
+A: animals
+B: animaes
+C: animais
+D: animales
+Answer: C
+---

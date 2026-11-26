@@ -1,0 +1,295 @@
+Pack: Inglês básico
+Q: Como se diz "cachorro" em inglês?
+A: Bird
+B: Dog
+C: Cat
+D: Horse
+Answer: B
+---
+Q: Como se diz "obrigado" em inglês?
+A: Sorry
+B: Hello
+C: Please
+D: Thank you
+Answer: D
+---
+Q: Como se diz "bom dia" em inglês?
+A: Good evening
+B: Good night
+C: Good afternoon
+D: Good morning
+Answer: D
+---
+Q: O que significa "apple"?
+A: Banana
+B: Uva
+C: Maçã
+D: Laranja
+Answer: C
+---
+Q: O que significa "house"?
+A: Escola
+B: Cavalo
+C: Casa
+D: Janela
+Answer: C
+---
+Q: O que significa "red"?
+A: Vermelho
+B: Verde
+C: Azul
+D: Amarelo
+Answer: A
+---
+Q: O que significa "blue"?
+A: Verde
+B: Azul
+C: Branco
+D: Roxo
+Answer: B
+---
+Q: Como se diz "gato" em inglês?
+A: Cow
+B: Rat
+C: Cat
+D: Dog
+Answer: C
+---
+Q: O que significa "seven"?
+A: Oito
+B: Sete
+C: Seis
+D: Nove
+Answer: B
+---
+Q: O que significa "water"?
+A: Fogo
+B: Água
+C: Ar
+D: Terra
+Answer: B
+---
+Q: O que significa "book"?
+A: Lápis
+B: Mochila
+C: Caderno
+D: Livro
+Answer: D
+---
+Q: Como se diz "escola" em inglês?
+A: Class
+B: Office
+C: School
+D: House
+Answer: C
+---
+Q: Como se diz "amigo" em inglês?
+A: Friend
+B: Teacher
+C: Family
+D: Brother
+Answer: A
+---
+Q: O que significa "sun"?
+A: Sol
+B: Estrela
+C: Lua
+D: Nuvem
+Answer: A
+---
+Q: Como se diz "lua" em inglês?
+A: Moon
+B: Sky
+C: Sun
+D: Star
+Answer: A
+---
+Q: Como se diz "por favor" em inglês?
+A: Thanks
+B: Sorry
+C: Welcome
+D: Please
+Answer: D
+---
+Q: O que significa "goodbye"?
+A: Olá
+B: Obrigado
+C: Desculpe
+D: Tchau
+Answer: D
+---
+Q: O que significa "sorry"?
+A: Desculpe
+B: Obrigado
+C: Olá
+D: Tchau
+Answer: A
+---
+Q: Como se diz "leite" em inglês?
+A: Cheese
+B: Milk
+C: Juice
+D: Water
+Answer: B
+---
+Q: O que significa "bird"?
+A: Gato
+B: Pássaro
+C: Peixe
+D: Vaca
+Answer: B
+---
+Q: O que significa "fish"?
+A: Prato
+B: Pato
+C: Pássaro
+D: Peixe
+Answer: D
+---
+Q: Como se diz "verde" em inglês?
+A: Green
+B: Brown
+C: Blue
+D: Grey
+Answer: A
+---
+Q: Qual é o plural de "child"?
+A: Childrens
+B: Childes
+C: Children
+D: Childs
+Answer: C
+---
+Q: Qual é o plural de "man"?
+A: Manes
+B: Mans
+C: Men
+D: Mens
+Answer: C
+---
+Q: Qual é o passado do verbo "go"?
+A: Went
+B: Gone
+C: Goed
+D: Going
+Answer: A
+---
+Q: O que significa "teacher"?
+A: Médico
+B: Aluno
+C: Diretor
+D: Professor
+Answer: D
+---
+Q: O que significa "doctor"?
+A: Policial
+B: Dentista
+C: Professor
+D: Médico
+Answer: D
+---
+Q: Como se diz "segunda-feira" em inglês?
+A: Sunday
+B: Tuesday
+C: Monday
+D: Friday
+Answer: C
+---
+Q: Como se diz "domingo" em inglês?
+A: Saturday
+B: Sunday
+C: Thursday
+D: Monday
+Answer: B
+---
+Q: O que significa "March"?
+A: Maio
+B: Março
+C: Abril
+D: Agosto
+Answer: B
+---
+Q: O que significa "happy"?
+A: Bravo
+B: Triste
+C: Feliz
+D: Cansado
+Answer: C
+---
+Q: O que significa "big"?
+A: Grande
+B: Pequeno
+C: Longo
+D: Alto
+Answer: A
+---
+Q: Qual é o oposto de "hot"?
+A: Big
+B: Cold
+C: Fast
+D: Warm
+Answer: B
+---
+Q: Qual é o oposto de "big"?
+A: Long
+B: Small
+C: Fat
+D: Tall
+Answer: B
+---
+Q: Como se diz "Eu sou brasileiro" em inglês?
+A: I like Brazilian
+B: I have Brazilian
+C: I go Brazilian
+D: I am Brazilian
+Answer: D
+---
+Q: Como se diz "Como você está?" em inglês?
+A: How are you?
+B: Who are you?
+C: Where are you?
+D: What is you?
+Answer: A
+---
+Q: O que significa "bread"?
+A: Queijo
+B: Presunto
+C: Pão
+D: Manteiga
+Answer: C
+---
+Q: O que significa "chair"?
+A: Mesa
+B: Porta
+C: Cama
+D: Cadeira
+Answer: D
+---
+Q: O que significa "window"?
+A: Janela
+B: Telhado
+C: Porta
+D: Parede
+Answer: A
+---
+Q: O que significa "car"?
+A: Moto
+B: Carro
+C: Caminhão
+D: Barco
+Answer: B
+---
+Q: O que significa "Good night"?
+A: Bom dia
+B: Até logo
+C: Boa noite
+D: Boa tarde
+Answer: C
+---
+Q: Como se diz "lápis" em inglês?
+A: Pencil
+B: Paper
+C: Eraser
+D: Pen
+Answer: A
+---

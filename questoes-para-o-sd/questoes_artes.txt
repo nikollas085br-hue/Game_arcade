@@ -1,1 +1,281 @@
-
+Pack: Artes e Música
+Q: Quem pintou a Mona Lisa?
+A: Leonardo da Vinci
+B: Vincent van Gogh
+C: Michelangelo
+D: Pablo Picasso
+Answer: A
+---
+Q: Quem pintou "A Noite Estrelada"?
+A: Rembrandt
+B: Salvador Dalí
+C: Claude Monet
+D: Vincent van Gogh
+Answer: D
+---
+Q: Quem pintou o teto da Capela Sistina?
+A: Rafael
+B: Botticelli
+C: Leonardo da Vinci
+D: Michelangelo
+Answer: D
+---
+Q: Quem foi Pablo Picasso?
+A: Pintor espanhol
+B: Arquiteto brasileiro
+C: Músico italiano
+D: Escultor francês
+Answer: A
+---
+Q: Quem pintou o quadro "Abaporu"?
+A: Di Cavalcanti
+B: Anita Malfatti
+C: Candido Portinari
+D: Tarsila do Amaral
+Answer: D
+---
+Q: Quem foi o arquiteto das principais obras de Brasília?
+A: Ziraldo
+B: Candido Portinari
+C: Aleijadinho
+D: Oscar Niemeyer
+Answer: D
+---
+Q: Quem foi Aleijadinho?
+A: Presidente do Brasil
+B: Cantor de samba
+C: Escultor do barroco mineiro
+D: Poeta romântico
+Answer: C
+---
+Q: Qual instrumento de seis cordas é muito comum na música brasileira?
+A: Flauta
+B: Violão
+C: Piano
+D: Bateria
+Answer: B
+---
+Q: Quantas notas musicais existem na escala (dó, ré, mi...)?
+A: 8
+B: 7
+C: 12
+D: 5
+Answer: B
+---
+Q: Qual sequência de notas musicais está correta?
+A: Dó, mi, ré, fá, lá, sol, si
+B: Dó, ré, mi, fá, sol, lá, si
+C: Ré, dó, mi, sol, fá, si, lá
+D: Si, lá, dó, ré, fá, mi, sol
+Answer: B
+---
+Q: Qual instrumento de percussão é muito usado no samba?
+A: Violino
+B: Pandeiro
+C: Flauta
+D: Harpa
+Answer: B
+---
+Q: Qual dança é típica do Nordeste e é tocada com sanfona, zabumba e triângulo?
+A: Valsa
+B: Forró
+C: Flamenco
+D: Tango
+Answer: B
+---
+Q: Qual festa popular brasileira acontece antes da Quaresma?
+A: Carnaval
+B: Réveillon
+C: Natal
+D: Festa Junina
+Answer: A
+---
+Q: Qual ritmo é considerado símbolo da música brasileira?
+A: Tango
+B: Reggae
+C: Flamenco
+D: Samba
+Answer: D
+---
+Q: Qual país é a origem do tango?
+A: Cuba
+B: Espanha
+C: México
+D: Argentina
+Answer: D
+---
+Q: Qual país é a origem do flamenco?
+A: México
+B: Itália
+C: Espanha
+D: Portugal
+Answer: C
+---
+Q: Quem compôs a Nona Sinfonia, com a "Ode à Alegria"?
+A: Mozart
+B: Bach
+C: Beethoven
+D: Chopin
+Answer: C
+---
+Q: Quem foi Mozart?
+A: Escultor grego
+B: Compositor austríaco
+C: Pintor holandês
+D: Escritor alemão
+Answer: B
+---
+Q: Quem compôs "As Quatro Estações"?
+A: Vivaldi
+B: Mozart
+C: Bach
+D: Beethoven
+Answer: A
+---
+Q: Quem foi Heitor Villa-Lobos?
+A: Pintor brasileiro
+B: Arquiteto brasileiro
+C: Compositor brasileiro
+D: Poeta brasileiro
+Answer: C
+---
+Q: Qual movimento musical brasileiro Tom Jobim ajudou a criar?
+A: Tropicália
+B: Funk
+C: Bossa Nova
+D: Axé
+Answer: C
+---
+Q: Qual banda britânica fez sucesso com a música "Hey Jude"?
+A: Pink Floyd
+B: Queen
+C: The Rolling Stones
+D: The Beatles
+Answer: D
+---
+Q: Quantos integrantes tinha a banda The Beatles?
+A: 6
+B: 5
+C: 4
+D: 3
+Answer: C
+---
+Q: Quem era o vocalista da banda Queen?
+A: Freddie Mercury
+B: Elton John
+C: Mick Jagger
+D: David Bowie
+Answer: A
+---
+Q: Qual instrumento de cordas, tocado com arco, é o menor da orquestra?
+A: Violino
+B: Violoncelo
+C: Contrabaixo
+D: Harpa
+Answer: A
+---
+Q: Quais são as cores primárias tradicionais das tintas?
+A: Rosa, verde e azul
+B: Verde, laranja e roxo
+C: Azul, amarelo e vermelho
+D: Preto, branco e cinza
+Answer: C
+---
+Q: Misturando azul e amarelo, qual cor se obtém?
+A: Verde
+B: Marrom
+C: Roxo
+D: Laranja
+Answer: A
+---
+Q: Misturando vermelho e azul, qual cor se obtém?
+A: Laranja
+B: Verde
+C: Roxo
+D: Rosa
+Answer: C
+---
+Q: Misturando vermelho e amarelo, qual cor se obtém?
+A: Laranja
+B: Marrom
+C: Roxo
+D: Verde
+Answer: A
+---
+Q: Misturando branco e preto, qual cor se obtém?
+A: Roxo
+B: Cinza
+C: Marrom
+D: Rosa
+Answer: B
+---
+Q: Qual artista pintou "O Grito"?
+A: Claude Monet
+B: Francisco Goya
+C: Edvard Munch
+D: Van Gogh
+Answer: C
+---
+Q: Qual pintor francês ficou famoso pelos quadros de lírios-d'água?
+A: Pablo Picasso
+B: Claude Monet
+C: Candido Portinari
+D: Salvador Dalí
+Answer: B
+---
+Q: Como se chama a arte japonesa de dobrar papel?
+A: Bonsai
+B: Origami
+C: Ikebana
+D: Quilling
+Answer: B
+---
+Q: Como se chama a arte de escrever à mão com letras bonitas?
+A: Gravura
+B: Cerâmica
+C: Mosaico
+D: Caligrafia
+Answer: D
+---
+Q: Qual ritmo é típico do carnaval de Pernambuco?
+A: Tango
+B: Bolero
+C: Valsa
+D: Frevo
+Answer: D
+---
+Q: Quantas cordas tem um violão tradicional?
+A: 5
+B: 4
+C: 8
+D: 6
+Answer: D
+---
+Q: Qual instrumento tem teclas brancas e pretas?
+A: Piano
+B: Bateria
+C: Flauta
+D: Violão
+Answer: A
+---
+Q: Qual instrumento de sopro de metal é usado em bandas e tem som forte?
+A: Flauta doce
+B: Trompete
+C: Violino
+D: Harpa
+Answer: B
+---
+Q: Qual cantor é conhecido como "Rei do Baião"?
+A: Tim Maia
+B: Roberto Carlos
+C: Luiz Gonzaga
+D: Jorge Ben Jor
+Answer: C
+---
+Q: Qual cantor brasileiro é chamado de "Rei" da música popular?
+A: Roberto Carlos
+B: Caetano Veloso
+C: Gilberto Gil
+D: Chico Buarque
+Answer: A
+---

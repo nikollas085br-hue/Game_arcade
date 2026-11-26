@@ -1,0 +1,295 @@
+Pack: Geografia
+Q: Qual é a capital da Argentina?
+A: Lima
+B: Santiago
+C: Montevidéu
+D: Buenos Aires
+Answer: D
+---
+Q: Qual é a capital da França?
+A: Lyon
+B: Bruxelas
+C: Marselha
+D: Paris
+Answer: D
+---
+Q: Qual é a capital do Japão?
+A: Seul
+B: Tóquio
+C: Osaka
+D: Kyoto
+Answer: B
+---
+Q: Qual é a capital da Itália?
+A: Roma
+B: Nápoles
+C: Veneza
+D: Milão
+Answer: A
+---
+Q: Qual é a capital dos Estados Unidos?
+A: Chicago
+B: Los Angeles
+C: Washington, D.C.
+D: Nova York
+Answer: C
+---
+Q: Qual é a capital de Portugal?
+A: Madri
+B: Porto
+C: Lisboa
+D: Coimbra
+Answer: C
+---
+Q: Qual é a capital do Canadá?
+A: Toronto
+B: Vancouver
+C: Ottawa
+D: Montreal
+Answer: C
+---
+Q: Qual é a capital da Austrália?
+A: Camberra
+B: Perth
+C: Sydney
+D: Melbourne
+Answer: A
+---
+Q: Qual é a capital do Egito?
+A: Cairo
+B: Assuã
+C: Alexandria
+D: Luxor
+Answer: A
+---
+Q: Qual é a capital da Alemanha?
+A: Berlim
+B: Munique
+C: Frankfurt
+D: Hamburgo
+Answer: A
+---
+Q: Qual é a capital do Chile?
+A: Bogotá
+B: Valparaíso
+C: Santiago
+D: Lima
+Answer: C
+---
+Q: Qual é a capital do Reino Unido?
+A: Londres
+B: Edimburgo
+C: Manchester
+D: Liverpool
+Answer: A
+---
+Q: Quantos estados tem o Brasil, sem contar o Distrito Federal?
+A: 24
+B: 27
+C: 26
+D: 25
+Answer: C
+---
+Q: Qual é o maior estado do Brasil em área?
+A: Pará
+B: Mato Grosso
+C: Minas Gerais
+D: Amazonas
+Answer: D
+---
+Q: Qual é o menor estado do Brasil em área?
+A: Espírito Santo
+B: Rio de Janeiro
+C: Sergipe
+D: Alagoas
+Answer: C
+---
+Q: Qual é a capital do estado de São Paulo?
+A: Santos
+B: São Paulo
+C: Campinas
+D: Ribeirão Preto
+Answer: B
+---
+Q: Qual é a capital do Rio Grande do Sul?
+A: Porto Alegre
+B: Pelotas
+C: Caxias do Sul
+D: Florianópolis
+Answer: A
+---
+Q: Qual é a capital da Bahia?
+A: Aracaju
+B: Salvador
+C: Recife
+D: Fortaleza
+Answer: B
+---
+Q: Qual é a capital do Amazonas?
+A: Porto Velho
+B: Belém
+C: Manaus
+D: Boa Vista
+Answer: C
+---
+Q: Qual é a capital do Paraná?
+A: Londrina
+B: Maringá
+C: Curitiba
+D: Joinville
+Answer: C
+---
+Q: Qual é a capital de Pernambuco?
+A: Natal
+B: João Pessoa
+C: Olinda
+D: Recife
+Answer: D
+---
+Q: Qual é a capital de Minas Gerais?
+A: Juiz de Fora
+B: Uberlândia
+C: Ouro Preto
+D: Belo Horizonte
+Answer: D
+---
+Q: Qual região do Brasil tem mais habitantes?
+A: Nordeste
+B: Sul
+C: Norte
+D: Sudeste
+Answer: D
+---
+Q: Quantas regiões tem o Brasil?
+A: 7
+B: 5
+C: 6
+D: 4
+Answer: B
+---
+Q: Qual é o maior deserto quente do mundo?
+A: Kalahari
+B: Saara
+C: Gobi
+D: Atacama
+Answer: B
+---
+Q: Qual é o maior continente em área?
+A: Europa
+B: América
+C: Ásia
+D: África
+Answer: C
+---
+Q: Qual é o menor continente em área?
+A: América do Sul
+B: Antártida
+C: Europa
+D: Oceania
+Answer: D
+---
+Q: Qual é a montanha mais alta do mundo?
+A: Monte Everest
+B: K2
+C: Mont Blanc
+D: Kilimanjaro
+Answer: A
+---
+Q: Qual é o rio mais extenso da América do Sul?
+A: São Francisco
+B: Paraná
+C: Orinoco
+D: Amazonas
+Answer: D
+---
+Q: Qual oceano banha a costa do Brasil?
+A: Ártico
+B: Índico
+C: Pacífico
+D: Atlântico
+Answer: D
+---
+Q: Qual é o país mais populoso da América do Sul?
+A: Argentina
+B: Brasil
+C: Colômbia
+D: Peru
+Answer: B
+---
+Q: Em qual continente fica o Egito?
+A: África
+B: Oceania
+C: Ásia
+D: Europa
+Answer: A
+---
+Q: Qual país tem o formato parecido com uma bota?
+A: Grécia
+B: Portugal
+C: Itália
+D: Espanha
+Answer: C
+---
+Q: Qual linha imaginária divide a Terra em hemisfério Norte e Sul?
+A: Linha do Equador
+B: Trópico de Capricórnio
+C: Meridiano de Greenwich
+D: Círculo Polar Ártico
+Answer: A
+---
+Q: Qual é o idioma oficial do Brasil?
+A: Espanhol
+B: Inglês
+C: Tupi
+D: Português
+Answer: D
+---
+Q: Em qual país fica a Grande Muralha?
+A: Mongólia
+B: China
+C: Japão
+D: Índia
+Answer: B
+---
+Q: Qual é o maior país da América do Sul em área?
+A: Brasil
+B: Colômbia
+C: Argentina
+D: Peru
+Answer: A
+---
+Q: Em qual país fica Machu Picchu?
+A: México
+B: Peru
+C: Chile
+D: Bolívia
+Answer: B
+---
+Q: Em qual país está a Estátua da Liberdade?
+A: Inglaterra
+B: Estados Unidos
+C: Canadá
+D: França
+Answer: B
+---
+Q: Em qual cidade fica o Cristo Redentor?
+A: Salvador
+B: Rio de Janeiro
+C: Brasília
+D: São Paulo
+Answer: B
+---
+Q: Qual é a maior floresta tropical do mundo?
+A: Floresta do Congo
+B: Floresta Amazônica
+C: Floresta Negra
+D: Mata Atlântica
+Answer: B
+---
+Q: Qual é o país mais populoso do mundo atualmente?
+A: Índia
+B: China
+C: Estados Unidos
+D: Indonésia
+Answer: A
+---

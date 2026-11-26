@@ -1,0 +1,295 @@
+Pack: Ciências
+Q: Qual gás as plantas absorvem na fotossíntese?
+A: Gás carbônico
+B: Hélio
+C: Nitrogênio
+D: Oxigênio
+Answer: A
+---
+Q: Qual é o planeta mais próximo do Sol?
+A: Terra
+B: Vênus
+C: Marte
+D: Mercúrio
+Answer: D
+---
+Q: Quantos planetas há no Sistema Solar?
+A: 9
+B: 7
+C: 10
+D: 8
+Answer: D
+---
+Q: Qual é a fórmula química da água?
+A: H₂O
+B: CO₂
+C: O₂
+D: NaCl
+Answer: A
+---
+Q: Como se chama a água no estado sólido?
+A: Vapor
+B: Gelo
+C: Orvalho
+D: Chuva
+Answer: B
+---
+Q: A que temperatura a água ferve ao nível do mar?
+A: 212 °C
+B: 100 °C
+C: 50 °C
+D: 90 °C
+Answer: B
+---
+Q: Qual órgão bombeia o sangue pelo corpo?
+A: Pulmão
+B: Coração
+C: Rim
+D: Fígado
+Answer: B
+---
+Q: Qual é o satélite natural da Terra?
+A: Vênus
+B: Lua
+C: Sol
+D: Marte
+Answer: B
+---
+Q: Qual força nos mantém presos ao chão?
+A: Magnetismo
+B: Atrito
+C: Gravidade
+D: Inércia
+Answer: C
+---
+Q: Como se chama a passagem da água líquida para vapor?
+A: Solidificação
+B: Evaporação
+C: Condensação
+D: Fusão
+Answer: B
+---
+Q: Qual camada protege a Terra dos raios ultravioleta do Sol?
+A: Camada de ozônio
+B: Hidrosfera
+C: Litosfera
+D: Troposfera
+Answer: A
+---
+Q: Qual metal é líquido na temperatura ambiente?
+A: Cobre
+B: Mercúrio
+C: Ferro
+D: Alumínio
+Answer: B
+---
+Q: Qual é o símbolo químico do ouro?
+A: Go
+B: Au
+C: Fe
+D: Ag
+Answer: B
+---
+Q: Qual é o símbolo químico do oxigênio?
+A: Ox
+B: O
+C: Oi
+D: Ou
+Answer: B
+---
+Q: Qual é a estrela do nosso Sistema Solar?
+A: Sírius
+B: Polaris
+C: Lua
+D: Sol
+Answer: D
+---
+Q: Quanto tempo a Terra leva para girar uma vez em torno de si mesma?
+A: 24 horas
+B: 1 mês
+C: 1 ano
+D: 12 horas
+Answer: A
+---
+Q: Quanto tempo a Terra leva para dar uma volta ao redor do Sol?
+A: 30 dias
+B: 24 horas
+C: Cerca de 365 dias
+D: 10 anos
+Answer: C
+---
+Q: Qual é a unidade de medida de força?
+A: Watt
+B: Newton
+C: Volt
+D: Joule
+Answer: B
+---
+Q: Qual é a velocidade aproximada da luz no vácuo?
+A: 3 mil km por segundo
+B: 3 milhões de km por segundo
+C: 300 mil km por segundo
+D: 30 mil km por segundo
+Answer: C
+---
+Q: Qual fonte de energia vem diretamente do Sol?
+A: Solar
+B: Geotérmica
+C: Nuclear
+D: Eólica
+Answer: A
+---
+Q: Quem formulou a lei da gravitação universal?
+A: Galileu Galilei
+B: Charles Darwin
+C: Isaac Newton
+D: Albert Einstein
+Answer: C
+---
+Q: Quem propôs a teoria da evolução das espécies?
+A: Louis Pasteur
+B: Marie Curie
+C: Charles Darwin
+D: Isaac Newton
+Answer: C
+---
+Q: O ímã atrai principalmente qual metal?
+A: Alumínio
+B: Ferro
+C: Prata
+D: Ouro
+Answer: B
+---
+Q: Como se chama a passagem do estado líquido para o sólido?
+A: Fusão
+B: Evaporação
+C: Sublimação
+D: Solidificação
+Answer: D
+---
+Q: Qual é o gás mais abundante na atmosfera da Terra?
+A: Hidrogênio
+B: Oxigênio
+C: Nitrogênio
+D: Gás carbônico
+Answer: C
+---
+Q: Qual planeta é famoso pelos seus anéis?
+A: Mercúrio
+B: Vênus
+C: Saturno
+D: Marte
+Answer: C
+---
+Q: Qual é o nome da nossa galáxia?
+A: Andrômeda
+B: Órion
+C: Sombrero
+D: Via Láctea
+Answer: D
+---
+Q: Qual parte da planta absorve a água do solo?
+A: Raiz
+B: Fruto
+C: Folha
+D: Flor
+Answer: A
+---
+Q: Qual pigmento verde das plantas é essencial para a fotossíntese?
+A: Melanina
+B: Queratina
+C: Hemoglobina
+D: Clorofila
+Answer: D
+---
+Q: Qual instrumento mede a temperatura?
+A: Termômetro
+B: Régua
+C: Balança
+D: Cronômetro
+Answer: A
+---
+Q: Qual instrumento permite ver coisas muito pequenas?
+A: Microscópio
+B: Telescópio
+C: Estetoscópio
+D: Periscópio
+Answer: A
+---
+Q: Qual instrumento é usado para observar estrelas e planetas?
+A: Telescópio
+B: Bússola
+C: Microscópio
+D: Termômetro
+Answer: A
+---
+Q: Qual instrumento indica a direção do norte?
+A: Balança
+B: Relógio
+C: Régua
+D: Bússola
+Answer: D
+---
+Q: O arco-íris se forma quando a luz do Sol passa por quê?
+A: Nuvens de poeira
+B: Vento forte
+C: Gotas de água
+D: Raios
+Answer: C
+---
+Q: O que causa as estações do ano?
+A: A distância da Lua
+B: A inclinação do eixo da Terra
+C: As marés
+D: As manchas solares
+Answer: B
+---
+Q: Qual é a camada mais externa da Terra?
+A: Manto
+B: Magma
+C: Crosta
+D: Núcleo
+Answer: C
+---
+Q: Como se chama a rocha derretida que sai de um vulcão?
+A: Carvão
+B: Cinza
+C: Lava
+D: Granito
+Answer: C
+---
+Q: Qual destes materiais conduz bem a eletricidade?
+A: Borracha
+B: Madeira seca
+C: Plástico
+D: Cobre
+Answer: D
+---
+Q: Qual aparelho transforma a energia do vento em eletricidade?
+A: Turbina eólica
+B: Usina nuclear
+C: Hidrelétrica
+D: Painel solar
+Answer: A
+---
+Q: Misturando todas as cores da luz, qual cor se obtém?
+A: Branca
+B: Marrom
+C: Cinza
+D: Preta
+Answer: A
+---
+Q: Como se chama a água na forma de gás?
+A: Neblina
+B: Gelo
+C: Orvalho
+D: Vapor
+Answer: D
+---
+Q: Qual ciência estuda os seres vivos?
+A: Química
+B: Geologia
+C: Astronomia
+D: Biologia
+Answer: D
+---

@@ -1,0 +1,295 @@
+Pack: Tecnologia
+Q: O que significa a sigla "PC"?
+A: Computador pessoal
+B: Placa de circuito
+C: Programa de controle
+D: Painel central
+Answer: A
+---
+Q: Para que serve o mouse?
+A: Imprimir folhas
+B: Mover o cursor na tela
+C: Digitar textos
+D: Guardar arquivos
+Answer: B
+---
+Q: Qual dispositivo mostra as imagens do computador?
+A: Teclado
+B: Mouse
+C: Monitor
+D: Caixa de som
+Answer: C
+---
+Q: Para que serve o Wi-Fi?
+A: Carregar a bateria
+B: Conectar à internet sem fios
+C: Imprimir
+D: Gravar vídeos
+Answer: B
+---
+Q: O que é a internet?
+A: Uma marca de computador
+B: Um programa de texto
+C: Um tipo de celular
+D: Rede mundial de computadores
+Answer: D
+---
+Q: Qual sigla é a entrada comum de pendrives e carregadores?
+A: HDMI
+B: VGA
+C: LAN
+D: USB
+Answer: D
+---
+Q: Qual cabo leva imagem e som de alta qualidade para TVs e monitores?
+A: Telefônico
+B: HDMI
+C: USB
+D: Elétrico comum
+Answer: B
+---
+Q: O que é um "bit"?
+A: Um tipo de vírus
+B: Um programa
+C: A menor unidade de informação digital
+D: Um cabo
+Answer: C
+---
+Q: Quantos bits tem um byte?
+A: 8
+B: 10
+C: 4
+D: 16
+Answer: A
+---
+Q: Qual empresa criou o iPhone?
+A: Samsung
+B: Apple
+C: Google
+D: Microsoft
+Answer: B
+---
+Q: Qual empresa é dona do sistema Android?
+A: Google
+B: Microsoft
+C: Apple
+D: Nokia
+Answer: A
+---
+Q: Qual é o buscador de internet mais usado do mundo?
+A: Google
+B: Yahoo
+C: Bing
+D: Ask
+Answer: A
+---
+Q: O que é um e-mail?
+A: Tipo de vírus
+B: Jogo de computador
+C: Mensagem eletrônica
+D: Cabo de rede
+Answer: C
+---
+Q: O que significa a sigla "GPS"?
+A: Grande Painel de Sinais
+B: Gerador de Pontos de Segurança
+C: Sistema de Posicionamento Global
+D: Guia de Programas Sociais
+Answer: C
+---
+Q: Para que serve um antivírus?
+A: Imprimir documentos
+B: Aumentar a velocidade da internet
+C: Proteger o computador de ameaças
+D: Desenhar imagens
+Answer: C
+---
+Q: Qual senha é a mais segura?
+A: Sua data de nascimento
+B: 123456
+C: Seu nome
+D: Mistura de letras, números e símbolos
+Answer: D
+---
+Q: O que é um aplicativo (app)?
+A: Uma peça do teclado
+B: Um tipo de tela
+C: Um programa para celular ou tablet
+D: Um cabo
+Answer: C
+---
+Q: O que significa a sigla "IA"?
+A: Informação Aberta
+B: Interface Automática
+C: Internet Avançada
+D: Inteligência Artificial
+Answer: D
+---
+Q: O que é um robô?
+A: Máquina programável que realiza tarefas
+B: Um prédio
+C: Uma planta
+D: Um animal
+Answer: A
+---
+Q: Qual peça guarda os arquivos do computador de forma permanente?
+A: Teclado
+B: Mouse
+C: Monitor
+D: Disco rígido ou SSD
+Answer: D
+---
+Q: Qual peça é considerada o "cérebro" do computador?
+A: Monitor
+B: Caixa de som
+C: Mouse
+D: Processador (CPU)
+Answer: D
+---
+Q: O que significa "fazer download"?
+A: Enviar arquivos
+B: Apagar arquivos
+C: Imprimir arquivos
+D: Baixar arquivos da internet
+Answer: D
+---
+Q: O que significa "fazer upload"?
+A: Desligar o computador
+B: Formatar o disco
+C: Baixar arquivos
+D: Enviar arquivos para a internet
+Answer: D
+---
+Q: Qual atalho de teclado costuma copiar?
+A: Ctrl + V
+B: Ctrl + C
+C: Ctrl + X
+D: Ctrl + Z
+Answer: B
+---
+Q: Qual atalho de teclado costuma colar?
+A: Ctrl + Z
+B: Ctrl + V
+C: Ctrl + C
+D: Ctrl + A
+Answer: B
+---
+Q: Qual atalho de teclado costuma desfazer a última ação?
+A: Ctrl + Z
+B: Ctrl + P
+C: Ctrl + S
+D: Ctrl + C
+Answer: A
+---
+Q: Qual extensão de arquivo é comum para fotos?
+A: .txt
+B: .jpg
+C: .exe
+D: .mp3
+Answer: B
+---
+Q: Qual extensão de arquivo é comum para músicas?
+A: .doc
+B: .pdf
+C: .mp3
+D: .jpg
+Answer: C
+---
+Q: Qual formato de documento é muito usado para leitura e impressão?
+A: PDF
+B: ZIP
+C: MP4
+D: PNG
+Answer: A
+---
+Q: Quem fundou a Microsoft junto com Paul Allen?
+A: Steve Jobs
+B: Bill Gates
+C: Elon Musk
+D: Mark Zuckerberg
+Answer: B
+---
+Q: Quem foi cofundador da Apple?
+A: Larry Page
+B: Bill Gates
+C: Steve Jobs
+D: Jeff Bezos
+Answer: C
+---
+Q: Qual foi o primeiro satélite artificial lançado ao espaço?
+A: Apollo
+B: Hubble
+C: Sputnik
+D: Voyager
+Answer: C
+---
+Q: Para que serve uma impressora 3D?
+A: Criar objetos camada por camada
+B: Imprimir só fotos
+C: Lavar roupas
+D: Gravar vídeos
+Answer: A
+---
+Q: Qual tecnologia permite pagar por aproximação com o celular?
+A: NFC
+B: VGA
+C: USB
+D: HDMI
+Answer: A
+---
+Q: O que é Bluetooth?
+A: Um tipo de vírus
+B: Tecnologia sem fio de curta distância
+C: Uma marca de celular
+D: Uma rede de TV
+Answer: B
+---
+Q: O que é um QR Code?
+A: Uma marca de celular
+B: Um vírus
+C: Um tipo de senha
+D: Código quadrado que a câmera do celular lê
+Answer: D
+---
+Q: O que é um drone?
+A: Um tipo de carro
+B: Aeronave sem piloto a bordo
+C: Um satélite
+D: Uma bateria
+Answer: B
+---
+Q: Qual destas unidades mede armazenamento de dados?
+A: Litro
+B: Quilômetro
+C: Volt
+D: Gigabyte
+Answer: D
+---
+Q: Como se chama a pequena figura usada para mostrar emoções nas mensagens?
+A: Pixel
+B: Cookie
+C: Emoji
+D: Link
+Answer: C
+---
+Q: Qual é o menor ponto de uma imagem digital?
+A: Ícone
+B: Pixel
+C: Byte
+D: Link
+Answer: B
+---
+Q: O que é um navegador (browser)?
+A: Programa para acessar sites
+B: Cabo de internet
+C: Peça do computador
+D: Tipo de rede
+Answer: A
+---
+Q: Qual destes é um navegador de internet?
+A: Chrome
+B: Word
+C: Excel
+D: Paint
+Answer: A
+---

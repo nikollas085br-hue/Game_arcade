@@ -1,0 +1,302 @@
+Pack: Matemática
+Q: Quanto é 7 × 8?
+A: 56
+B: 64
+C: 48
+D: 54
+Answer: A
+---
+Q: Quanto é 144 ÷ 12?
+A: 16
+B: 12
+C: 10
+D: 14
+Answer: B
+---
+Q: Quantos graus somam os ângulos internos de um triângulo?
+A: 90
+B: 270
+C: 180
+D: 360
+Answer: C
+---
+Q: Qual é a raiz quadrada de 81?
+A: 9
+B: 7
+C: 8
+D: 11
+Answer: A
+---
+Q: Qual é o primeiro número primo depois do 7?
+A: 13
+B: 11
+C: 9
+D: 8
+Answer: B
+---
+Q: Quanto é 25% de 200?
+A: 25
+B: 75
+C: 50
+D: 40
+Answer: C
+---
+Q: Quantos lados tem um octógono?
+A: 8
+B: 7
+C: 10
+D: 6
+Answer: A
+---
+Q: Quanto é 2 elevado a 5?
+A: 32
+B: 25
+C: 64
+D: 16
+Answer: A
+---
+Q: Qual é o resultado de 15 + 27?
+A: 41
+B: 43
+C: 52
+D: 42
+Answer: D
+---
+Q: Quanto é a metade de 3/4?
+A: 1/4
+B: 3/2
+C: 3/6
+D: 3/8
+Answer: D
+---
+Q: Qual é o perímetro de um quadrado de lado 5 cm?
+A: 10 cm
+B: 25 cm
+C: 20 cm
+D: 15 cm
+Answer: C
+---
+Q: Qual é a área de um retângulo de 4 m por 6 m?
+A: 48 m²
+B: 10 m²
+C: 24 m²
+D: 20 m²
+Answer: C
+---
+Q: Quanto é 1000 ÷ 8?
+A: 120
+B: 150
+C: 125
+D: 80
+Answer: C
+---
+Q: Qual destes números é par?
+A: 27
+B: 93
+C: 51
+D: 38
+Answer: D
+---
+Q: Quantos minutos tem uma hora e meia?
+A: 90
+B: 100
+C: 120
+D: 80
+Answer: A
+---
+Q: Quanto é 9 × 9?
+A: 81
+B: 91
+C: 72
+D: 99
+Answer: A
+---
+Q: Quantos centímetros tem 1 metro?
+A: 1000
+B: 50
+C: 100
+D: 10
+Answer: C
+---
+Q: Quanto é 0,5 + 0,25?
+A: 0,55
+B: 0,75
+C: 0,25
+D: 1,25
+Answer: B
+---
+Q: Qual é o dobro de 35?
+A: 65
+B: 70
+C: 60
+D: 75
+Answer: B
+---
+Q: Qual destes números é ímpar?
+A: 47
+B: 48
+C: 64
+D: 50
+Answer: A
+---
+Q: Qual é o valor aproximado de π (pi)?
+A: 4,13
+B: 1,61
+C: 2,71
+D: 3,14
+Answer: D
+---
+Q: Quantos graus tem um ângulo reto?
+A: 60
+B: 90
+C: 180
+D: 45
+Answer: B
+---
+Q: Quanto é 100 − 37?
+A: 53
+B: 73
+C: 63
+D: 67
+Answer: C
+---
+Q: Qual figura geométrica tem três lados?
+A: Triângulo
+B: Pentágono
+C: Quadrado
+D: Círculo
+Answer: A
+---
+Q: Quanto é 3² + 4²?
+A: 49
+B: 25
+C: 14
+D: 12
+Answer: B
+---
+Q: Qual é o MMC de 4 e 6?
+A: 24
+B: 10
+C: 2
+D: 12
+Answer: D
+---
+Q: Qual é o MDC de 12 e 18?
+A: 3
+B: 9
+C: 6
+D: 36
+Answer: C
+---
+Q: Quanto é 10% de 350?
+A: 350
+B: 3,5
+C: 70
+D: 35
+Answer: D
+---
+Q: Se um dia tem 24 horas, quantas horas têm 2 dias?
+A: 36
+B: 72
+C: 24
+D: 48
+Answer: D
+---
+Q: Qual é o valor de x em 2x + 3 = 11?
+A: 7
+B: 5
+C: 4
+D: 3
+Answer: C
+---
+Q: Quanto é (−3) × (−4)?
+A: −7
+B: 12
+C: −12
+D: 7
+Answer: B
+---
+Q: Qual é o nome do polígono de 6 lados?
+A: Heptágono
+B: Pentágono
+C: Octógono
+D: Hexágono
+Answer: D
+---
+Q: Quantos zeros tem o número um milhão?
+A: 5
+B: 6
+C: 7
+D: 9
+Answer: B
+---
+Q: Quanto é 1/2 + 1/4?
+A: 1/6
+B: 3/4
+C: 1/8
+D: 2/6
+Answer: B
+---
+Q: Qual é a média de 4, 6 e 8?
+A: 6
+B: 8
+C: 7
+D: 5
+Answer: A
+---
+Q: Quanto vale o algarismo romano X?
+A: 100
+B: 10
+C: 50
+D: 5
+Answer: B
+---
+Q: Qual é a raiz quadrada de 144?
+A: 16
+B: 12
+C: 14
+D: 11
+Answer: B
+---
+Q: Em um dado comum, quanto somam duas faces opostas?
+A: 6
+B: 9
+C: 8
+D: 7
+Answer: D
+---
+Q: Quanto é 6 × 7 − 2?
+A: 40
+B: 44
+C: 38
+D: 42
+Answer: A
+---
+Q: Quanto é 3/5 em porcentagem?
+A: 35%
+B: 30%
+C: 60%
+D: 53%
+Answer: C
+---
+Q: Qual algarismo romano representa o número 50?
+A: L
+B: C
+C: D
+D: M
+Answer: A
+---
+Q: Quantos meses do ano têm 28 dias?
+A: Nenhum
+B: Dois
+C: Todos
+D: Só fevereiro
+Answer: C
+---
+Q: Quanto é 12 × 12?
+A: 132
+B: 154
+C: 124
+D: 144
+Answer: D
+---

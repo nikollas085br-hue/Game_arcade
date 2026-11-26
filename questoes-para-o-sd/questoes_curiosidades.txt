@@ -1,0 +1,323 @@
+Pack: Curiosidades do Dia a Dia
+Q: Quantos dias tem um ano bissexto?
+A: 366
+B: 364
+C: 365
+D: 367
+Answer: A
+---
+Q: De quantos em quantos anos temos um ano bissexto?
+A: 2
+B: 4
+C: 10
+D: 5
+Answer: B
+---
+Q: Quantos dias tem fevereiro em um ano comum?
+A: 29
+B: 30
+C: 28
+D: 31
+Answer: C
+---
+Q: Quantos meses tem um ano?
+A: 12
+B: 11
+C: 13
+D: 10
+Answer: A
+---
+Q: Quantos dias tem uma semana?
+A: 5
+B: 6
+C: 7
+D: 8
+Answer: C
+---
+Q: Quantos segundos tem um minuto?
+A: 60
+B: 100
+C: 50
+D: 30
+Answer: A
+---
+Q: Qual cor do semáforo significa "pare"?
+A: Verde
+B: Amarela
+C: Vermelha
+D: Azul
+Answer: C
+---
+Q: Qual cor do semáforo significa "atenção"?
+A: Vermelha
+B: Azul
+C: Verde
+D: Amarela
+Answer: D
+---
+Q: Qual é a moeda oficial do Brasil?
+A: Euro
+B: Dólar
+C: Peso
+D: Real
+Answer: D
+---
+Q: Qual é a moeda oficial dos Estados Unidos?
+A: Euro
+B: Libra
+C: Dólar
+D: Iene
+Answer: C
+---
+Q: Qual é a moeda do Reino Unido?
+A: Dólar
+B: Libra esterlina
+C: Euro
+D: Franco
+Answer: B
+---
+Q: Qual moeda é usada em vários países da Europa, como França e Alemanha?
+A: Franco
+B: Libra
+C: Euro
+D: Dólar
+Answer: C
+---
+Q: Qual é o número de emergência da Polícia Militar no Brasil?
+A: 180
+B: 190
+C: 193
+D: 192
+Answer: B
+---
+Q: Qual é o número do SAMU (ambulância) no Brasil?
+A: 192
+B: 190
+C: 199
+D: 193
+Answer: A
+---
+Q: Qual é o número dos Bombeiros no Brasil?
+A: 190
+B: 181
+C: 192
+D: 193
+Answer: D
+---
+Q: Qual é a cor do losango da bandeira do Brasil?
+A: Azul
+B: Vermelho
+C: Amarelo
+D: Branco
+Answer: C
+---
+Q: Quantas estrelas tem a bandeira do Brasil?
+A: 50
+B: 25
+C: 26
+D: 27
+Answer: D
+---
+Q: Quantas estrelas tem a bandeira dos Estados Unidos?
+A: 13
+B: 50
+C: 48
+D: 52
+Answer: B
+---
+Q: Em que dia se comemora o Natal?
+A: 1º de janeiro
+B: 25 de dezembro
+C: 24 de dezembro
+D: 6 de janeiro
+Answer: B
+---
+Q: Qual festa acontece em junho, com fogueira, quadrilha e comidas de milho?
+A: Páscoa
+B: Carnaval
+C: Natal
+D: Festa Junina
+Answer: D
+---
+Q: Qual doce brasileiro é feito de leite condensado e chocolate?
+A: Pé de moleque
+B: Cocada
+C: Pudim
+D: Brigadeiro
+Answer: D
+---
+Q: Qual bebida é feita de grãos torrados e moídos e muito consumida no Brasil?
+A: Leite
+B: Café
+C: Suco
+D: Chá
+Answer: B
+---
+Q: De qual fruta se faz principalmente o vinho?
+A: Laranja
+B: Maçã
+C: Uva
+D: Banana
+Answer: C
+---
+Q: De qual planta se extrai o açúcar no Brasil?
+A: Arroz
+B: Cana-de-açúcar
+C: Trigo
+D: Milho
+Answer: B
+---
+Q: De qual planta se faz a farinha de mandioca?
+A: Mandioca
+B: Trigo
+C: Aveia
+D: Milho
+Answer: A
+---
+Q: Qual é o prato brasileiro feito de feijão preto com carnes?
+A: Moqueca
+B: Acarajé
+C: Feijoada
+D: Tacacá
+Answer: C
+---
+Q: Qual é o bolinho baiano de feijão-fradinho frito no azeite de dendê?
+A: Tacacá
+B: Feijoada
+C: Acarajé
+D: Pão de queijo
+Answer: C
+---
+Q: O pão de queijo é típico de qual estado?
+A: Bahia
+B: Rio Grande do Sul
+C: Amazonas
+D: Minas Gerais
+Answer: D
+---
+Q: O chimarrão, típico do Sul do Brasil, é feito de qual erva?
+A: Capim-santo
+B: Hortelã
+C: Erva-mate
+D: Camomila
+Answer: C
+---
+Q: Quantas cores tem o arco-íris?
+A: 8
+B: 7
+C: 5
+D: 6
+Answer: B
+---
+Q: Quantas faces tem um dado comum?
+A: 6
+B: 12
+C: 8
+D: 4
+Answer: A
+---
+Q: Quantas peças tem um jogo de xadrez, somando os dois lados?
+A: 32
+B: 36
+C: 16
+D: 24
+Answer: A
+---
+Q: Quantas casas tem um tabuleiro de xadrez?
+A: 32
+B: 64
+C: 49
+D: 100
+Answer: B
+---
+Q: Qual é a peça mais importante do xadrez?
+A: Rainha
+B: Torre
+C: Bispo
+D: Rei
+Answer: D
+---
+Q: Quantas cartas tem um baralho comum, sem coringas?
+A: 54
+B: 40
+C: 48
+D: 52
+Answer: D
+---
+Q: Qual instrumento mede o tempo?
+A: Termômetro
+B: Relógio
+C: Balança
+D: Régua
+Answer: B
+---
+Q: Qual profissional apaga incêndios?
+A: Bombeiro
+B: Policial
+C: Padeiro
+D: Carteiro
+Answer: A
+---
+Q: Qual profissional constrói casas?
+A: Pedreiro
+B: Padeiro
+C: Pescador
+D: Carteiro
+Answer: A
+---
+Q: Qual profissional faz pão?
+A: Padeiro
+B: Jardineiro
+C: Pescador
+D: Açougueiro
+Answer: A
+---
+Q: Qual veículo anda sobre trilhos?
+A: Ônibus
+B: Bicicleta
+C: Trem
+D: Carro
+Answer: C
+---
+Q: Quantas rodas tem uma bicicleta?
+A: 3
+B: 2
+C: 1
+D: 4
+Answer: B
+---
+Q: Qual meio de transporte atravessa oceanos levando passageiros e cargas?
+A: Navio
+B: Lancha
+C: Canoa
+D: Jangada
+Answer: A
+---
+Q: Qual unidade se usa para medir a distância entre cidades?
+A: Grau
+B: Litro
+C: Quilograma
+D: Quilômetro
+Answer: D
+---
+Q: Qual unidade se usa para medir a massa (o "peso") de uma pessoa?
+A: Segundo
+B: Metro
+C: Litro
+D: Quilograma
+Answer: D
+---
+Q: Qual unidade se usa para medir líquidos?
+A: Hora
+B: Litro
+C: Grama
+D: Metro
+Answer: B
+---
+Q: Qual país é conhecido como "Terra do Sol Nascente"?
+A: Japão
+B: Tailândia
+C: Coreia do Sul
+D: China
+Answer: A
+---

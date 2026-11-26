@@ -1,0 +1,295 @@
+Pack: História
+Q: Em que ano foi proclamada a República do Brasil?
+A: 1822
+B: 1500
+C: 1889
+D: 1930
+Answer: C
+---
+Q: Quem proclamou a Independência do Brasil?
+A: Dom João VI
+B: Dom Pedro I
+C: Tiradentes
+D: Getúlio Vargas
+Answer: B
+---
+Q: Em que ano o Brasil se tornou independente?
+A: 1808
+B: 1500
+C: 1822
+D: 1889
+Answer: C
+---
+Q: Quem foi o primeiro presidente do Brasil?
+A: Getúlio Vargas
+B: Juscelino Kubitschek
+C: Marechal Deodoro da Fonseca
+D: Floriano Peixoto
+Answer: C
+---
+Q: Quem foi Tiradentes?
+A: Descobridor do Brasil
+B: Líder da Inconfidência Mineira
+C: Primeiro imperador do Brasil
+D: Presidente da República
+Answer: B
+---
+Q: Em que ano foi assinada a Lei Áurea, que aboliu a escravidão no Brasil?
+A: 1889
+B: 1888
+C: 1822
+D: 1850
+Answer: B
+---
+Q: Quem assinou a Lei Áurea?
+A: Dom Pedro I
+B: Princesa Isabel
+C: Dom Pedro II
+D: Dona Maria I
+Answer: B
+---
+Q: Qual cidade foi inaugurada em 1960 como capital do Brasil?
+A: Rio de Janeiro
+B: Salvador
+C: Belo Horizonte
+D: Brasília
+Answer: D
+---
+Q: Qual presidente construiu Brasília?
+A: Tancredo Neves
+B: Jânio Quadros
+C: Juscelino Kubitschek
+D: Getúlio Vargas
+Answer: C
+---
+Q: Quem comandou a frota que chegou ao Brasil em 1500?
+A: Fernão de Magalhães
+B: Pedro Álvares Cabral
+C: Cristóvão Colombo
+D: Vasco da Gama
+Answer: B
+---
+Q: Quem chegou à América em 1492?
+A: Cristóvão Colombo
+B: Américo Vespúcio
+C: Pedro Álvares Cabral
+D: Marco Polo
+Answer: A
+---
+Q: Em que ano começou a Primeira Guerra Mundial?
+A: 1905
+B: 1918
+C: 1914
+D: 1939
+Answer: C
+---
+Q: Em que ano terminou a Segunda Guerra Mundial?
+A: 1945
+B: 1918
+C: 1950
+D: 1939
+Answer: A
+---
+Q: Qual povo construiu as pirâmides de Gizé?
+A: Maias
+B: Gregos
+C: Egípcios
+D: Romanos
+Answer: C
+---
+Q: Qual civilização construiu o Coliseu?
+A: Romana
+B: Persa
+C: Grega
+D: Egípcia
+Answer: A
+---
+Q: Quem foi Cleópatra?
+A: Imperatriz de Roma
+B: Rainha da Pérsia
+C: Deusa grega
+D: Rainha do Egito
+Answer: D
+---
+Q: Qual povo criou os Jogos Olímpicos na Antiguidade?
+A: Gregos
+B: Chineses
+C: Romanos
+D: Egípcios
+Answer: A
+---
+Q: Em que ano começou a Revolução Francesa?
+A: 1822
+B: 1789
+C: 1914
+D: 1492
+Answer: B
+---
+Q: Quem foi Napoleão Bonaparte?
+A: Imperador da França
+B: Papa
+C: Presidente dos EUA
+D: Rei da Inglaterra
+Answer: A
+---
+Q: Quem foi o primeiro presidente dos Estados Unidos?
+A: Thomas Jefferson
+B: George Washington
+C: John Adams
+D: Abraham Lincoln
+Answer: B
+---
+Q: Qual presidente dos EUA governou durante a Guerra Civil e é lembrado pelo fim da escravidão?
+A: John F. Kennedy
+B: Theodore Roosevelt
+C: Abraham Lincoln
+D: George Washington
+Answer: C
+---
+Q: Quem liderou a independência da Índia com a não violência?
+A: Mahatma Gandhi
+B: Winston Churchill
+C: Buda
+D: Napoleão
+Answer: A
+---
+Q: Em que ano o ser humano pisou na Lua pela primeira vez?
+A: 1980
+B: 1957
+C: 1969
+D: 1961
+Answer: C
+---
+Q: Quem foi o primeiro homem a pisar na Lua?
+A: John Glenn
+B: Neil Armstrong
+C: Yuri Gagarin
+D: Buzz Aldrin
+Answer: B
+---
+Q: Quem foi o primeiro homem a ir ao espaço?
+A: Alan Shepard
+B: Neil Armstrong
+C: Santos Dumont
+D: Yuri Gagarin
+Answer: D
+---
+Q: Quem é considerado o pai da aviação no Brasil?
+A: Irmãos Wright
+B: Santos Dumont
+C: Dom Pedro II
+D: Oswaldo Cruz
+Answer: B
+---
+Q: Em que ano caiu o Muro de Berlim?
+A: 1989
+B: 1945
+C: 1991
+D: 1961
+Answer: A
+---
+Q: Qual civilização antiga construiu a cidade de Machu Picchu?
+A: Asteca
+B: Maia
+C: Inca
+D: Tupi
+Answer: C
+---
+Q: Qual civilização construiu Chichén Itzá, no México?
+A: Inca
+B: Romana
+C: Egípcia
+D: Maia
+Answer: D
+---
+Q: Quem já vivia no território do Brasil antes de 1500?
+A: Os povos indígenas
+B: Os holandeses
+C: Os portugueses
+D: Os africanos
+Answer: A
+---
+Q: O que foi a Inconfidência Mineira?
+A: Revolta por independência contra Portugal
+B: Revolta de escravos em Salvador
+C: Golpe militar de 1964
+D: Guerra contra a Argentina
+Answer: A
+---
+Q: Qual era o principal produto exportado pelo Brasil no tempo do Império?
+A: Café
+B: Soja
+C: Automóveis
+D: Petróleo
+Answer: A
+---
+Q: Qual presidente criou a CLT, as leis trabalhistas do Brasil?
+A: Castelo Branco
+B: Juscelino Kubitschek
+C: Jânio Quadros
+D: Getúlio Vargas
+Answer: D
+---
+Q: Em que ano a família real portuguesa chegou ao Brasil?
+A: 1889
+B: 1822
+C: 1500
+D: 1808
+Answer: D
+---
+Q: Quem foi o último imperador do Brasil?
+A: Dom Pedro I
+B: Dom Manuel
+C: Dom João VI
+D: Dom Pedro II
+Answer: D
+---
+Q: Quem foi Zumbi dos Palmares?
+A: Primeiro presidente do Brasil
+B: Líder do Quilombo dos Palmares
+C: Imperador do Brasil
+D: Navegador português
+Answer: B
+---
+Q: Em que data se comemora a Independência do Brasil?
+A: 15 de novembro
+B: 12 de outubro
+C: 21 de abril
+D: 7 de setembro
+Answer: D
+---
+Q: Em que data se comemora a Proclamação da República?
+A: 21 de abril
+B: 7 de setembro
+C: 15 de novembro
+D: 1º de maio
+Answer: C
+---
+Q: Em que data se lembra Tiradentes?
+A: 21 de abril
+B: 7 de setembro
+C: 25 de dezembro
+D: 12 de outubro
+Answer: A
+---
+Q: Qual período da História vem depois da Idade Antiga?
+A: Idade Contemporânea
+B: Pré-História
+C: Idade Moderna
+D: Idade Média
+Answer: D
+---
+Q: Qual período vem antes da invenção da escrita?
+A: Idade Moderna
+B: Idade Média
+C: Idade Antiga
+D: Pré-História
+Answer: D
+---
+Q: Quem foi Dom João VI?
+A: Líder dos Inconfidentes
+B: Rei de Portugal que morou no Brasil
+C: Primeiro presidente do Brasil
+D: Navegador italiano
+Answer: B
+---

@@ -1,0 +1,281 @@
+Pack: Esportes
+Q: Quantos jogadores tem um time de vôlei em quadra?
+A: 11
+B: 7
+C: 6
+D: 5
+Answer: C
+---
+Q: Quantos jogadores de cada time ficam em quadra no basquete?
+A: 5
+B: 11
+C: 7
+D: 6
+Answer: A
+---
+Q: Quanto tempo dura uma partida de futebol, sem prorrogação?
+A: 45 minutos
+B: 60 minutos
+C: 90 minutos
+D: 120 minutos
+Answer: C
+---
+Q: Em qual esporte se usa raquete, rede e uma bolinha amarela?
+A: Vôlei
+B: Golfe
+C: Beisebol
+D: Tênis
+Answer: D
+---
+Q: Qual país sediou a Copa do Mundo de 2014?
+A: Alemanha
+B: Brasil
+C: Rússia
+D: África do Sul
+Answer: B
+---
+Q: Qual cidade brasileira sediou as Olimpíadas de 2016?
+A: Salvador
+B: Brasília
+C: São Paulo
+D: Rio de Janeiro
+Answer: D
+---
+Q: Em que ano o Brasil conquistou o pentacampeonato mundial de futebol masculino?
+A: 1994
+B: 2002
+C: 1998
+D: 2006
+Answer: B
+---
+Q: Quem é conhecido como o "Rei do Futebol"?
+A: Zico
+B: Ronaldo
+C: Maradona
+D: Pelé
+Answer: D
+---
+Q: Em qual esporte Michael Jordan ficou famoso?
+A: Basquete
+B: Vôlei
+C: Atletismo
+D: Futebol
+Answer: A
+---
+Q: Qual é o esporte mais popular do Brasil?
+A: Tênis
+B: Vôlei
+C: Basquete
+D: Futebol
+Answer: D
+---
+Q: Qual é, aproximadamente, a distância de uma maratona?
+A: 10 km
+B: 42 km
+C: 100 km
+D: 21 km
+Answer: B
+---
+Q: Quantos anéis tem a bandeira olímpica?
+A: 4
+B: 5
+C: 7
+D: 6
+Answer: B
+---
+Q: De quantos em quantos anos acontecem as Olimpíadas de verão?
+A: 3 anos
+B: 2 anos
+C: 5 anos
+D: 4 anos
+Answer: D
+---
+Q: Qual esporte tem "cesta" e "rebote"?
+A: Vôlei
+B: Futebol
+C: Basquete
+D: Handebol
+Answer: C
+---
+Q: Em qual esporte se usam os termos "saque" e "cortada"?
+A: Natação
+B: Boxe
+C: Vôlei
+D: Futebol
+Answer: C
+---
+Q: Quantos jogadores tem um time de handebol em quadra?
+A: 6
+B: 7
+C: 11
+D: 5
+Answer: B
+---
+Q: Quantos jogadores tem um time de futsal em quadra?
+A: 5
+B: 7
+C: 11
+D: 6
+Answer: A
+---
+Q: Qual esporte tem nados como crawl, costas e borboleta?
+A: Canoagem
+B: Mergulho
+C: Natação
+D: Remo
+Answer: C
+---
+Q: Qual esporte é praticado sobre o gelo com um disco chamado puck?
+A: Esqui
+B: Patinação artística
+C: Hóquei no gelo
+D: Curling
+Answer: C
+---
+Q: Qual cartão expulsa um jogador no futebol?
+A: Amarelo
+B: Vermelho
+C: Verde
+D: Azul
+Answer: B
+---
+Q: Qual cartão é usado como advertência no futebol?
+A: Branco
+B: Azul
+C: Amarelo
+D: Vermelho
+Answer: C
+---
+Q: O que é um pênalti no futebol?
+A: Cobrança direta contra o goleiro após falta na área
+B: Tiro de meta
+C: Cobrança de escanteio
+D: Cobrança de lateral
+Answer: A
+---
+Q: Qual esporte tem a Fórmula 1?
+A: Atletismo
+B: Hipismo
+C: Ciclismo
+D: Automobilismo
+Answer: D
+---
+Q: Qual piloto brasileiro, tricampeão de Fórmula 1, morreu em 1994?
+A: Rubens Barrichello
+B: Ayrton Senna
+C: Nelson Piquet
+D: Emerson Fittipaldi
+Answer: B
+---
+Q: Qual país é conhecido pelo sumô?
+A: Coreia do Sul
+B: Japão
+C: Tailândia
+D: China
+Answer: B
+---
+Q: Em qual esporte se disputa o torneio de Wimbledon?
+A: Tênis
+B: Críquete
+C: Rúgbi
+D: Golfe
+Answer: A
+---
+Q: Qual esporte é jogado com taco e uma bolinha que deve cair em buracos?
+A: Golfe
+B: Tênis
+C: Beisebol
+D: Hóquei
+Answer: A
+---
+Q: Qual país é famoso pela seleção de rúgbi chamada All Blacks?
+A: Inglaterra
+B: Nova Zelândia
+C: África do Sul
+D: Austrália
+Answer: B
+---
+Q: Qual país é considerado o criador do futebol moderno?
+A: Alemanha
+B: Itália
+C: Inglaterra
+D: Brasil
+Answer: C
+---
+Q: Qual jogador brasileiro é conhecido como "Fenômeno"?
+A: Ronaldo
+B: Romário
+C: Neymar
+D: Kaká
+Answer: A
+---
+Q: Qual jogadora brasileira foi eleita várias vezes a melhor do mundo?
+A: Marta
+B: Cristiane
+C: Formiga
+D: Sissi
+Answer: A
+---
+Q: Quantos sets uma equipe precisa vencer numa partida de vôlei de cinco sets?
+A: 4
+B: 2
+C: 5
+D: 3
+Answer: D
+---
+Q: Em qual esporte se usa taco e se corre pelas bases?
+A: Hóquei
+B: Golfe
+C: Tênis
+D: Beisebol
+Answer: D
+---
+Q: Qual arte marcial brasileira mistura luta, dança e música?
+A: Karatê
+B: Taekwondo
+C: Judô
+D: Capoeira
+Answer: D
+---
+Q: Qual país é a origem do judô?
+A: China
+B: Brasil
+C: Coreia do Sul
+D: Japão
+Answer: D
+---
+Q: Qual país é a origem do taekwondo?
+A: Japão
+B: Tailândia
+C: Coreia do Sul
+D: China
+Answer: C
+---
+Q: Qual esporte tem a prova dos 100 metros rasos?
+A: Atletismo
+B: Remo
+C: Ciclismo
+D: Esgrima
+Answer: A
+---
+Q: Qual país venceu a Copa do Mundo de 2022, no Catar?
+A: França
+B: Brasil
+C: Argentina
+D: Croácia
+Answer: C
+---
+Q: Quem foi o capitão da Argentina campeã do mundo em 2022?
+A: Lionel Messi
+B: Cristiano Ronaldo
+C: Diego Maradona
+D: Neymar
+Answer: A
+---
+Q: O que é um "gol olímpico" no futebol?
+A: Gol de pênalti
+B: Gol direto de escanteio
+C: Gol de cabeça
+D: Gol contra
+Answer: B
+---

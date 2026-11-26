@@ -1,0 +1,281 @@
+Pack: Corpo Humano e Saúde
+Q: Quantos ossos tem o corpo de um adulto?
+A: 106
+B: 206
+C: 150
+D: 300
+Answer: B
+---
+Q: Qual é o maior órgão do corpo humano?
+A: Coração
+B: Fígado
+C: Pele
+D: Pulmão
+Answer: C
+---
+Q: Qual órgão usamos para respirar?
+A: Rins
+B: Estômago
+C: Pulmões
+D: Fígado
+Answer: C
+---
+Q: Qual órgão controla todo o corpo?
+A: Estômago
+B: Pulmão
+C: Cérebro
+D: Coração
+Answer: C
+---
+Q: Quantos sentidos o ser humano tem, tradicionalmente?
+A: 5
+B: 3
+C: 4
+D: 6
+Answer: A
+---
+Q: Quais são os cinco sentidos?
+A: Visão, audição, olfato, paladar e tato
+B: Visão, olfato, memória, paladar e tato
+C: Audição, fala, olfato, paladar e visão
+D: Visão, audição, equilíbrio, fala e tato
+Answer: A
+---
+Q: Qual vitamina o corpo produz com ajuda do Sol?
+A: Vitamina C
+B: Vitamina D
+C: Vitamina B12
+D: Vitamina A
+Answer: B
+---
+Q: Qual vitamina é abundante na laranja e no limão?
+A: Vitamina B12
+B: Vitamina K
+C: Vitamina C
+D: Vitamina D
+Answer: C
+---
+Q: Qual mineral fortalece ossos e dentes e é abundante no leite?
+A: Cálcio
+B: Sódio
+C: Potássio
+D: Ferro
+Answer: A
+---
+Q: Quantos dentes tem um adulto, incluindo os sisos?
+A: 28
+B: 32
+C: 36
+D: 30
+Answer: B
+---
+Q: Qual osso protege o cérebro?
+A: Crânio
+B: Fêmur
+C: Úmero
+D: Costela
+Answer: A
+---
+Q: Qual é o maior osso do corpo humano?
+A: Costela
+B: Úmero
+C: Tíbia
+D: Fêmur
+Answer: D
+---
+Q: Em qual parte do corpo fica o fêmur?
+A: Na cabeça
+B: No braço
+C: No pé
+D: Na coxa
+Answer: D
+---
+Q: Qual órgão filtra o sangue e produz a urina?
+A: Pulmão
+B: Fígado
+C: Estômago
+D: Rins
+Answer: D
+---
+Q: Qual órgão produz a bile e ajuda na digestão das gorduras?
+A: Coração
+B: Baço
+C: Fígado
+D: Rim
+Answer: C
+---
+Q: Qual órgão digere os alimentos com ácido?
+A: Estômago
+B: Rim
+C: Coração
+D: Pulmão
+Answer: A
+---
+Q: Qual parte do sangue carrega oxigênio?
+A: Glóbulos vermelhos
+B: Plaquetas
+C: Plasma
+D: Glóbulos brancos
+Answer: A
+---
+Q: Qual parte do sangue combate infecções?
+A: Glóbulos brancos
+B: Glóbulos vermelhos
+C: Plasma
+D: Plaquetas
+Answer: A
+---
+Q: Qual é a função das plaquetas?
+A: Carregar oxigênio
+B: Produzir hormônios
+C: Digerir alimentos
+D: Ajudar a estancar sangramentos
+Answer: D
+---
+Q: Qual é a quantidade média de água que se recomenda beber por dia?
+A: Cerca de 2 litros
+B: Meio litro
+C: 10 litros
+D: 5 litros
+Answer: A
+---
+Q: Quantas horas de sono por noite um adulto precisa, em média?
+A: 12 horas
+B: 7 a 9 horas
+C: 4 horas
+D: 2 a 3 horas
+Answer: B
+---
+Q: Com que frequência se deve escovar os dentes?
+A: Uma vez por mês
+B: Pelo menos 2 vezes ao dia
+C: Só quando dói
+D: Uma vez por semana
+Answer: B
+---
+Q: O que acontece com as pupilas no escuro?
+A: Mudam de cor
+B: Desaparecem
+C: Dilatam
+D: Diminuem
+Answer: C
+---
+Q: Qual é o osso do braço entre o ombro e o cotovelo?
+A: Fêmur
+B: Costela
+C: Tíbia
+D: Úmero
+Answer: D
+---
+Q: Quantos pulmões temos?
+A: 2
+B: 3
+C: 4
+D: 1
+Answer: A
+---
+Q: Quantas câmaras tem o coração humano?
+A: 3
+B: 2
+C: 5
+D: 4
+Answer: D
+---
+Q: Qual é a temperatura normal do corpo humano?
+A: 40 °C
+B: Cerca de 36,5 °C
+C: 30 °C
+D: 20 °C
+Answer: B
+---
+Q: Qual médico cuida da saúde dos olhos?
+A: Dermatologista
+B: Pediatra
+C: Cardiologista
+D: Oftalmologista
+Answer: D
+---
+Q: Qual profissional cuida da saúde dos dentes?
+A: Oftalmologista
+B: Pediatra
+C: Ortopedista
+D: Dentista
+Answer: D
+---
+Q: Qual médico cuida da saúde do coração?
+A: Dermatologista
+B: Cardiologista
+C: Ortopedista
+D: Pediatra
+Answer: B
+---
+Q: Qual médico cuida da saúde das crianças?
+A: Cardiologista
+B: Dermatologista
+C: Geriatra
+D: Pediatra
+Answer: D
+---
+Q: Qual médico cuida da saúde da pele?
+A: Pediatra
+B: Neurologista
+C: Dermatologista
+D: Ortopedista
+Answer: C
+---
+Q: Qual mosquito transmite a dengue?
+A: Pernilongo comum
+B: Mosca-doméstica
+C: Barata
+D: Aedes aegypti
+Answer: D
+---
+Q: Qual é a melhor forma de evitar a dengue?
+A: Ficar em casa
+B: Eliminar água parada
+C: Usar óculos
+D: Tomar sol
+Answer: B
+---
+Q: Qual hábito ajuda a evitar a propagação de germes?
+A: Dividir copos
+B: Tossir nas mãos
+C: Lavar bem as mãos
+D: Não tomar banho
+Answer: C
+---
+Q: Qual nutriente é a principal fonte de energia, presente em pães e massas?
+A: Carboidratos
+B: Água
+C: Sais minerais
+D: Vitaminas
+Answer: A
+---
+Q: Qual nutriente ajuda a construir os músculos?
+A: Água
+B: Proteínas
+C: Gorduras
+D: Açúcares
+Answer: B
+---
+Q: Qual destes alimentos é rico em ferro?
+A: Bala
+B: Refrigerante
+C: Feijão
+D: Biscoito recheado
+Answer: C
+---
+Q: Qual músculo trabalha sem parar durante toda a vida?
+A: Bíceps
+B: Coração
+C: Língua
+D: Glúteo
+Answer: B
+---
+Q: Qual parte do olho dá cor a ele?
+A: Córnea
+B: Retina
+C: Íris
+D: Pupila
+Answer: C
+---

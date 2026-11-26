@@ -1,0 +1,295 @@
+Pack: Animais e Natureza
+Q: Qual é o maior animal terrestre?
+A: Elefante africano
+B: Hipopótamo
+C: Rinoceronte
+D: Girafa
+Answer: A
+---
+Q: Qual é o maior animal do mundo?
+A: Elefante
+B: Baleia-azul
+C: Tubarão-baleia
+D: Lula-gigante
+Answer: B
+---
+Q: Qual é o animal terrestre mais rápido?
+A: Antílope
+B: Leão
+C: Cavalo
+D: Guepardo
+Answer: D
+---
+Q: Qual ave não voa e vive em regiões geladas do hemisfério Sul?
+A: Águia
+B: Avestruz
+C: Pinguim
+D: Pelicano
+Answer: C
+---
+Q: Qual é a maior ave do mundo?
+A: Avestruz
+B: Pelicano
+C: Águia
+D: Condor
+Answer: A
+---
+Q: Qual animal é conhecido como "rei da selva"?
+A: Urso
+B: Leão
+C: Tigre
+D: Elefante
+Answer: B
+---
+Q: Qual inseto produz mel?
+A: Abelha
+B: Borboleta
+C: Vespa
+D: Formiga
+Answer: A
+---
+Q: Quantas patas tem uma aranha?
+A: 8
+B: 6
+C: 10
+D: 4
+Answer: A
+---
+Q: Quantas patas tem um inseto?
+A: 4
+B: 8
+C: 10
+D: 6
+Answer: D
+---
+Q: Qual é o único mamífero capaz de voar?
+A: Morcego
+B: Esquilo
+C: Coruja
+D: Pato
+Answer: A
+---
+Q: Qual mamífero marinho é muito inteligente e vive em grupos?
+A: Sardinha
+B: Atum
+C: Golfinho
+D: Tubarão
+Answer: C
+---
+Q: Qual animal tem listras pretas e brancas?
+A: Onça
+B: Girafa
+C: Zebra
+D: Cavalo
+Answer: C
+---
+Q: Qual felino brasileiro tem manchas e vive em florestas?
+A: Tigre
+B: Guepardo
+C: Leão
+D: Onça-pintada
+Answer: D
+---
+Q: Qual animal é símbolo da Austrália?
+A: Elefante
+B: Urso-pardo
+C: Canguru
+D: Lobo
+Answer: C
+---
+Q: Qual é o maior felino do mundo?
+A: Tigre
+B: Leopardo
+C: Leão
+D: Onça
+Answer: A
+---
+Q: Qual mamífero bota ovos?
+A: Ornitorrinco
+B: Morcego
+C: Golfinho
+D: Cachorro
+Answer: A
+---
+Q: Como se chama o filhote do cavalo?
+A: Cordeiro
+B: Potro
+C: Leitão
+D: Bezerro
+Answer: B
+---
+Q: Como se chama o filhote da vaca?
+A: Cordeiro
+B: Bezerro
+C: Potro
+D: Cabrito
+Answer: B
+---
+Q: Como se chama o filhote da ovelha?
+A: Bezerro
+B: Leitão
+C: Cordeiro
+D: Potro
+Answer: C
+---
+Q: Como se chama o filhote do porco?
+A: Cordeiro
+B: Leitão
+C: Potro
+D: Cabrito
+Answer: B
+---
+Q: Qual animal sai de um casulo depois de ter sido lagarta?
+A: Borboleta
+B: Minhoca
+C: Escorpião
+D: Aranha
+Answer: A
+---
+Q: Qual é a árvore nacional do Brasil?
+A: Jabuticabeira
+B: Mangueira
+C: Pau-brasil
+D: Ipê
+Answer: C
+---
+Q: Qual é o rio com maior volume de água do mundo?
+A: Nilo
+B: Yangtzé
+C: Mississippi
+D: Amazonas
+Answer: D
+---
+Q: Qual é a maior ilha do mundo?
+A: Madagascar
+B: Groenlândia
+C: Islândia
+D: Cuba
+Answer: B
+---
+Q: Qual bioma ocupa a maior área do Brasil?
+A: Cerrado
+B: Amazônia
+C: Pampa
+D: Caatinga
+Answer: B
+---
+Q: Qual bioma brasileiro tem clima semiárido e só existe no Brasil?
+A: Mata Atlântica
+B: Pampa
+C: Caatinga
+D: Pantanal
+Answer: C
+---
+Q: Qual é a maior planície alagável do mundo, localizada em parte no Brasil?
+A: Pantanal
+B: Pampa
+C: Cerrado
+D: Amazônia
+Answer: A
+---
+Q: Qual ave é símbolo do Pantanal?
+A: Tuiuiú
+B: Águia-careca
+C: Flamingo
+D: Pinguim
+Answer: A
+---
+Q: Qual animal pode mudar de cor para se camuflar?
+A: Elefante
+B: Cachorro
+C: Coelho
+D: Camaleão
+Answer: D
+---
+Q: Qual animal dorme pendurado de cabeça para baixo?
+A: Pato
+B: Morcego
+C: Coruja
+D: Gato
+Answer: B
+---
+Q: Qual animal é muito lento e vive em árvores na América do Sul?
+A: Tamanduá
+B: Esquilo
+C: Preguiça
+D: Macaco
+Answer: C
+---
+Q: Qual animal tem tromba?
+A: Girafa
+B: Hipopótamo
+C: Rinoceronte
+D: Elefante
+Answer: D
+---
+Q: Qual animal tem o pescoço mais longo?
+A: Avestruz
+B: Girafa
+C: Camelo
+D: Cisne
+Answer: B
+---
+Q: O que as plantas liberam durante a fotossíntese?
+A: Nitrogênio
+B: Hidrogênio
+C: Gás carbônico
+D: Oxigênio
+Answer: D
+---
+Q: Em qual estação do ano as folhas de muitas árvores caem?
+A: Primavera
+B: Inverno
+C: Verão
+D: Outono
+Answer: D
+---
+Q: Qual é a estação das flores?
+A: Outono
+B: Verão
+C: Inverno
+D: Primavera
+Answer: D
+---
+Q: Quantas estações tem o ano?
+A: 6
+B: 4
+C: 3
+D: 5
+Answer: B
+---
+Q: Qual animal tem casco e pode viver mais de 100 anos?
+A: Elefante
+B: Coruja
+C: Tartaruga
+D: Papagaio
+Answer: C
+---
+Q: Qual ave brasileira é famosa por imitar a voz humana?
+A: Papagaio
+B: Tucano
+C: Beija-flor
+D: Sabiá
+Answer: A
+---
+Q: Qual é a ave nacional do Brasil?
+A: Tucano
+B: Arara-azul
+C: Beija-flor
+D: Sabiá-laranjeira
+Answer: D
+---
+Q: Qual é o maior réptil do mundo?
+A: Dragão-de-komodo
+B: Sucuri
+C: Crocodilo-de-água-salgada
+D: Jacaré
+Answer: C
+---
+Q: Qual inseto vive em colônias e é famoso por trabalhar em grupo?
+A: Mosca
+B: Formiga
+C: Mosquito
+D: Barata
+Answer: B
+---
